@@ -1,0 +1,239 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_061948_ex_job_9",
+  "name": "ex job 9",
+  "createdAt": "2026-06-17T06:19:48Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "1"
+      },
+      {
+        "name": "Box spring/Foundation",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "1"
+      },
+      {
+        "name": "Bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "1"
+      },
+      {
+        "name": "Refrigerator",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "french-door",
+        "imageID": "2"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office",
+        "size": "large/L-shaped",
+        "imageID": "3"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office",
+        "size": "Small",
+        "imageID": "3"
+      },
+      {
+        "name": "Computer tower + monitor",
+        "quantity": 2,
+        "location": "office",
+        "size": "Small",
+        "imageID": "3"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "4"
+      },
+      {
+        "name": "Media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "Small",
+        "imageID": "4"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "living room",
+        "size": "Small",
+        "imageID": "5"
+      },
+      {
+        "name": "Dishwasher",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "Small",
+        "imageID": "6"
+      },
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "loveseat",
+        "imageID": "10"
+      }
+    ],
+    "summary": {
+      "totalItems": 12,
+      "clutterLevel": "moderate",
+      "notes": "Items identified across multiple rooms including a bedroom, kitchen, office, and living room. Some items are disassembled or partially obscured."
+    },
+    "metrics": {
+      "file_analysis_time": 31.602941274642944,
+      "api_calls": 1,
+      "images_processed": 20,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "1"
+    },
+    {
+      "name": "Box spring/Foundation",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "1"
+    },
+    {
+      "name": "Bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "1"
+    },
+    {
+      "name": "Refrigerator",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "french-door",
+      "imageID": "2"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office",
+      "size": "large/L-shaped",
+      "imageID": "3"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office",
+      "size": "Small",
+      "imageID": "3"
+    },
+    {
+      "name": "Computer tower + monitor",
+      "quantity": 2,
+      "location": "office",
+      "size": "Small",
+      "imageID": "3"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "4"
+    },
+    {
+      "name": "Media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "Small",
+      "imageID": "4"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "living room",
+      "size": "Small",
+      "imageID": "5"
+    },
+    {
+      "name": "Dishwasher",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "Small",
+      "imageID": "6"
+    },
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "loveseat",
+      "imageID": "10"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg"
+    ],
+    "original_names": [
+      "1.jpeg",
+      "2.jpeg",
+      "3.jpeg",
+      "4.jpeg",
+      "5.jpeg",
+      "6.jpeg",
+      "7.jpeg",
+      "8.jpeg",
+      "9.jpeg",
+      "10.jpeg",
+      "11.jpeg",
+      "12.jpeg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

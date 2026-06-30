@@ -1,0 +1,176 @@
+ITEM,ITEM,,DIMENSIONS,,,,,,MOVER CONSTRAINTS,,,,,TIMINGS,,,,,,,,,,,,,,,,,,,,,,,
+canonical_item,aliases,classification_logic_notes,cu_ft_s,cu_ft_m,cu_ft_l,weight_s_lb,weight_m_lb,weight_l_lb,two_person_flag,stackable_flag,stackable_savings_pct,equipment_required_flag,fits_elevator_hint,load_time_s_min,load_time_m_min,load_time_l_min,disassembly_adder_s_min,disassembly_adder_m_min,disassembly_adder_l_min,bulky_adder_s_min,bulky_adder_m_min,bulky_adder_l_min,heavy_adder_s_min,heavy_adder_m_min,heavy_adder_l_min,stairs_adder_per_flight_s_min,stairs_adder_per_flight_m_min,stairs_adder_per_flight_l_min,elevator_adder_per_ride_s_min,elevator_adder_per_ride_m_min,elevator_adder_per_ride_l_min,unload_multiplier_main_floor,unload_multiplier_elevator,unload_multiplier_stairs,disassembly_default_s,disassembly_default_m,disassembly_default_l
+Bed frame,twin; queen; king,S: twin; M: full/queen; L: king/ornate,10,18,28,40,90,140,S: maybe / M: yes / L: yes,No,0,No,Usually fits if disassembled,10,16,28,10,20,30,3,6,12,3,6,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,Yes,Yes,Yes
+Mattress,twin; full; queen; king,Foam vs spring changes weight +/-15%,15,30,45,35,65,105,S: no / M: maybe / L: yes,No,0,Yes,Usually fits elevator,4,6,10,0,0,0,2,4,6,1,3,6,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Box spring/Foundation,twin; queen; split king,Split king counts as two S,10,18,25,25,45,70,S: no / M: maybe / L: yes,No,0,No,Usually fits elevator,4,6,8,0,0,0,1,2,4,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Nightstand,bedside table,Pair counted as two,4,6,8,25,35,55,S: no / M: maybe / L: yes,No,0,Yes,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dresser,4-drawer; 5-drawer; 8-drawer,L may need drawers removed,12,25,60,80,120,220,S: no / M: yes / L: yes,No,0,Yes,S/M yes; L may not,12,22,40,0,0,0,5,10,20,5,10,20,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Wardrobe/Armoire,wardrobe; armoire,L often requires disassembly,25,45,70,130,200,280,S: yes / M: yes / L: yes,No,0,Yes,Often no for L,16,26,45,0,0,0,6,12,20,6,12,20,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Mirror,wall mirror; dresser mirror,Fragile handling,2,4,8,15,30,55,S: no / M: maybe / L: yes,No,0,No,Yes,3,5,8,0,0,0,1,2,4,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Recliner,power recliner; lounge chair,Power units heavier,12,18,26,75,110,160,S: no / M: yes / L: yes,No,0,Yes,Maybe,6,9,12,0,0,0,2,4,6,2,4,6,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Armchair,accent chair,,8,12,18,40,65,95,S: no / M: no / L: yes,No,0,Yes,Yes,4,6,8,0,0,0,1,2,4,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Coffee table,coffee table; center table; cocktail table; living room table,Mostly no disassembly; size based on footprint,6,10,16,25,60,95,S: no / M: maybe / L: yes,No,0,Yes,Yes,4,6,9,0,0,0,1,2,4,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+End table,side table,,3,6,8,20,35,55,S: no / M: no / L: yes,No,0,Yes,Yes,3,4,6,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+TV (flat panel),tv; television; flat screen; flatscreen; monitor,S: 32–40 in; M: 42–55 in; L: 60+ in (2-person),3,6,10,20,35,65,S: no / M: yes / L: yes,Yes,30,No,Yes,4,6,10,0,0,0,0,1,3,0,2,5,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Media console,TV stand; entertainment unit,,10,20,50,35,80,180,S: maybe / M: maybe / L: yes,No,0,Yes,Usually yes,6,12,18,0,0,0,1,3,5,1,3,5,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Bookcase,bookshelf,,8,18,45,35,70,150,S: no / M: maybe / L: yes,Yes,40,Yes,Usually fits disassembled,8,14,22,0,0,0,3,6,12,2,6,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Area rug,5x7; 8x10; 10x14,,5,10,18,25,45,80,S: no / M: no / L: yes,Yes,50,No,Yes,3,5,8,0,0,0,1,2,3,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Floor lamp,lamp,,2,3,4,10,15,20,S: no / M: no / L: yes,Yes,50,Yes,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Artwork/Framed,framed art; canvas,Fragile,2,4,6,10,20,35,S: no / M: no / L: yes,Yes,30,No,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dining table,table; dining table; kitchen table; breakfast table; 4-seat; 6-seat; 8-seat; 10-seat,S: 2–4 seat / small kitchen table; M: 6–8 seat; L: 10+ seat / heavy table (may need legs off),12,25,40,80,120,200,S: no / M: maybe / L: yes,No,0,Yes,S/M yes; L maybe disassembled,6,12,20,5,10,15,2,6,12,2,6,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,Yes
+Dining chair,chair,Stackable chairs save time,5,8,10,15,20,25,S: no / M: no / L: no,Yes,50,Yes,Yes,2,3,4,0,0,0,0,1,2,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Bar stool,counter stool,,4,6,8,15,20,25,S: no / M: no / L: no,Yes,40,Yes,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+China cabinet,hutch; buffet,,18,30,55,120,200,300,S: yes / M: yes / L: yes,No,0,Yes,L may not,12,20,36,0,0,0,4,8,16,4,8,16,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Kitchen island (movable),butcher block,,8,16,28,60,110,180,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,6,10,16,0,0,0,2,4,8,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Refrigerator,top-freezer; french-door; built-in,Secure doors; protect floors,35,55,85,180,280,450,S: yes / M: yes / L: yes,No,0,Yes,Often no for L,12,20,30,0,0,0,6,10,16,6,12,20,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Range/Oven,stove,,25,35,45,140,180,240,S: yes / M: yes / L: yes,No,0,Yes,Maybe,10,14,18,0,0,0,4,6,8,4,6,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dishwasher,DW,,12,18,22,100,130,160,S: yes / M: yes / L: yes,No,0,Yes,Yes,8,10,12,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Microwave,counter; over-the-range,,4,6,10,25,55,75,S: no / M: maybe / L: yes,Yes,30,Yes,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Chest freezer,freezer,,20,35,55,90,150,220,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,8,12,18,0,0,0,2,4,8,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Washer,washing machine,,25,35,45,160,200,250,S: yes / M: yes / L: yes,No,0,Yes,Maybe,10,14,18,0,0,0,0,0,0,3,5,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dryer,tumble dryer,,22,30,40,120,150,200,S: yes / M: yes / L: yes,No,0,Yes,Yes,8,12,16,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Office desk,desk; office desk; computer desk; writing desk; study desk; L-shaped; standing desk,S: small desk; M: standard desk; L: large/L-shaped (may need disassembly),12,25,45,80,140,220,S: maybe / M: maybe / L: yes,No,0,No,Maybe,6,12,20,4,8,16,2,6,12,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,Yes
+Office chair,task chair,,5,8,10,20,30,45,S: no / M: no / L: yes,Yes,40,Yes,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Filing cabinet,2-drawer; 4-drawer,,8,15,25,60,120,200,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,6,10,16,0,0,0,0,0,0,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Crib,baby crib,,12,22,35,60,90,130,S: maybe / M: yes / L: yes,No,0,No,Usually fits disassembled,8,12,18,6,12,18,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,Yes,Yes
+Changing table,dresser changer,,8,12,18,45,70,100,S: no / M: maybe / L: yes,No,0,No,Yes,4,6,8,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Toy chest,storage chest,,6,10,16,25,40,60,S: no / M: no / L: yes,No,0,Yes,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Bunk bed,bunk,,25,40,65,120,180,260,S: yes / M: yes / L: yes,No,0,Yes,No (as one piece),12,20,36,10,20,30,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,Yes,Yes,Yes
+Plastic storage bin (filled),tote,,3,4,5,25,35,45,S: no / M: no / L: no,Yes,60,No,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Metal shelving unit,garage shelves,,10,18,30,45,80,140,S: maybe / M: yes / L: yes,Yes,40,Yes,Disassemble for elevator,6,12,18,4,8,16,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,Yes
+Workbench,garage table,,12,25,40,70,120,200,S: maybe / M: yes / L: yes,No,0,No,Maybe,6,12,20,0,0,0,2,4,8,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,Yes
+Tool chest,rolling tool chest,,10,18,28,80,140,220,S: maybe / M: yes / L: yes,No,0,No,Maybe,6,10,16,0,0,0,0,0,0,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Bicycle,bike,,8,10,12,25,35,45,S: no / M: no / L: no,Yes,40,No,Yes,4,6,8,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Ladder,6ft; 8ft; 12ft,,6,8,12,25,35,55,S: no / M: no / L: no,Yes,40,No,Yes,3,4,6,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dehumidifier,basement unit,,5,8,12,35,55,75,S: no / M: maybe / L: yes,No,0,No,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Safe,home safe; gun safe,,8,15,30,120,250,500,S: yes / M: yes / L: yes,No,0,Yes,Often no for L,10,16,28,0,0,0,0,0,0,6,12,24,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Treadmill,folding; commercial,,20,35,55,150,220,350,S: yes / M: yes / L: yes,No,0,Yes,Maybe,10,16,26,0,0,0,3,6,12,3,6,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Elliptical,elliptical trainer,,20,30,45,150,200,280,S: yes / M: yes / L: yes,No,0,Yes,Maybe,10,16,24,0,0,0,3,6,12,3,6,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Stationary bike,spin bike; recumbent,,12,18,28,90,140,200,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,8,12,18,0,0,0,0,0,0,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Rowing machine,rower,,12,18,25,70,110,160,S: maybe / M: yes / L: yes,No,0,No,Yes,8,10,14,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Weight bench,incline bench,,10,15,22,60,90,130,S: maybe / M: yes / L: yes,No,0,No,Yes,6,8,12,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Dumbbell set (pair),20lb; 35lb; 50lb,May be boxed per pair,2,3,4,40,70,100,S: no / M: no / L: no,Yes,50,No,Yes,2,3,4,0,0,0,0,0,0,2,4,6,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Power rack,squat rack,,20,35,55,140,220,320,S: yes / M: yes / L: yes,No,0,No,No (assembled),12,18,26,8,12,20,0,0,0,4,8,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,Yes,Yes,Yes
+Pool table,7ft; 8ft; 9ft,Specialty movers recommended,60,90,120,600,750,900,S: yes / M: yes / L: yes,No,0,No,No (assembled),30,45,60,30,45,60,0,0,0,10,15,20,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,Yes,Yes,Yes
+Piano (upright),spinet; console; studio,Stairs require extra planning,40,55,75,300,500,800,S: yes / M: yes / L: yes,No,0,No,Maybe,20,30,45,0,0,0,0,0,0,10,15,20,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Piano (grand),baby grand; grand,"Requires board, padding, 3–4 movers",80,110,140,600,800,1000,S: yes / M: yes / L: yes,No,0,No,No,30,45,70,15,25,35,0,0,0,15,25,35,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,Yes,Yes,Yes
+Hot tub,spa,Crane/flatbed often required,120,160,220,600,800,1200,S: yes / M: yes / L: yes,No,0,No,No,40,60,90,0,0,0,0,0,0,20,30,40,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Aquarium,40g; 75g; 125g,Move empty; fragile,12,20,30,80,150,250,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,10,16,24,0,0,0,0,0,0,4,8,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+BBQ grill,propane grill,,10,18,28,70,120,180,S: maybe / M: yes / L: yes,No,0,No,Yes,6,10,16,0,0,0,2,4,8,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Patio table,outdoor table,,10,18,30,40,70,120,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,5,9,14,0,0,0,2,4,6,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,Yes
+Patio chair,outdoor chair,,5,8,10,15,20,25,S: no / M: no / L: no,Yes,50,Yes,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Outdoor sofa,sectional patio,,20,35,60,70,120,200,S: maybe / M: yes / L: yes,No,0,Yes,Maybe,8,12,20,0,0,0,3,6,12,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Patio umbrella,market umbrella,,4,6,10,20,30,45,S: no / M: no / L: yes,No,0,No,Yes,3,4,6,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Deck box,outdoor storage,,8,12,18,35,55,85,S: no / M: maybe / L: yes,No,0,No,Yes,3,5,8,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Lawn mower,push; self-propelled; rider,,10,18,45,60,90,300,S: maybe / M: maybe / L: yes,No,0,No,Yes,6,10,18,0,0,0,0,0,0,2,4,12,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Snow blower,single; two-stage,,10,16,22,80,130,200,S: maybe / M: yes / L: yes,No,0,No,Yes,6,10,14,0,0,0,0,0,0,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Garden tools bundle,rakes; shovels,,5,8,12,20,35,50,S: no / M: no / L: no,Yes,50,No,Yes,3,4,6,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Large planter,ceramic planter,,6,10,16,40,80,140,S: maybe / M: yes / L: yes,No,0,No,Maybe,4,6,10,0,0,0,0,0,0,2,4,8,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Portable AC,window/portable AC,,6,10,14,55,80,110,S: maybe / M: yes / L: yes,No,0,Yes,Yes,4,6,8,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Space heater,heater,,3,4,6,15,25,35,S: no / M: no / L: no,Yes,40,No,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Computer tower + monitor,PC set,Prefer original boxes,4,6,10,25,45,65,S: no / M: maybe / L: yes,Yes,40,No,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Printer,inkjet; laser,,4,8,12,25,45,75,S: no / M: maybe / L: yes,Yes,30,No,Yes,3,5,7,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Suitcase (packed),luggage,,4,6,10,30,45,65,S: no / M: no / L: no,Yes,60,No,Yes,2,3,4,0,0,0,0,0,0,0,0,0,2,4,8,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Couch / Sofa,couch; sofa; loveseat; 3-seater; sleeper sofa; futon,S: loveseat; M: standard 3-seater; L: sleeper / large sofa (not sectional),45,75,95,110,180,230,S: maybe / M: yes / L: yes,No,0,Yes,S small/med often yes (turned); L often no,12,18,24,0,0,0,8,12,14,5,10,12,4,8,16,1.2,1.7,2.5,0.7,0.8,0.85,No,No,No
+Sectional couch,sectional; sectional couch; sectional sofa; L-shaped couch; modular sofa; chaise sectional,S: 2-piece small sectional; M: 3-piece; L: 4+ pieces / oversized,120,160,220,260,340,450,S: yes / M: yes / L: yes,No,0,Yes,S: maybe / M: maybe / L: no,28,36,48,0,0,0,14,20,28,10,14,18,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,No,No

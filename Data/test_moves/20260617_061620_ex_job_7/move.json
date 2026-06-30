@@ -1,0 +1,411 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_061620_ex_job_7",
+  "name": "ex job 7",
+  "createdAt": "2026-06-17T06:16:20Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "closet",
+        "size": "4-drawer",
+        "imageID": "1"
+      },
+      {
+        "name": "bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "full/queen",
+        "imageID": "2"
+      },
+      {
+        "name": "mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "full/queen",
+        "imageID": "2"
+      },
+      {
+        "name": "bookcase",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "2"
+      },
+      {
+        "name": "armchair",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "office desk",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "TV (flat panel)",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "32\u201340 in",
+        "imageID": "2"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "nightstand",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "3"
+      },
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "8-drawer",
+        "imageID": "4"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "dresser mirror",
+        "imageID": "4"
+      },
+      {
+        "name": "recliner",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "artwork/framed",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "sectional couch",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "5"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "5"
+      },
+      {
+        "name": "TV (flat panel)",
+        "quantity": 1,
+        "location": "living room",
+        "size": "60+ in",
+        "imageID": "5"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "5"
+      },
+      {
+        "name": "area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "5"
+      },
+      {
+        "name": "floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "5"
+      },
+      {
+        "name": "dining table",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "6-seat",
+        "imageID": "5"
+      },
+      {
+        "name": "dining chair",
+        "quantity": 4,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "5"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "wall mirror",
+        "imageID": "5"
+      },
+      {
+        "name": "refrigerator",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "french-door",
+        "imageID": "7"
+      },
+      {
+        "name": "range/oven",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "microwave",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "over-the-range",
+        "imageID": "7"
+      }
+    ],
+    "summary": {
+      "totalItems": 25,
+      "clutterLevel": "moderate",
+      "notes": "Items identified across multiple bedrooms, living room, dining room, and kitchen. Two dressers appear in separate rooms/closets."
+    },
+    "metrics": {
+      "file_analysis_time": 17.48027729988098,
+      "api_calls": 1,
+      "images_processed": 7,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "closet",
+      "size": "4-drawer",
+      "imageID": "1"
+    },
+    {
+      "name": "bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "full/queen",
+      "imageID": "2"
+    },
+    {
+      "name": "mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "full/queen",
+      "imageID": "2"
+    },
+    {
+      "name": "bookcase",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "2"
+    },
+    {
+      "name": "armchair",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "office desk",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "TV (flat panel)",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "32\u201340 in",
+      "imageID": "2"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "nightstand",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "3"
+    },
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "8-drawer",
+      "imageID": "4"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "dresser mirror",
+      "imageID": "4"
+    },
+    {
+      "name": "recliner",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "artwork/framed",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "sectional couch",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "5"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "5"
+    },
+    {
+      "name": "TV (flat panel)",
+      "quantity": 1,
+      "location": "living room",
+      "size": "60+ in",
+      "imageID": "5"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "5"
+    },
+    {
+      "name": "area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "5"
+    },
+    {
+      "name": "floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "5"
+    },
+    {
+      "name": "dining table",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "6-seat",
+      "imageID": "5"
+    },
+    {
+      "name": "dining chair",
+      "quantity": 4,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "5"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "wall mirror",
+      "imageID": "5"
+    },
+    {
+      "name": "refrigerator",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "french-door",
+      "imageID": "7"
+    },
+    {
+      "name": "range/oven",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "microwave",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "over-the-range",
+      "imageID": "7"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg"
+    ],
+    "original_names": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

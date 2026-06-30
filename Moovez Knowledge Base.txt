@@ -1,0 +1,372 @@
+# Moovez Knowledge Base
+
+## 1. Introduction
+Moovez is an on-demand moving and delivery service that revolutionizes how people transport large and bulky items. Our platform connects customers with available movers and vehicles, ensuring efficient, reliable, and affordable solutions for moving and delivery needs.
+
+### Key Features:
+- **On-Demand Service**: Book movers and vehicles in just a few clicks.
+- **Real-Time Tracking**: Monitor the progress of your job in real-time.
+- **Transparent Pricing**: Clear pricing based on vehicle type, number of movers, and job duration.
+- **Flexible Options**: Tailored solutions for individuals, businesses, and special requirements.
+
+---
+
+## 2. Services Overview
+
+### 2.1 Job Types
+We offer four main types of services:
+
+#### 1. Delivery
+- Delivery jobs are quick and easy, typically taking under an hour from pickup to drop-off. Expect 15-20 minutes for loading and unloading, plus 20-30 minutes of driving time between locations. An additional 30 minutes of travel time may be needed to reach the pickup address.
+- Ideal for: 1-5 items. 
+Typical examples include:
+> Couch
+> Couch and loveseat
+> Cabinet
+> BBQ
+> Bed (if already disassembled; beds requiring disassembly should be booked as moving jobs)
+- Common use cases: Marketplace purchases, curbside/in-store pickups, construction material deliveries, and more.
+
+***If your job requires more time for loading/unloading, please book a “Moving” job instead.***
+
+#### 2. Moving
+- Moving jobs are meant for larger-scale jobs requiring more time, equipment, or multiple trips.
+- When to book a moving job:
+> If your load exceeds 5 items.
+> If loading/unloading will take longer than 15-20 minutes.
+> If items require assembly or disassembly.
+- Moving jobs typically require multiple trips for loading and unloading, and work time can range from ***1 to 12 hours***, depending on the size of the job.
+
+- Common use cases:
+> Apartment, condo, and house moves.
+> Office downsizing, relocation services, storage moves, dump runs, etc.
+
+ - Moving multiple pieces of furniture that require extra time for loading/unloading, plus blanket wrapping and strapping down.Perfect for apartments, condos, homes, offices, or junk removal.
+- Hourly pricing based on vehicle size and number of movers.
+- Best for full moves or jobs lasting more than 1 hour.
+- Suitable for small suff like couch, house furniture, quick jobs
+
+#### 3. Movers
+- Labor-only service without a truck.
+- Great for rearranging furniture, loading/unloading trucks, or handling shipping containers.
+- Movers jobs are for when you need extra muscle but don’t need a truck.
+- Ideal for:
+> Moving furniture around an apartment, condo, house, or office.
+> Helping to load or unload a rented moving truck, storage pods, C-Can, etc.
+***Important Note: Movers can visit multiple locations, but if you need a vehicle to transport items between locations, please submit a Moving job instead.***
+
+#### 4. Business
+- Customized solutions for commercial requirements.
+
+---
+
+## 3. Scheduling a Job
+
+### 3.1 Steps to Schedule
+1. **Choose Your Job Type**:
+   - Select from Delivery, Moving, Movers, or Business based on your needs.
+2. **Enter Job Details**:
+   - Provide pickup and drop-off locations (including additional stops if needed).
+   - Select the appropriate vehicle type and number of movers.
+   - Upload pictures/videos of items for accuracy.
+   - Choose your preferred date and time.
+3. **Confirm Booking**:
+   - Receive confirmation via email or text.
+   - Matched with qualified movers based on availability.
+
+### 3.2 Operating Hours
+- **Standard Hours**: 8:00 AM to 5:00 PM (7 days a week).
+- **Extended Hours**: Available outside standard hours but may have limited availability.
+
+---
+
+## 4. What We Can Move
+
+### 4.1 Items We Handle
+- Furniture, appliances, household goods, business equipment, and packages.
+
+### 4.2 Restrictions
+We do not move:
+- Hazardous materials (flammable, toxic, etc.).
+- Illegal items.
+- Specialty/heavy items (e.g., pianos, pool tables, hot tubs).
+- Perishable goods.
+- High-value items (jewelry, cash).
+
+For restricted items, we recommend consulting specialized movers.
+
+---
+
+## 5. Customer Responsibilities
+
+### 5.1 Presence During Jobs
+- You do not need to be present at pickup or drop-off locations.
+- For larger items, ensure someone is available to assist if only one mover is booked.
+
+### 5.2 Disassembly/Assembly
+- Movers bring basic tools for disassembly/assembly.
+- Complicated tasks requiring special tools are outside our scope.
+- Include this requirement when booking a Moving or Movers job.
+
+### 5.3 Pre-Move Requirements
+To ensure a smooth and efficient move, please complete the following tasks before our movers arrive:
+
+#### Appliance Disconnection & Disassembly Clause
+- Moovez does not disconnect appliances from power sources, including but not limited to electricity, gas, or water. It is the customer's sole responsibility to ensure that all appliances are properly disconnected and that water lines are turned off before the movers arrive.
+- If a customer requests or allows Moovez movers to perform any disconnection, such action is undertaken at the customer’s own risk. Moovez, its employees, contractors, and affiliates shall not be held liable for any damage, leaks, malfunctions, or other issues arising from the disconnection or improper handling of appliances.
+- Moovez is not responsible for disassembling appliances, doors, or other fixtures to facilitate a move. If disassembly is required, it is the customer's responsibility to complete this before the move.
+
+#### Appliances & Utilities
+ - (REQUIRED) Fridge & Freezer: Unplug before the move, empty all contents, and allow it to defrost. Wipe dry and drain any excess water.
+- (REQUIRED) Stove & Oven: Unplug or disconnect from the power source. Ensure the gas line (if applicable) is turned off and properly capped.
+- (REQUIRED) Dishwasher: Disconnect from water and drain any excess water. Secure hoses inside the unit.
+- (REQUIRED) Washing Machine: Unplug and detach water hoses. Allow time for hoses to dry before moving. Secure the drum (if applicable).
+- (REQUIRED) Dryer: Unplug from the wall and disconnect any gas connections (if applicable).
+
+#### Furniture & Large Items
+- (Recommended) Beds & Frames: Disassemble large bed frames, remove bedding, and secure any loose parts.
+- (Recommended) Dressers & Wardrobes: Empty drawers and secure doors with tape or straps.
+- (Recommended) Couches & Sofas: Remove cushions and wrap them separately if possible.
+- (Recommended) Glass or Fragile Items: Detach glass shelves, mirrors, and table tops. Wrap them securely in padding or blankets.
+
+#### Electronics
+- (Recommended) TVs & Monitors: Unplug, remove wall mounts (if applicable), and secure cables in a labeled bag.
+- (Recommended) Computers & Gaming Systems: Disconnect all cables, pack securely, and back up important files.
+- (Recommended) Modems & Routers: Unplug and pack with corresponding cables in a labeled box.
+
+#### Packing & Preparation
+- (Recommended) Boxes: Ensure all items are packed in sealed, labeled boxes.
+- (Recommended) Loose Items: Secure loose items like lamps, wall art, and décor in proper packing materials.
+- (RESTRICTED) Hazardous Materials: Dispose of or properly store flammable liquids, propane tanks, or other restricted items.
+- (RESTRICTED) Perishable Food: Consume or dispose of perishable food before moving day.
+
+#### Outdoor & Miscellaneous
+- (Recommended) BBQ & Grills: Clean, disconnect propane, and secure all loose parts.
+- (Recommended) Lawn Equipment: Drain gasoline and oil from lawnmowers, trimmers, and other equipment.
+- (Recommended) Bikes & Sports Equipment: Remove accessories and pack small parts separately.
+---
+
+## 6. Equipment and Preparation Tips
+
+### 6.1 What Movers Bring
+- Dollies, straps, blankets, and basic tools.
+
+### 6.2 Preparation Tips
+- Box and pack items securely.
+- Use bubble wrap or packing paper for fragile items.
+- Provide mattress covers or similar protection for large items.
+
+---
+
+## 7. Service Area
+
+### 7.1 Coverage
+- Primary area: Calgary and surrounding regions.
+- Secondary area: Throughout Alberta and out-of-province (custom quotes required).
+
+---
+
+## 8. Pricing Information
+
+### 8.1 Pricing Structure
+Pricing depends on vehicle type, number of movers, and job duration. Travel time includes 30 minutes within the city.
+
+#### Moving Pricing
+##### Smaller Local Moves (Job Hours + 30 Minutes Travel Time)
+- **Pickup Truck**
+  - 1 Mover: $50/hour
+  - 2 Movers: $90/hour
+  - 3 Movers: $130/hour
+  - 4 Movers: $170/hour
+
+- **Cargo Van**
+  - 1 Mover: $50/hour
+  - 2 Movers: $90/hour
+  - 3 Movers: $130/hour
+  - 4 Movers: $170/hour
+
+##### Larger Moves (Job Hours + 30 Minutes Travel Time)
+- **16-20ft Truck**
+  - 1 Mover: $90/hour
+  - 2 Movers: $120/hour
+  - 3 Movers: $170/hour
+  - 4 Movers: $220/hour
+
+- **26ft Truck**
+  - 1 Mover: $95/hour
+  - 2 Movers: $125/hour
+  - 3 Movers: $175/hour
+  - 4 Movers: $225/hour
+
+##### Movers Pricing (Job Hours + 30 Minutes Travel Time)
+- 1 Mover: $50/hour
+- 2 Movers: $90/hour
+- 3 Movers: $130/hour
+- 4 Movers: $170/hour
+- 5 Movers: $210/hour
+- 6 Movers: $250/hour
+
+#### Delivery Pricing Strategy
+| Vehicle Type | Base Fare | Service Fee | Per Km | Labour | ADD Mover (2 Mover Job) | ADD Mover (3 Mover Job) | ADD Mover (4 Mover Job) | Minimum Fare | Cancellation Fee |
+|--------------|-----------|-------------|--------|--------|-------------------------|-------------------------|-------------------------|---------------|------------------|
+| Pickup Truck | $9.00     | $2.50       | $0.90  | $30.00 | $40.00                  | $75                     | $45                     | $11.50        | $5.00            |
+| Cargo Van    | $10.00    | $2.50       | $0.90  | $35.00 | $40.00                  | $75                     | $45                     | $12.50        | $5.00            |
+| 16-20 ft     | $50.00    | $2.50       | $2.40  | $45.00 | $50.00                  | $80                     | $45                     | $135          | $5.00            |
+| 26 ft        | $95.00    | $2.50       | $2.60  | $55.00 | $55.00                  | $80                     | $45                     | $150          | $5.00            |
+
+### 8.2 Example Quotes
+1. **26ft Truck**:
+   - Job Duration: 2 hours
+   - Movers: 2
+   - Rate: $125/hour
+   - Total Cost: $328.12 (incl. GST)
+
+2. **Cargo Van/Pickup**:
+   - Job Duration: 2 hours
+   - Movers: 1
+   - Rate: $50/hour
+   - Total Cost: $131.25 (incl. GST)
+
+3. **Movers Example**:
+   - **1 Mover**: 2-hour job = $131.25
+   - **2 Movers**: 2-hour job = $223.13
+
+---
+
+## 9. Frequently Asked Questions (FAQ)
+
+### 9.1 How Do I Schedule a Moovez Job?
+Follow the steps outlined in Section 3.
+
+### 9.2 When Does Moovez Operate?
+See Section 3.2 for operating hours.
+
+### 9.3 What Can Moovez Move?
+Refer to Section 4 for details on what we can and cannot move.
+
+### 9.4 Do I Need to Be Present?
+No, but assistance may be required for larger items. See Section 5.1.
+
+### 9.5 Will Moovez Disassemble/Assemble My Items?
+Yes, for basic tasks. See Section 5.2.
+
+### 9.6 What Equipment Do Movers Bring?
+See Section 6.1.
+
+### 9.7 What Area Does Moovez Cover?
+See Section 7.
+
+### 9.8 Are There Any Restrictions?
+Yes, see Section 4.2.
+
+### 9.9 When Will My Items Arrive?
+Delivery times depend on job type and distance. See Section 8.
+
+---
+
+## 10. Vehicle Specifications
+
+### 10.1 Pickup Truck
+- Cargo Space: 6.5 ft x 5.0 ft x 1.5 ft
+- Max Load: 2,000–2,500 lbs
+- Ideal for small jobs.
+
+### 10.2 Cargo Van
+- Cargo Space: 9.5 ft x 5.5 ft x 4.5 ft
+- Max Load: 3,000–3,500 lbs
+- Ideal for small to medium jobs.
+
+### 10.3 16-20ft Truck
+- Cargo Space: 16.0–20.0 ft x 7.5 ft x 7.0 ft
+- Max Load: 5,000–7,000 lbs
+- Ideal for medium-sized jobs.
+
+### 10.4 26ft Truck
+- Cargo Space: 26.0 ft x 8.0 ft x 8.5 ft
+- Max Load: 10,000–12,000 lbs
+- Ideal for large jobs and long-distance moves.
+
+---
+
+## 11. Tips/Generosity
+If customers want, they can add and give tips to the movers, and 100% of that goes directly to the movers. Moreover, if the customer wants to buy lunch for the movers, their hospitality and generosity are highly appreciated. It's solely up to the customers to do that for the movers, although it is not required.
+
+---
+
+## 12. Multi-Stop Delivery Pricing
+
+### 12.1 Pricing Formula
+#### If Stop Is Added
+**Subtotal** = Service Fee + (Labour Cost × Number of Stops) + Base Fare + (Distance in KM × Per KM Rate)
+
+#### If No Stop Is Added
+**Subtotal** = Service Fee + Labour Cost + Base Fare + (Distance in KM × Per KM Rate)
+
+#### Additional Movers
+- If Number of Movers = 2  
+  **Subtotal** = Subtotal + Two Mover Rate
+- If Number of Movers = 3  
+  **Subtotal** = Subtotal + Three Mover Rate
+
+#### Total Charge
+**Total Charge** = (Subtotal + 5% GST) - 10% Discount
+
+---
+
+### 12.2 Multi-Stop Example
+
+#### Scenario:
+- **Vehicle Type**: Cargo Van  
+- **Number of Movers**: 2  
+- **Route Details**:  
+  - A → B: 15 km  
+  - B → C: 10 km  
+  - Total Distance: 25 km  
+- **Job Details**:  
+  - 2 pickups + 1 drop-off  
+
+#### Pricing Breakdown:
+| Component          | Amount       |
+|--------------------|--------------|
+| Subtotal          | $101.00      |
+| Base Service Fee  | $2.50        |
+| Labour Surcharge  | $35.00       |
+| Base Fare         | $10.00       |
+| Distance          | $13.50       |
+| Extra Mover       | $40.00       |
+| GST (5%)          | $7.20        |
+| Discount          | -            |
+| **Total**         | **$106.05**  |
+
+---
+
+### 12.3 Notes
+- **Base Fare**: Varies by vehicle type (e.g., Pickup Truck: $9.00, Cargo Van: $10.00).  
+- **Per KM Rate**: Charged based on the total distance traveled during the job.  
+- **Labour Cost**: Adjusted based on the number of stops and movers.  
+- **Multi-Stop Discount**: A discount may apply for jobs with multiple stops to encourage efficiency.  
+- **Additional Fees**:  
+  - Cancellation Fee: $5.00  
+  - Minimum Fare: Varies by vehicle type  
+
+---
+
+### 12.4 Frequently Asked Questions (FAQ)
+
+#### Q1: How do I calculate the cost of a multi-stop delivery?
+A: Use the formula provided in Section 12.1. Alternatively, you can input your job details into our booking system for an instant quote.
+
+#### Q2: Do I get a discount for multi-stop deliveries?
+A: Yes, a "Multi-Stop Discount" may apply. This discount is automatically calculated based on the job details.
+
+#### Q3: What if I need more than 2 movers?
+A: Additional mover rates are added to the subtotal. For example, adding a third mover incurs an extra charge as outlined in the pricing table.
+
+#### Q4: Is there a minimum fare for multi-stop deliveries?
+A: Yes, the minimum fare varies by vehicle type. Refer to the pricing table in Section 8.1 for details.
+
+#### Q5: Can I schedule a multi-stop delivery outside standard hours?
+A: Yes, but availability may be limited. Extended hours incur additional charges.
+```
+
+

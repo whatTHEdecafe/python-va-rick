@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_062028_ex_job_10",
+  "name": "ex job 10",
+  "createdAt": "2026-06-17T06:20:28Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "loveseat",
+        "imageID": "image1"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "image1"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "image1"
+      },
+      {
+        "name": "Artwork/Framed",
+        "quantity": 3,
+        "location": "living room",
+        "size": "small",
+        "imageID": "image1"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "image2"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "image2"
+      }
+    ],
+    "summary": {
+      "totalItems": 9,
+      "clutterLevel": "low",
+      "notes": "Living room items identified, including a loveseat, two area rugs (different sizes), and two end tables."
+    },
+    "metrics": {
+      "file_analysis_time": 5.352762937545776,
+      "api_calls": 1,
+      "images_processed": 22,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "loveseat",
+      "imageID": "image1"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "image1"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "image1"
+    },
+    {
+      "name": "Artwork/Framed",
+      "quantity": 3,
+      "location": "living room",
+      "size": "small",
+      "imageID": "image1"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "image2"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "image2"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg"
+    ],
+    "original_names": [
+      "56e0d275-692b-449f-9683-eb7fcc95b1e0.jpg",
+      "cb380d0f-3feb-46b6-ac48-2ce0b73c28d0.jpg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

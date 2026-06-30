@@ -1,0 +1,298 @@
+{
+  "movingCalculationRules": {
+    "metadata": {
+      "description": "Comprehensive calculation rules for moving logistics including stairs, elevators, batching, and time estimates",
+      "version": "1.0",
+      "lastUpdated": "2025-10-08",
+      "relatedFiles": [
+        "moving_items_logistics.json"
+      ],
+      "units": {
+        "time": "minutes",
+        "floors": "number of flights/levels"
+      }
+    },
+    "baseRules": {
+      "description": "Ground floor/main level rates serve as base rates. All surcharges multiply against these amounts.",
+      "baseHandlingTime": "Use small/minimal values from items file for flat ground/main floor loading",
+      "accessMultipliers": {
+        "stairs": "significant increases with size/weight",
+        "elevator": "smaller but non-zero (waiting + fitting)",
+        "disassemblyImpact": "magnifies stairs/elevator effort",
+        "stackableBonus": "big savings on elevator/stairs since multiple carried at once"
+      }
+    },
+    "boxesBinsRules": {
+      "description": "Specific rules for standard moving boxes and plastic bins",
+      "stackableDollyTime": {
+        "min": 0.5,
+        "max": 1.0,
+        "description": "Time per box when using dolly (0.5 min base)"
+      },
+      "volumeDiscount": {
+        "threshold": 20,
+        "averageTime": 0.4,
+        "description": "Reduced time per box for large quantities due to flow efficiency"
+      }
+    },
+    "stairsCalculation": {
+      "description": "Rules for stairs access (per flight)",
+      "timePerFlight": {
+        "large": 4.0,
+        "medium": 3.0,
+        "small": 2.0,
+        "note": "small items can be batched for efficiency"
+      },
+      "fatigueMultiplier": {
+        "enabled": true,
+        "description": "Optional fatigue kicker for multiple flights",
+        "rules": {
+          "threshold": 3,
+          "baseMultiplier": 1.15,
+          "additionalPerFlight": 0.05,
+          "maxMultiplier": 1.35
+        },
+        "examples": {
+          "3flights": 1.15,
+          "5flights": 1.25,
+          "7plusFlights": 1.35
+        },
+        "logic": "3F ≈ +30-40% vs elevator, 5F ≈ +50-60% on typical loads"
+      },
+      "bulkyPenalty": {
+        "description": "Additional penalty per floor for bulky/awkward items (stairs only)",
+        "timePerFloor": 0.5,
+        "applicableItems": [
+          "sectionals",
+          "wardrobes",
+          "big tables",
+          "elliptical",
+          "BBQ",
+          "bikes"
+        ],
+        "cap": {
+          "enabled": true,
+          "maxPenalty": 10.0,
+          "description": "For very bulky/heavy items, add +5-10 min max instead of compounding"
+        },
+        "logic": "Captures landing turns, hand switches, and set-down/re-grip behavior"
+      }
+    },
+    "elevatorCalculation": {
+      "description": "Rules for elevator access (per ride)",
+      "timePerRide": {
+        "large": 2.5,
+        "medium": 1.7,
+        "small": 1.2,
+        "note": "small items can be batched efficiently"
+      },
+      "highFloorAdder": {
+        "threshold": 10,
+        "additionalTime": {
+          "min": 1.0,
+          "max": 2.0
+        },
+        "description": "Extra travel time for floors ≥10 (total, not per ride)"
+      },
+      "logic": "Elevators benefit from batching and wheeled transport, maintain clear advantage over stairs"
+    },
+    "batchingRules": {
+      "description": "Rules for combining items in single trips to optimize efficiency",
+      "general": {
+        "definition": "One ride/trip = one continuous trip through access constraint",
+        "principle": "Apply access adders per ride/trip, not per individual item"
+      },
+      "categories": {
+        "stackableSmallItems": {
+          "items": [
+            "totes",
+            "small décor"
+          ],
+          "method": "Use dollies/carts whenever possible",
+          "rule": "1 ride per dolly/cart load, not per item"
+        },
+        "chairs": {
+          "items": [
+            "dining chairs",
+            "patio chairs",
+            "folding chairs",
+            "bar stools"
+          ],
+          "rule": "Batch 2-4 per ride when safe",
+          "application": "Apply access adder per ride"
+        },
+        "lightFlatItems": {
+          "items": [
+            "art",
+            "mirrors",
+            "flat-packed panels"
+          ],
+          "rule": "Bundle/stack safely, treat bundle as 1 ride"
+        },
+        "softGoods": {
+          "items": [
+            "lamps",
+            "cushions",
+            "rugs"
+          ],
+          "rule": "Tote/bag when possible, 1 tote = 1 box equivalent"
+        },
+        "sectionalModular": {
+          "timeRule": "11 min first piece + 3 min each additional piece",
+          "accessRule": "Apply stairs/elevator per piece if separate travel required",
+          "batchingException": "If two small modules carried together, treat as 1 ride"
+        },
+        "bulkyAwkward": {
+          "items": [
+            "wardrobes",
+            "large tables",
+            "appliances",
+            "exercise machines"
+          ],
+          "rule": "Usually 1 piece = 1 ride (don't batch)",
+          "exception": "Two smaller components safely carried together may count as 1 ride"
+        },
+        "mattressesBoxSprings": {
+          "rule": "1 mattress/box per ride (protective carry, don't batch)"
+        },
+        "outdoorFurniture": {
+          "stackable": "Stack cushions and light chairs (2-4 per ride)",
+          "individual": "Tables/chaise lounges typically 1 ride each"
+        }
+      },
+      "safetyOverride": "When in doubt, don't batch—default to 1 piece = 1 ride for heavy, fragile, or awkward items",
+      "efficiencyTip": "When batching increases, item handling time per piece decreases but access time stays per ride"
+    },
+    "unloadMultipliers": {
+      "description": "Unloads are faster because items are pre-disassembled, wrapped, and staged",
+      "baseRule": "Apply Base Unload Multiplier (BUM) first, then add destination access adders",
+      "multipliers": {
+        "mainFloor": {
+          "factor": 0.70,
+          "description": "Fastest - ground level delivery"
+        },
+        "elevator": {
+          "factor": 0.80,
+          "description": "Second fastest - elevator access"
+        },
+        "stairs": {
+          "factor": 0.85,
+          "description": "Slowest - stair access"
+        }
+      }
+    },
+    "totalJobCalculation": {
+      "formula": "PreMoveTravel + (BaseLoad + AccessAtPickup) + DriveBetween + (Unload × UnloadMultiplier + DropOffAccessAdders)",
+      "components": {
+        "preMoveTravel": "Travel time to pickup location",
+        "baseLoad": "Base loading time from items + handling",
+        "accessAtPickup": "Stairs/elevator time at pickup",
+        "driveBetween": "Travel time between locations",
+        "unload": "Base unload time (BaseLoad × UnloadMultiplier)",
+        "dropOffAccessAdders": "Stairs/elevator time at destination"
+      }
+    },
+    "quoteRangeRules": {
+      "description": "Generate quote ranges for estimates ≥ 2.0 hours",
+      "minimumForRange": 2.0,
+      "ranges": {
+        "2.0to5.0hours": {
+          "percentage": 10,
+          "description": "±10% for 2.0-5.0 hour jobs"
+        },
+        "5.1to10.0hours": {
+          "percentage": 12.5,
+          "description": "±12.5% for >5.0-10.0 hour jobs"
+        },
+        "10.1to15.0hours": {
+          "percentage": 15,
+          "description": "±15% for >10.0-15.0 hour jobs"
+        }
+      },
+      "examples": {
+        "2.0": {
+          "lower": 1.75,
+          "upper": 2.25
+        },
+        "2.5": {
+          "lower": 2.25,
+          "upper": 2.75
+        },
+        "3.0": {
+          "lower": 2.75,
+          "upper": 3.25
+        },
+        "3.5": {
+          "lower": 3.25,
+          "upper": 3.75
+        },
+        "4.0": {
+          "lower": 3.50,
+          "upper": 4.50
+        },
+        "4.5": {
+          "lower": 4.00,
+          "upper": 5.00
+        },
+        "5.0": {
+          "lower": 4.50,
+          "upper": 5.50
+        },
+        "6.0": {
+          "lower": 5.25,
+          "upper": 6.75
+        },
+        "7.0": {
+          "lower": 6.00,
+          "upper": 8.00
+        },
+        "8.0": {
+          "lower": 7.00,
+          "upper": 9.00
+        },
+        "9.0": {
+          "lower": 7.75,
+          "upper": 10.25
+        },
+        "10.0": {
+          "lower": 8.75,
+          "upper": 11.25
+        },
+        "11.0": {
+          "lower": 9.25,
+          "upper": 12.75
+        },
+        "12.0": {
+          "lower": 10.25,
+          "upper": 13.75
+        },
+        "13.0": {
+          "lower": 11.00,
+          "upper": 15.00
+        },
+        "14.0": {
+          "lower": 12.00,
+          "upper": 16.00
+        },
+        "15.0": {
+          "lower": 12.75,
+          "upper": 17.25
+        }
+      },
+      "notes": {
+        "symmetry": "Pads are symmetric (same up/down)",
+        "scaling": "Ranges widen as jobs get bigger, small jobs keep tight windows",
+        "minimumPad": "0.25 h minimum pad for precision",
+        "riskAdjustment": "For riskier access (lots of stairs, long carries, elevators), bump one tier up"
+      }
+    },
+    "searchableFields": [
+      "stairsCalculation.timePerFlight",
+      "elevatorCalculation.timePerRide",
+      "batchingRules.categories",
+      "unloadMultipliers.multipliers",
+      "quoteRangeRules.ranges",
+      "totalJobCalculation.formula"
+    ]
+  }
+}

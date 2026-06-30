@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoovEZ — .NET Moving Calculator (MoveasyBackend)</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
+
+  :root {
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --border: #cbd5e1;
+    --border-subtle: #e2e8f0;
+    --accent: #1d4ed8;
+    --accent2: #0f766e;
+    --calc: #1e40af;
+    --warn-bg: #fffbeb;
+    --warn-border: #f59e0b;
+    --diff-bg: #fef2f2;
+    --diff-border: #fca5a5;
+    --text: #0f172a;
+    --muted: #475569;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans', sans-serif;
+    --shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    --row-hover: #f1f5f9;
+    --src-sql: #1d4ed8;
+    --src-sql-bg: #eff6ff;
+    --src-user: #047857;
+    --src-user-bg: #ecfdf5;
+    --src-hard: #b45309;
+    --src-hard-bg: #fffbeb;
+    --src-config: #6d28d9;
+    --src-config-bg: #f5f3ff;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding: 40px 24px 80px;
+    line-height: 1.55;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-bottom: 16px;
+    letter-spacing: 0.06em;
+  }
+
+  .meta-note {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .legend {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+    padding: 14px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    font-family: var(--mono);
+    color: var(--muted);
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  .badge-sql { background: var(--src-sql-bg); color: var(--src-sql); }
+  .badge-user { background: var(--src-user-bg); color: var(--src-user); }
+  .badge-hard { background: var(--src-hard-bg); color: var(--src-hard); }
+  .badge-config { background: var(--src-config-bg); color: var(--src-config); }
+
+  section {
+    margin-bottom: 40px;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 24px 28px;
+    box-shadow: var(--shadow);
+  }
+
+  section h2 {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--calc);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  section h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 16px 0 8px;
+  }
+
+  section p, section li { font-size: 0.88rem; margin-bottom: 8px; }
+  section ul, section ol { margin-left: 1.25rem; margin-bottom: 12px; }
+
+  code, .formula {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    background: var(--bg);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--border-subtle);
+  }
+
+  .mermaid-wrap {
+    margin: 16px 0;
+    padding: 20px 16px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+  }
+
+  .mermaid-wrap--lg svg { max-width: 720px; }
+  #pipeline .mermaid-wrap svg { max-width: 520px; }
+
+  #access-friction .mermaid-wrap--friction svg {
+    max-width: 920px;
+    min-width: min(100%, 680px);
+  }
+
+  .sources {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border-subtle);
+  }
+
+  table.constants {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-top: 12px;
+  }
+
+  table.constants th,
+  table.constants td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  table.constants th {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--bg);
+  }
+
+  table.constants td:first-child {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--calc);
+  }
+
+  table.diff td:nth-child(3) { color: #b45309; font-size: 0.8rem; }
+
+  .callout-warn, .callout-diff {
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 8px;
+  }
+
+  .callout-warn {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+  }
+
+  .callout-diff {
+    background: var(--diff-bg);
+    border: 1px solid var(--diff-border);
+  }
+
+  .callout-warn h3, .callout-diff h3 {
+    margin-top: 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .callout-warn h3 { color: #b45309; }
+  .callout-diff h3 { color: #b91c1c; }
+
+  footer {
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  footer a { color: var(--accent2); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1>.NET Moving Calculator</h1>
+<p class="subtitle">MoveasyBackend · BookingService · SQL VisionItems</p>
+<p class="meta-note">
+  Primary crew API: <code>IdentifyLabourCount</code> (~L1474) ·
+  Separate booking-time path: <code>CalculateTimeForSize</code> / <code>FetchVisionBookingDetails</code>
+</p>
+
+<div class="legend">
+  <span class="legend-item"><span class="badge badge-sql">SQL</span> VisionItems / Companies</span>
+  <span class="legend-item"><span class="badge badge-user">USER</span> API request</span>
+  <span class="legend-item"><span class="badge badge-config">CONFIG</span> appsettings MovingCalculator</span>
+  <span class="legend-item"><span class="badge badge-hard">HARDCODED</span> Code constants / fleet</span>
+</div>
+
+<div class="callout-diff">
+  <h3>Two algorithms in one service</h3>
+  <p style="margin-bottom:8px;"><strong>A — IdentifyLabourCount</strong> (Vision API <code>SuggestedLabour</code>): task list + parallelism + flat % friction + crew scoring. Partially V9-aligned via config.</p>
+  <p style="margin-bottom:0;"><strong>B — FetchVisionBookingDetails → CalculateTimeForSize</strong>: per-item time summed for booking totals; stairs/elevator = <code>floors × DB adder per flight/ride</code>; stackable from <code>VisionItems.StackableSavingsPct</code>. Does <em>not</em> pick crew size.</p>
+</div>
+
+<!-- Path A: IdentifyLabourCount -->
+<section id="pipeline">
+  <h2>Path A — IdentifyLabourCount pipeline</h2>
+  <p>Entry: <code>BookingService.IdentifyLabourCount(CalculateMoverRequest)</code></p>
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+flowchart TD
+    Entry["IdentifyLabourCount"] --> LoadDb["Load VisionItems by RefId"]
+    LoadDb --> BuildTasks["Build MoveTask list"]
+    BuildTasks --> Stack["ApplyStackableGrouping"]
+    Stack --> Friction["CalculateFriction strings"]
+    Stack --> Vehicles["SelectVehiclesAndGetSeatCap"]
+    Friction --> CrewLoop
+    Vehicles --> CrewLoop
+    CrewLoop["For m = 2 .. maxSeats"] --> JobTime["CalculateJobTime x friction"]
+    JobTime --> Score["Score on JobTimeMinutes only"]
+    Score --> Result["LabourRecommendationResult + GST"]
+    </pre>
+  </div>
+  <div class="sources">
+    Items RefId, size, qty, disassemble <span class="badge badge-user">USER</span> ·
+    BaseTime / CuFt / Weight <span class="badge badge-sql">SQL</span> ·
+    PickupAccess, DropoffAccess, TotalDistanceKm <span class="badge badge-user">USER</span> ·
+    Wage, GST, friction %, multipliers <span class="badge badge-config">CONFIG</span>
+  </div>
+</section>
+
+<section id="build-tasks">
+  <h2>Path A — Build tasks</h2>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Items["Each ItemReqForMovers"] --> Vi["VisionItems row or DefaultItem"]
+    Vi --> Base["baseMin from BaseTime S/M/L"]
+    Base --> Adders["+5 disassembly if flagged"]
+    Adders --> Bulky["+5 BULKY_ADDER if size large"]
+    Bulky --> Mul["x LoadUnloadMultiplier default 1.2"]
+    Mul --> Qty["Repeat Qty times MoveTask"]
+    Qty --> Stack["ApplyStackableGrouping"]
+    </pre>
+  </div>
+
+  <h3>Per-item time (Path A)</h3>
+  <ol>
+    <li><code>baseMin</code> from <code>VisionItems.BaseTime{S,M,L}Min</code> <span class="badge badge-sql">SQL</span></li>
+    <li>+<code>5</code> if <code>IsDisassembleRequired</code> <span class="badge badge-hard">HARDCODED</span> (not DB disassembly columns)</li>
+    <li>+<code>5</code> if size <code>large</code> <span class="badge badge-hard">HARDCODED</span> bulky proxy</li>
+    <li>× <code>LoadUnloadMultiplier</code> (default 1.2) <span class="badge badge-config">CONFIG</span> — single multiplier, not separate load/unload</li>
+    <li><code>max(itemTime, 2)</code></li>
+  </ol>
+
+  <h3>Stackable (Path A)</h3>
+  <p><code>IsStackable</code> = name contains box/bag OR size small <span class="badge badge-hard">HARDCODED</span>. Grouped items: sum time × <strong>0.70</strong> (30% savings flat). <em>Does not use</em> <code>StackableSavingsPct</code> from SQL.</p>
+
+  <h3>MoveTask fields</h3>
+  <p><code>Name, BaseTimeMinutes, CrewRequired, IsStackable</code> — <code>CrewRequired</code> is set (large or time&gt;15 → 2) but <strong>not used</strong> in <code>CalculateJobTime</code>.</p>
+</section>
+
+<section id="access-friction">
+  <h2>Path A — Access friction (differs from Python V9)</h2>
+  <p><code>CalculateFriction</code> then <code>jobTime = parallelBase × friction</code>. No floor count on request; string contains check only.</p>
+  <div class="mermaid-wrap mermaid-wrap--friction">
+    <pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 52, 'rankSpacing': 64}, 'themeVariables': {'fontSize': '16px'}}}%%
+flowchart TB
+    Base["① parallel base_time<br/>CalculateJobTime"]
+
+    subgraph friction ["CalculateFriction — starts at 1.0"]
+        direction LR
+        fStairs["pickup or dropoff<br/>contains stairs<br/>+ StairsFrictionAdder"]
+        fElev["contains elevator<br/>+ ElevatorFrictionAdder"]
+        fLong["contains long<br/>+ LongCarryFrictionAdder"]
+    end
+
+    Mult["② jobTime = base_time x friction"]
+    Final["③ return jobTime"]
+
+    Base --> friction
+    friction --> Mult
+    Mult --> Final
+    </pre>
+  </div>
+
+  <h3>Defaults (appsettings MovingCalculator)</h3>
+  <ul>
+    <li>Stairs: <code>+0.20</code> once if either leg mentions stairs</li>
+    <li>Elevator: <code>+0.10</code> once if either leg mentions elevator</li>
+    <li>Long carry: <code>+0.10</code> if string contains <code>long</code></li>
+  </ul>
+
+  <div class="callout-diff">
+    <h3>Not the same as Python V9</h3>
+    <ul>
+      <li>Python: stairs = per-floor delta (0.06 + 0.035×floors) summed into multiplier</li>
+      <li>Python: elevator = <strong>additive</strong> trip minutes after multiply; cap teams at 1.5</li>
+      <li>.NET Path A: elevator is only a <strong>+10% multiplier</strong>; no <code>ELEVATOR_PARALLELISM_CAP</code></li>
+      <li>.NET Path A: <code>CalculateMoverRequest</code> has no floor fields</li>
+    </ul>
+  </div>
+</section>
+
+<section id="parallelism">
+  <h2>Path A — Job time parallelism</h2>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Sum["totalLabor = sum BaseTimeMinutes"] --> Teams["effective_teams map"]
+    Teams --> Bottleneck["bottleneck map"]
+    Bottleneck --> Para{"teams > 1?"}
+    Para -->|no| Seq["base = totalLabor"]
+    Para -->|yes| Par["base = labor/teams/bottleneck"]
+    Seq --> Friction["x CalculateFriction"]
+    Par --> Friction
+    </pre>
+  </div>
+  <p>Maps match Python V9: teams {2:1, 3:1.25, 4:2, 5:2.25, 6:3}; bottleneck {2:1, 3:0.95, 4:0.85, 5:0.7, 6:0.55}; else 0.50 for bottleneck fallback.</p>
+</section>
+
+<section id="crew">
+  <h2>Path A — Crew recommendation</h2>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Seats["maxSeats from SelectVehiclesAndGetSeatCap"] --> Loop["m = 2 to maxSeats"]
+    Loop --> Eval["JobTime + travel; LaborCost = TotalTime x m x wage"]
+    Eval --> Small{"2-mover JobTime < 180?"}
+    Small -->|yes| W1["score 0.2 time + 0.8 cost"]
+    Small -->|no| W2["score 0.4 time + 0.6 cost"]
+    W1 --> Filter
+    W2 --> Filter
+    Filter{"JobTime < 360?"} -->|yes| Best["lowest score, tie smaller m"]
+    Filter -->|no| Fast["fastest JobTime"]
+    Best --> Out["RecommendedMovers + GST on LaborCost"]
+    Fast --> Out
+    </pre>
+  </div>
+
+  <h3>Travel &amp; cost</h3>
+  <ul>
+    <li><code>travelTime = TotalDistanceKm × 1.5 + 30</code> <span class="badge badge-hard">HARDCODED</span></li>
+    <li>Scoring uses <code>JobTimeMinutes</code> only (labor) — aligned with V9 intent</li>
+    <li><code>LaborCost = TotalTimeMinutes × m × wagePerMin</code> (includes travel in cost line)</li>
+    <li><code>EstimatedCostIncludingGST = LaborCost × (1 + GstRate)</code></li>
+  </ul>
+  <p>No <code>forced_movers</code> on <code>CalculateMoverRequest</code> (Python has optional override).</p>
+</section>
+
+<!-- Path B -->
+<section id="path-b">
+  <h2>Path B — Vision booking totals (per item)</h2>
+  <p><code>FetchVisionBookingDetails</code> → <code>GetItemsDetails</code> → <code>CalculateTimeForSize</code></p>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Items["VisionAnalyzeItem list"] --> Vi["VisionItems from SQL"]
+    Vi --> Calc["CalculateTimeForSize per item"]
+    Calc --> Base["baseTime + disassembly from DB"]
+    Base --> Pick["pickup: floors x Stairs/Elevator adder"]
+    Pick --> Drop["dropoff: floors x adder"]
+    Drop --> Stack{"StackableFlag YES?"}
+    Stack -->|yes| Save["qty x perItem x 1 - savings%"]
+    Stack -->|no| Lin["qty x perItem"]
+    Save --> Sum["totalTime += item"]
+    Lin --> Sum
+    </pre>
+  </div>
+
+  <h3>Per-item formula (Path B)</h3>
+  <p><code class="formula">perItem = (BaseTime + DisassemblyAdder) × Company.LoadUnloadmultiplier + pickupFloors×adder + dropoffFloors×adder</code></p>
+  <p>Stairs/elevator adders: <code>StairsAdderPerFlight{S,M,L}Min</code>, <code>ElevatorAdderPerRide{S,M,L}Min</code> <span class="badge badge-sql">SQL</span>. Mediums: <code>MainFloor</code>, <code>Stairs</code>, <code>Elevator</code>.</p>
+  <p>Stackable: uses <code>StackableFlag</code> + <code>StackableSavingsPct</code> from DB <span class="badge badge-sql">SQL</span>.</p>
+</section>
+
+<section id="python-diff">
+  <h2>Python V9 vs .NET Path A — gap summary</h2>
+  <table class="constants diff">
+    <thead>
+      <tr><th>Topic</th><th>Python V9</th><th>.NET IdentifyLabourCount</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Catalog</td><td>JSON file</td><td>VisionItems table</td></tr>
+      <tr><td>Load/unload</td><td>Separate load + unload ratios</td><td>Single ×1.2 multiplier</td></tr>
+      <tr><td>Stairs</td><td>Per-floor delta in multiplier</td><td>Flat +20% if string has stairs</td></tr>
+      <tr><td>Elevator</td><td>Additive trips; team cap 1.5</td><td>Flat +10% multiplier only</td></tr>
+      <tr><td>Long carry</td><td>Not in Python V9</td><td>+10% if string has long</td></tr>
+      <tr><td>Stackable savings</td><td>Per-category % from catalog</td><td>Flat 30% if heuristic stackable</td></tr>
+      <tr><td>Disassembly adder</td><td>From catalog by size</td><td>Flat +5 minutes</td></tr>
+      <tr><td>Bulky / heavy</td><td>Not used in Python</td><td>+5 if size large</td></tr>
+      <tr><td>Crew cap</td><td>cab_seats from vehicles</td><td>maxSeats — same idea</td></tr>
+      <tr><td>Scoring thresholds</td><td>180 / 360 min</td><td>Configurable — defaults match</td></tr>
+      <tr><td>Travel</td><td>pre_move + travel inputs</td><td>distance×1.5 + 30</td></tr>
+      <tr><td>Hour range CSV</td><td>Yes</td><td>Not in this API</td></tr>
+      <tr><td>Path B booking flow</td><td>N/A</td><td>DB per-floor adders — closer to old model</td></tr>
+    </tbody>
+  </table>
+  <p style="margin-top:12px;font-size:0.82rem;">Alignment target doc: <code>MoveasyBackend/Moving-Calculator-V9-Alignment-Plan.md</code></p>
+</section>
+
+<section id="constants">
+  <h2>Configuration &amp; constants (Path A)</h2>
+  <table class="constants">
+    <thead>
+      <tr><th>Key / symbol</th><th>Default</th><th>Source</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>WagePerHour</td><td>40</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>GstRate</td><td>0.05</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>LoadUnloadMultiplier</td><td>1.2</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>StairsFrictionAdder</td><td>0.20</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>ElevatorFrictionAdder</td><td>0.10</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>LongCarryFrictionAdder</td><td>0.10</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>DISASSEMBLY_ADDER</td><td>5 min</td><td><span class="badge badge-hard">HARDCODED</span></td></tr>
+      <tr><td>BULKY_ADDER</td><td>5 min</td><td><span class="badge badge-hard">HARDCODED</span></td></tr>
+      <tr><td>Stackable savings</td><td>30% (×0.70)</td><td><span class="badge badge-hard">HARDCODED</span></td></tr>
+      <tr><td>travelTime</td><td>km×1.5 + 30</td><td><span class="badge badge-hard">HARDCODED</span></td></tr>
+      <tr><td>Volume/weight buffer</td><td>1.15 / 1.10</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>UpsizeThreshold</td><td>0.70</td><td><span class="badge badge-config">CONFIG</span></td></tr>
+      <tr><td>Fleet + seats</td><td>Pickup→26ft, 2–3 seats</td><td><span class="badge badge-hard">HARDCODED</span> in SelectVehicles…</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="source-map">
+  <h2>Source file map</h2>
+  <table class="constants">
+    <thead>
+      <tr><th>Concern</th><th>Location</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Crew API entry</td><td><code>MoveasyBackend/Controllers/Service/BookingService.cs</code> — <code>IdentifyLabourCount</code></td></tr>
+      <tr><td>Request/response DTOs</td><td><code>Domain/DTOModels/VisionDtoModels.cs</code></td></tr>
+      <tr><td>Config</td><td><code>MoveasyBackend/appsettings.json</code> → <code>MovingCalculator</code></td></tr>
+      <tr><td>HTTP endpoint</td><td><code>VisionBookingAPIController.SuggestedLabour</code></td></tr>
+      <tr><td>Per-item booking time</td><td><code>CalculateTimeForSize</code>, <code>FetchVisionBookingDetails</code></td></tr>
+      <tr><td>Item master data</td><td><code>VisionItems</code> entity (SQL)</td></tr>
+      <tr><td>Commented V9 prototype</td><td><code>MoveasyBackend/Services/calculatemovercs.cs</code> (not wired)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  <a href="calculator-algorithm-flowchart.html">Python V9 flowchart</a> ·
+  <a href="task-tracker/JUNIOR-PORT-README.md">C# port task tracker</a> ·
+  <code>MoveasyBackend/Moving-Calculator-V9-Alignment-Plan.md</code>
+</footer>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'neutral',
+    securityLevel: 'loose',
+    themeVariables: {
+      fontFamily: 'IBM Plex Sans, sans-serif',
+      fontSize: '15px',
+      primaryTextColor: '#0f172a',
+      nodeBorder: '#1e40af'
+    },
+    flowchart: {
+      htmlLabels: true,
+      curve: 'basis',
+      useMaxWidth: true,
+      nodeSpacing: 42,
+      rankSpacing: 52
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    mermaid.run({ querySelector: '.mermaid' });
+  });
+</script>
+</body>
+</html>

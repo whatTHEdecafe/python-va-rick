@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_061247_ex_job_6",
+  "name": "ex job 6",
+  "createdAt": "2026-06-17T06:12:47Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "large planter",
+        "quantity": 2,
+        "location": "exterior",
+        "size": "large",
+        "imageID": "1"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "deck",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 2,
+        "location": "deck",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "toy chest",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "large",
+        "imageID": "3"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "4"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "armchair",
+        "quantity": 2,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "5"
+      },
+      {
+        "name": "end table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "5"
+      },
+      {
+        "name": "couch / sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "6"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "8"
+      },
+      {
+        "name": "toy chest",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "9"
+      },
+      {
+        "name": "dining chair",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "small",
+        "imageID": "10"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "medium",
+        "imageID": "11"
+      },
+      {
+        "name": "artwork/framed",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "9"
+      },
+      {
+        "name": "artwork/framed",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "medium",
+        "imageID": "21"
+      },
+      {
+        "name": "large planter",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "large",
+        "imageID": "12"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "medium",
+        "imageID": "13"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 4,
+        "location": "kitchen",
+        "size": "medium",
+        "imageID": "14"
+      },
+      {
+        "name": "end table",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "small",
+        "imageID": "15"
+      },
+      {
+        "name": "armchair",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "16"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "17"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "17"
+      },
+      {
+        "name": "bed frame",
+        "quantity": 1,
+        "location": "master bedroom",
+        "size": "king",
+        "imageID": "18"
+      },
+      {
+        "name": "mattress",
+        "quantity": 1,
+        "location": "master bedroom",
+        "size": "king",
+        "imageID": "18"
+      },
+      {
+        "name": "nightstand",
+        "quantity": 2,
+        "location": "master bedroom",
+        "size": "medium",
+        "imageID": "18"
+      },
+      {
+        "name": "deck box",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "19"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 4,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "19"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "small",
+        "imageID": "19"
+      },
+      {
+        "name": "dining table",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "medium",
+        "imageID": "20"
+      },
+      {
+        "name": "dining chair",
+        "quantity": 6,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "20"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "22"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 4,
+        "location": "patio",
+        "size": "small",
+        "imageID": "22"
+      },
+      {
+        "name": "bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "23"
+      },
+      {
+        "name": "mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "23"
+      },
+      {
+        "name": "nightstand",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "23"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "24"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "24"
+      },
+      {
+        "name": "dining table",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "25"
+      },
+      {
+        "name": "dining chair",
+        "quantity": 4,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "25"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 4,
+        "location": "kitchen",
+        "size": "medium",
+        "imageID": "26"
+      },
+      {
+        "name": "refrigerator",
+        "quantity": 1,
+        "location": "basement",
+        "size": "small",
+        "imageID": "28"
+      },
+      {
+        "name": "metal shelving unit",
+        "quantity": 2,
+        "location": "basement",
+        "size": "large",
+        "imageID": "29"
+      },
+      {
+        "name": "chest freezer",
+        "quantity": 1,
+        "location": "basement",
+        "size": "medium",
+        "imageID": "29"
+      },
+      {
+        "name": "workbench",
+        "quantity": 1,
+        "location": "basement",
+        "size": "medium",
+        "imageID": "30"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 1,
+        "location": "basement",
+        "size": "small",
+        "imageID": "30"
+      },
+      {
+        "name": "safe",
+        "quantity": 1,
+        "location": "basement",
+        "size": "large",
+        "imageID": "31"
+      },
+      {
+        "name": "area rug",
+        "quantity": 2,
+        "location": "basement",
+        "size": "medium",
+        "imageID": "31"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "32"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "deck",
+        "size": "small",
+        "imageID": "33"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 2,
+        "location": "deck",
+        "size": "small",
+        "imageID": "33"
+      },
+      {
+        "name": "BBQ grill",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "35"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "large",
+        "imageID": "36"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "medium",
+        "imageID": "36"
+      },
+      {
+        "name": "floor lamp",
+        "quantity": 2,
+        "location": "hallway",
+        "size": "medium",
+        "imageID": "37"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "39"
+      },
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "5-drawer",
+        "imageID": "39"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "bathroom",
+        "size": "large",
+        "imageID": "40"
+      },
+      {
+        "name": "tool chest",
+        "quantity": 2,
+        "location": "garage",
+        "size": "medium",
+        "imageID": "42"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 2,
+        "location": "garage",
+        "size": "small",
+        "imageID": "42"
+      },
+      {
+        "name": "ladder",
+        "quantity": 1,
+        "location": "garage",
+        "size": "6ft",
+        "imageID": "43"
+      },
+      {
+        "name": "metal shelving unit",
+        "quantity": 3,
+        "location": "garage",
+        "size": "large",
+        "imageID": "44"
+      },
+      {
+        "name": "metal shelving unit",
+        "quantity": 2,
+        "location": "garage",
+        "size": "large",
+        "imageID": "45"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "garage",
+        "size": "small",
+        "imageID": "46"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 2,
+        "location": "garage",
+        "size": "small",
+        "imageID": "46"
+      },
+      {
+        "name": "ladder",
+        "quantity": 1,
+        "location": "garage",
+        "size": "8ft",
+        "imageID": "47"
+      },
+      {
+        "name": "patio chair",
+        "quantity": 2,
+        "location": "backyard",
+        "size": "medium",
+        "imageID": "49"
+      },
+      {
+        "name": "outdoor sofa",
+        "quantity": 1,
+        "location": "backyard",
+        "size": "small",
+        "imageID": "49"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "backyard",
+        "size": "small",
+        "imageID": "49"
+      },
+      {
+        "name": "patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "small",
+        "imageID": "50"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 2,
+        "location": "patio",
+        "size": "small",
+        "imageID": "50"
+      },
+      {
+        "name": "BBQ grill",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "50"
+      },
+      {
+        "name": "deck box",
+        "quantity": 1,
+        "location": "side yard",
+        "size": "medium",
+        "imageID": "52"
+      },
+      {
+        "name": "workbench",
+        "quantity": 1,
+        "location": "garage",
+        "size": "small",
+        "imageID": "54"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "55"
+      },
+      {
+        "name": "office desk",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "55"
+      },
+      {
+        "name": "armchair",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "55"
+      },
+      {
+        "name": "floor lamp",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "medium",
+        "imageID": "56"
+      },
+      {
+        "name": "end table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "57"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "58"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "large",
+        "imageID": "59"
+      }
+    ],
+    "summary": {
+      "totalItems": 63,
+      "clutterLevel": "moderate",
+      "notes": "Multiple rooms and outdoor areas are captured with a variety of furniture and household items."
+    },
+    "metrics": {
+      "file_analysis_time": 158.06025385856628,
+      "api_calls": 1,
+      "images_processed": 60,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "large planter",
+      "quantity": 2,
+      "location": "exterior",
+      "size": "large",
+      "imageID": "1"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "deck",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 2,
+      "location": "deck",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "toy chest",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "large",
+      "imageID": "3"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "4"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "armchair",
+      "quantity": 2,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "5"
+    },
+    {
+      "name": "end table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "5"
+    },
+    {
+      "name": "couch / sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "6"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "8"
+    },
+    {
+      "name": "toy chest",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "9"
+    },
+    {
+      "name": "dining chair",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "small",
+      "imageID": "10"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "medium",
+      "imageID": "11"
+    },
+    {
+      "name": "artwork/framed",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "9"
+    },
+    {
+      "name": "artwork/framed",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "medium",
+      "imageID": "21"
+    },
+    {
+      "name": "large planter",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "large",
+      "imageID": "12"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "medium",
+      "imageID": "13"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 4,
+      "location": "kitchen",
+      "size": "medium",
+      "imageID": "14"
+    },
+    {
+      "name": "end table",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "small",
+      "imageID": "15"
+    },
+    {
+      "name": "armchair",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "16"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "17"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "17"
+    },
+    {
+      "name": "bed frame",
+      "quantity": 1,
+      "location": "master bedroom",
+      "size": "king",
+      "imageID": "18"
+    },
+    {
+      "name": "mattress",
+      "quantity": 1,
+      "location": "master bedroom",
+      "size": "king",
+      "imageID": "18"
+    },
+    {
+      "name": "nightstand",
+      "quantity": 2,
+      "location": "master bedroom",
+      "size": "medium",
+      "imageID": "18"
+    },
+    {
+      "name": "deck box",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "19"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 4,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "19"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "small",
+      "imageID": "19"
+    },
+    {
+      "name": "dining table",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "medium",
+      "imageID": "20"
+    },
+    {
+      "name": "dining chair",
+      "quantity": 6,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "20"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "22"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 4,
+      "location": "patio",
+      "size": "small",
+      "imageID": "22"
+    },
+    {
+      "name": "bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "23"
+    },
+    {
+      "name": "mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "23"
+    },
+    {
+      "name": "nightstand",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "23"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "24"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "24"
+    },
+    {
+      "name": "dining table",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "25"
+    },
+    {
+      "name": "dining chair",
+      "quantity": 4,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "25"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 4,
+      "location": "kitchen",
+      "size": "medium",
+      "imageID": "26"
+    },
+    {
+      "name": "refrigerator",
+      "quantity": 1,
+      "location": "basement",
+      "size": "small",
+      "imageID": "28"
+    },
+    {
+      "name": "metal shelving unit",
+      "quantity": 2,
+      "location": "basement",
+      "size": "large",
+      "imageID": "29"
+    },
+    {
+      "name": "chest freezer",
+      "quantity": 1,
+      "location": "basement",
+      "size": "medium",
+      "imageID": "29"
+    },
+    {
+      "name": "workbench",
+      "quantity": 1,
+      "location": "basement",
+      "size": "medium",
+      "imageID": "30"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 1,
+      "location": "basement",
+      "size": "small",
+      "imageID": "30"
+    },
+    {
+      "name": "safe",
+      "quantity": 1,
+      "location": "basement",
+      "size": "large",
+      "imageID": "31"
+    },
+    {
+      "name": "area rug",
+      "quantity": 2,
+      "location": "basement",
+      "size": "medium",
+      "imageID": "31"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "32"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "deck",
+      "size": "small",
+      "imageID": "33"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 2,
+      "location": "deck",
+      "size": "small",
+      "imageID": "33"
+    },
+    {
+      "name": "BBQ grill",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "35"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "large",
+      "imageID": "36"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "medium",
+      "imageID": "36"
+    },
+    {
+      "name": "floor lamp",
+      "quantity": 2,
+      "location": "hallway",
+      "size": "medium",
+      "imageID": "37"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "39"
+    },
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "5-drawer",
+      "imageID": "39"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "bathroom",
+      "size": "large",
+      "imageID": "40"
+    },
+    {
+      "name": "tool chest",
+      "quantity": 2,
+      "location": "garage",
+      "size": "medium",
+      "imageID": "42"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 2,
+      "location": "garage",
+      "size": "small",
+      "imageID": "42"
+    },
+    {
+      "name": "ladder",
+      "quantity": 1,
+      "location": "garage",
+      "size": "6ft",
+      "imageID": "43"
+    },
+    {
+      "name": "metal shelving unit",
+      "quantity": 3,
+      "location": "garage",
+      "size": "large",
+      "imageID": "44"
+    },
+    {
+      "name": "metal shelving unit",
+      "quantity": 2,
+      "location": "garage",
+      "size": "large",
+      "imageID": "45"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "garage",
+      "size": "small",
+      "imageID": "46"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 2,
+      "location": "garage",
+      "size": "small",
+      "imageID": "46"
+    },
+    {
+      "name": "ladder",
+      "quantity": 1,
+      "location": "garage",
+      "size": "8ft",
+      "imageID": "47"
+    },
+    {
+      "name": "patio chair",
+      "quantity": 2,
+      "location": "backyard",
+      "size": "medium",
+      "imageID": "49"
+    },
+    {
+      "name": "outdoor sofa",
+      "quantity": 1,
+      "location": "backyard",
+      "size": "small",
+      "imageID": "49"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "backyard",
+      "size": "small",
+      "imageID": "49"
+    },
+    {
+      "name": "patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "small",
+      "imageID": "50"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 2,
+      "location": "patio",
+      "size": "small",
+      "imageID": "50"
+    },
+    {
+      "name": "BBQ grill",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "50"
+    },
+    {
+      "name": "deck box",
+      "quantity": 1,
+      "location": "side yard",
+      "size": "medium",
+      "imageID": "52"
+    },
+    {
+      "name": "workbench",
+      "quantity": 1,
+      "location": "garage",
+      "size": "small",
+      "imageID": "54"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "55"
+    },
+    {
+      "name": "office desk",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "55"
+    },
+    {
+      "name": "armchair",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "55"
+    },
+    {
+      "name": "floor lamp",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "medium",
+      "imageID": "56"
+    },
+    {
+      "name": "end table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "57"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "58"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "large",
+      "imageID": "59"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg",
+      "preview_14.jpg",
+      "preview_15.jpg",
+      "preview_16.jpg",
+      "preview_17.jpg",
+      "preview_18.jpg",
+      "preview_19.jpg",
+      "preview_20.jpg",
+      "preview_21.jpg",
+      "preview_22.jpg",
+      "preview_23.jpg",
+      "preview_24.jpg",
+      "preview_25.jpg",
+      "preview_26.jpg",
+      "preview_27.jpg",
+      "preview_28.jpg",
+      "preview_29.jpg",
+      "preview_30.jpg",
+      "preview_31.jpg",
+      "preview_32.jpg",
+      "preview_33.jpg",
+      "preview_34.jpg",
+      "preview_35.jpg",
+      "preview_36.jpg",
+      "preview_37.jpg",
+      "preview_38.jpg",
+      "preview_39.jpg",
+      "preview_40.jpg",
+      "preview_41.jpg",
+      "preview_42.jpg",
+      "preview_43.jpg",
+      "preview_44.jpg",
+      "preview_45.jpg",
+      "preview_46.jpg",
+      "preview_47.jpg",
+      "preview_48.jpg",
+      "preview_49.jpg",
+      "preview_50.jpg",
+      "preview_51.jpg",
+      "preview_52.jpg",
+      "preview_53.jpg",
+      "preview_54.jpg",
+      "preview_55.jpg",
+      "preview_56.jpg",
+      "preview_57.jpg",
+      "preview_58.jpg",
+      "preview_59.jpg"
+    ],
+    "original_names": [
+      "IMG_8175.HEIC",
+      "IMG_8176.HEIC",
+      "IMG_8177.HEIC",
+      "IMG_8178.HEIC",
+      "IMG_8179.HEIC",
+      "IMG_8180.HEIC",
+      "IMG_8181.HEIC",
+      "IMG_8182.HEIC",
+      "IMG_8183.HEIC",
+      "IMG_8184.HEIC",
+      "IMG_8185.HEIC",
+      "IMG_8186.HEIC",
+      "IMG_8187.HEIC",
+      "IMG_8191.HEIC",
+      "IMG_8192.HEIC",
+      "IMG_8193.HEIC",
+      "IMG_8194.HEIC",
+      "IMG_8195.HEIC",
+      "IMG_8196.HEIC",
+      "IMG_8197.HEIC",
+      "IMG_8200.HEIC",
+      "IMG_8201.HEIC",
+      "IMG_8205.HEIC",
+      "IMG_8206.HEIC",
+      "IMG_8207.HEIC",
+      "IMG_8208.HEIC",
+      "IMG_8209.HEIC",
+      "IMG_8210.HEIC",
+      "IMG_8211.HEIC",
+      "IMG_8212.HEIC",
+      "IMG_8213.HEIC",
+      "IMG_8214.HEIC",
+      "IMG_8215.HEIC",
+      "IMG_8216.HEIC",
+      "IMG_8217.HEIC",
+      "IMG_8218.HEIC",
+      "IMG_8219.HEIC",
+      "IMG_8220.HEIC",
+      "IMG_8221.HEIC",
+      "IMG_8225.HEIC",
+      "IMG_8226.HEIC",
+      "IMG_8229.HEIC",
+      "IMG_8234.HEIC",
+      "IMG_8235.HEIC",
+      "IMG_8237.HEIC",
+      "IMG_8238.HEIC",
+      "IMG_8239.HEIC",
+      "IMG_8240.HEIC",
+      "IMG_8241.HEIC",
+      "IMG_8252.HEIC",
+      "IMG_8253.HEIC",
+      "IMG_8254.HEIC",
+      "IMG_8255.HEIC",
+      "IMG_8257.HEIC",
+      "IMG_8258.HEIC",
+      "IMG_8262.HEIC",
+      "IMG_8263.HEIC",
+      "IMG_8264.HEIC",
+      "IMG_8265.HEIC",
+      "IMG_8267.HEIC"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

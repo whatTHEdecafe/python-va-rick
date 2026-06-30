@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_190513_ex_testing",
+  "name": "ex testing",
+  "createdAt": "2026-06-17T19:05:13Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "medium",
+        "imageID": "1"
+      },
+      {
+        "name": "Dining chair",
+        "quantity": 6,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Artwork/Framed",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Patio chair",
+        "quantity": 5,
+        "location": "patio",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "Patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "small",
+        "imageID": "2"
+      },
+      {
+        "name": "Recliner",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "3"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "3"
+      },
+      {
+        "name": "Sectional couch",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "4"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "4"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "4"
+      }
+    ],
+    "summary": {
+      "totalItems": 19,
+      "clutterLevel": "moderate",
+      "notes": "Dining room, patio, and living room items identified. Several chairs of different types."
+    },
+    "metrics": {
+      "file_analysis_time": 9.277458429336548,
+      "api_calls": 1,
+      "images_processed": 4,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "medium",
+      "imageID": "1"
+    },
+    {
+      "name": "Dining chair",
+      "quantity": 6,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Artwork/Framed",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Patio chair",
+      "quantity": 5,
+      "location": "patio",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "Patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "small",
+      "imageID": "2"
+    },
+    {
+      "name": "Recliner",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "3"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "3"
+    },
+    {
+      "name": "Sectional couch",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "4"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "4"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "4"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg"
+    ],
+    "original_names": [
+      "dining.jpeg",
+      "patio.jpeg",
+      "recliner.jpeg",
+      "sectional.jpeg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

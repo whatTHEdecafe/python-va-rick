@@ -1,0 +1,469 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_060303_real_job_5",
+  "name": "ex job 5",
+  "createdAt": "2026-06-17T06:03:03Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "1"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 2,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "1, 9"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "2"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "3"
+      },
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "Dining chair",
+        "quantity": 4,
+        "location": "dining room",
+        "size": "small",
+        "imageID": "4"
+      },
+      {
+        "name": "Artwork/Framed",
+        "quantity": 2,
+        "location": "dining room, living room",
+        "size": "large",
+        "imageID": "6, 8"
+      },
+      {
+        "name": "Armchair",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "9"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office",
+        "size": "large",
+        "imageID": "10"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office",
+        "size": "small",
+        "imageID": "10"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "office",
+        "size": "medium",
+        "imageID": "11"
+      },
+      {
+        "name": "Coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "12"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "13, 16"
+      },
+      {
+        "name": "Nightstand",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "14"
+      },
+      {
+        "name": "Bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "15"
+      },
+      {
+        "name": "Mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "15"
+      },
+      {
+        "name": "Mirror",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "dresser mirror",
+        "imageID": "16"
+      },
+      {
+        "name": "Sectional couch",
+        "quantity": 1,
+        "location": "basement",
+        "size": "large",
+        "imageID": "17"
+      },
+      {
+        "name": "Stationary bike",
+        "quantity": 1,
+        "location": "basement",
+        "size": "small",
+        "imageID": "17"
+      },
+      {
+        "name": "Dumbbell set",
+        "quantity": 3,
+        "location": "basement",
+        "size": "small",
+        "imageID": "18"
+      },
+      {
+        "name": "Patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "19"
+      },
+      {
+        "name": "Patio chair",
+        "quantity": 4,
+        "location": "patio",
+        "size": "small",
+        "imageID": "19"
+      },
+      {
+        "name": "BBQ grill",
+        "quantity": 1,
+        "location": "patio",
+        "size": "medium",
+        "imageID": "20"
+      },
+      {
+        "name": "Changing table",
+        "quantity": 1,
+        "location": "nursery",
+        "size": "medium",
+        "imageID": "21"
+      },
+      {
+        "name": "Armchair",
+        "quantity": 1,
+        "location": "nursery",
+        "size": "small",
+        "imageID": "22"
+      }
+    ],
+    "summary": {
+      "totalItems": 32,
+      "clutterLevel": "moderate",
+      "notes": "Items identified across various rooms including living room, dining room, office, bedroom, basement, and patio. Specific sizes and types are noted where visible."
+    },
+    "metrics": {
+      "file_analysis_time": 79.42560958862305,
+      "api_calls": 1,
+      "images_processed": 69,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "1"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 2,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "1, 9"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "2"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "3"
+    },
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "Dining chair",
+      "quantity": 4,
+      "location": "dining room",
+      "size": "small",
+      "imageID": "4"
+    },
+    {
+      "name": "Artwork/Framed",
+      "quantity": 2,
+      "location": "dining room, living room",
+      "size": "large",
+      "imageID": "6, 8"
+    },
+    {
+      "name": "Armchair",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "9"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office",
+      "size": "large",
+      "imageID": "10"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office",
+      "size": "small",
+      "imageID": "10"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "office",
+      "size": "medium",
+      "imageID": "11"
+    },
+    {
+      "name": "Coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "12"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "13, 16"
+    },
+    {
+      "name": "Nightstand",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "14"
+    },
+    {
+      "name": "Bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "15"
+    },
+    {
+      "name": "Mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "15"
+    },
+    {
+      "name": "Mirror",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "dresser mirror",
+      "imageID": "16"
+    },
+    {
+      "name": "Sectional couch",
+      "quantity": 1,
+      "location": "basement",
+      "size": "large",
+      "imageID": "17"
+    },
+    {
+      "name": "Stationary bike",
+      "quantity": 1,
+      "location": "basement",
+      "size": "small",
+      "imageID": "17"
+    },
+    {
+      "name": "Dumbbell set",
+      "quantity": 3,
+      "location": "basement",
+      "size": "small",
+      "imageID": "18"
+    },
+    {
+      "name": "Patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "19"
+    },
+    {
+      "name": "Patio chair",
+      "quantity": 4,
+      "location": "patio",
+      "size": "small",
+      "imageID": "19"
+    },
+    {
+      "name": "BBQ grill",
+      "quantity": 1,
+      "location": "patio",
+      "size": "medium",
+      "imageID": "20"
+    },
+    {
+      "name": "Changing table",
+      "quantity": 1,
+      "location": "nursery",
+      "size": "medium",
+      "imageID": "21"
+    },
+    {
+      "name": "Armchair",
+      "quantity": 1,
+      "location": "nursery",
+      "size": "small",
+      "imageID": "22"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg",
+      "preview_14.jpg",
+      "preview_15.jpg",
+      "preview_16.jpg",
+      "preview_17.jpg",
+      "preview_18.jpg",
+      "preview_19.jpg",
+      "preview_20.jpg",
+      "preview_21.jpg"
+    ],
+    "original_names": [
+      "IMG_0949.heic",
+      "IMG_0951.heic",
+      "IMG_0952.heic",
+      "IMG_0953.heic",
+      "IMG_0954.heic",
+      "IMG_0955.heic",
+      "IMG_0956.heic",
+      "IMG_0957.heic",
+      "IMG_0958.heic",
+      "IMG_0959.heic",
+      "IMG_0960.heic",
+      "IMG_0961.heic",
+      "IMG_0962.heic",
+      "IMG_0963.heic",
+      "IMG_0964.heic",
+      "IMG_0965.heic",
+      "IMG_0971.heic",
+      "IMG_0972.heic",
+      "IMG_0976.heic",
+      "IMG_0977.heic",
+      "IMG_0980.heic",
+      "IMG_0981.heic"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

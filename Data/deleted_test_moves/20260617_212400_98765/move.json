@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_212400_98765",
+  "name": "98765",
+  "createdAt": "2026-06-17T21:24:00Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "office",
+        "size": "large"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office",
+        "size": "medium"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office",
+        "size": "small"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "office",
+        "size": "small"
+      },
+      {
+        "name": "TV (flat panel)",
+        "quantity": 1,
+        "location": "office",
+        "size": "small"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "office",
+        "size": "medium"
+      },
+      {
+        "name": "Artwork/Framed",
+        "quantity": 1,
+        "location": "office",
+        "size": "small"
+      }
+    ],
+    "summary": {
+      "totalItems": 7,
+      "clutterLevel": "low",
+      "notes": "Office items identified, including a large bookcase and a medium-sized office desk. A small floor lamp, small TV (monitor), and a medium area rug are also present. One framed artwork is on the wall."
+    },
+    "metrics": {
+      "file_analysis_time": 5.392176389694214,
+      "api_calls": 1,
+      "images_processed": 2,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "office",
+      "size": "large"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office",
+      "size": "medium"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office",
+      "size": "small"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "office",
+      "size": "small"
+    },
+    {
+      "name": "TV (flat panel)",
+      "quantity": 1,
+      "location": "office",
+      "size": "small"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "office",
+      "size": "medium"
+    },
+    {
+      "name": "Artwork/Framed",
+      "quantity": 1,
+      "location": "office",
+      "size": "small"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg"
+    ],
+    "original_names": [
+      "ChatGPT Image Apr 30, 2026, 01_46_13 PM.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260616_195523_real_job_2",
+  "name": "ex job 2",
+  "createdAt": "2026-06-16T19:55:23Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "filing cabinet",
+        "quantity": 2,
+        "location": "basement",
+        "size": "medium",
+        "imageID": "1, 2"
+      },
+      {
+        "name": "metal shelving unit",
+        "quantity": 1,
+        "location": "basement",
+        "size": "large",
+        "imageID": "3"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "bookcase",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "5"
+      },
+      {
+        "name": "recliner",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "5"
+      },
+      {
+        "name": "end table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "5"
+      },
+      {
+        "name": "bar stool",
+        "quantity": 3,
+        "location": "kitchen/dining area",
+        "size": "small",
+        "imageID": "6"
+      },
+      {
+        "name": "refrigerator",
+        "quantity": 1,
+        "location": "kitchen/dining area",
+        "size": "medium",
+        "imageID": "6"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "hallway/living area",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "artwork/framed",
+        "quantity": 1,
+        "location": "hallway/living area",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "china cabinet",
+        "quantity": 1,
+        "location": "dining room",
+        "size": "large",
+        "imageID": "8"
+      },
+      {
+        "name": "metal shelving unit",
+        "quantity": 1,
+        "location": "sunroom/living area",
+        "size": "medium",
+        "imageID": "9"
+      },
+      {
+        "name": "bookcase",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "10"
+      },
+      {
+        "name": "office desk",
+        "quantity": 1,
+        "location": "office",
+        "size": "large",
+        "imageID": "11"
+      },
+      {
+        "name": "office chair",
+        "quantity": 1,
+        "location": "office",
+        "size": "medium",
+        "imageID": "11"
+      },
+      {
+        "name": "office desk",
+        "quantity": 1,
+        "location": "office/bedroom",
+        "size": "medium",
+        "imageID": "12"
+      },
+      {
+        "name": "office chair",
+        "quantity": 1,
+        "location": "office/bedroom",
+        "size": "small",
+        "imageID": "12"
+      },
+      {
+        "name": "wardrobe/armoire",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "13"
+      },
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "large",
+        "imageID": "14"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "dresser mirror",
+        "imageID": "14"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "bathroom",
+        "size": "large",
+        "imageID": "15"
+      },
+      {
+        "name": "chest freezer",
+        "quantity": 1,
+        "location": "garage",
+        "size": "medium",
+        "imageID": "16"
+      },
+      {
+        "name": "snow blower",
+        "quantity": 1,
+        "location": "garage",
+        "size": "two-stage",
+        "imageID": "17"
+      },
+      {
+        "name": "workbench",
+        "quantity": 1,
+        "location": "garage",
+        "size": "medium",
+        "imageID": "18"
+      },
+      {
+        "name": "large planter",
+        "quantity": 2,
+        "location": "outdoor",
+        "size": "large",
+        "imageID": "19, 20"
+      }
+    ],
+    "summary": {
+      "totalItems": 28,
+      "clutterLevel": "moderate",
+      "notes": "Items identified across basement, living room, kitchen/dining, office, bedroom, bathroom, garage, and outdoor areas. Several items are partially obscured or in cluttered areas."
+    },
+    "metrics": {
+      "file_analysis_time": 57.62995958328247,
+      "api_calls": 1,
+      "images_processed": 20,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "filing cabinet",
+      "quantity": 2,
+      "location": "basement",
+      "size": "medium",
+      "imageID": "1, 2"
+    },
+    {
+      "name": "metal shelving unit",
+      "quantity": 1,
+      "location": "basement",
+      "size": "large",
+      "imageID": "3"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "bookcase",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "5"
+    },
+    {
+      "name": "recliner",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "5"
+    },
+    {
+      "name": "end table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "5"
+    },
+    {
+      "name": "bar stool",
+      "quantity": 3,
+      "location": "kitchen/dining area",
+      "size": "small",
+      "imageID": "6"
+    },
+    {
+      "name": "refrigerator",
+      "quantity": 1,
+      "location": "kitchen/dining area",
+      "size": "medium",
+      "imageID": "6"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "hallway/living area",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "artwork/framed",
+      "quantity": 1,
+      "location": "hallway/living area",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "china cabinet",
+      "quantity": 1,
+      "location": "dining room",
+      "size": "large",
+      "imageID": "8"
+    },
+    {
+      "name": "metal shelving unit",
+      "quantity": 1,
+      "location": "sunroom/living area",
+      "size": "medium",
+      "imageID": "9"
+    },
+    {
+      "name": "bookcase",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "10"
+    },
+    {
+      "name": "office desk",
+      "quantity": 1,
+      "location": "office",
+      "size": "large",
+      "imageID": "11"
+    },
+    {
+      "name": "office chair",
+      "quantity": 1,
+      "location": "office",
+      "size": "medium",
+      "imageID": "11"
+    },
+    {
+      "name": "office desk",
+      "quantity": 1,
+      "location": "office/bedroom",
+      "size": "medium",
+      "imageID": "12"
+    },
+    {
+      "name": "office chair",
+      "quantity": 1,
+      "location": "office/bedroom",
+      "size": "small",
+      "imageID": "12"
+    },
+    {
+      "name": "wardrobe/armoire",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "13"
+    },
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "large",
+      "imageID": "14"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "dresser mirror",
+      "imageID": "14"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "bathroom",
+      "size": "large",
+      "imageID": "15"
+    },
+    {
+      "name": "chest freezer",
+      "quantity": 1,
+      "location": "garage",
+      "size": "medium",
+      "imageID": "16"
+    },
+    {
+      "name": "snow blower",
+      "quantity": 1,
+      "location": "garage",
+      "size": "two-stage",
+      "imageID": "17"
+    },
+    {
+      "name": "workbench",
+      "quantity": 1,
+      "location": "garage",
+      "size": "medium",
+      "imageID": "18"
+    },
+    {
+      "name": "large planter",
+      "quantity": 2,
+      "location": "outdoor",
+      "size": "large",
+      "imageID": "19, 20"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg",
+      "preview_14.jpg",
+      "preview_15.jpg",
+      "preview_16.jpg",
+      "preview_17.jpg",
+      "preview_18.jpg",
+      "preview_19.jpg"
+    ],
+    "original_names": [
+      "IMG_4150.HEIC",
+      "IMG_4151.HEIC",
+      "IMG_4152.HEIC",
+      "IMG_4153.HEIC",
+      "IMG_4154.HEIC",
+      "IMG_4155.HEIC",
+      "IMG_4156.HEIC",
+      "IMG_4157.HEIC",
+      "IMG_4158.HEIC",
+      "IMG_4159.HEIC",
+      "IMG_4160.HEIC",
+      "IMG_4161.HEIC",
+      "IMG_4162.HEIC",
+      "IMG_4163.HEIC",
+      "IMG_4164.HEIC",
+      "IMG_4165.HEIC",
+      "IMG_4166.HEIC",
+      "IMG_4167.HEIC",
+      "IMG_4168.HEIC",
+      "IMG_4169.jpg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

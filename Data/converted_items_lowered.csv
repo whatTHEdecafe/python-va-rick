@@ -1,0 +1,138 @@
+category,aliases,volume_small,volume_medium,volume_large,weight_small,weight_medium,weight_large,baseTime_small,baseTime_medium,baseTime_large,disassemblyAdder_small,disassemblyAdder_medium,disassemblyAdder_large,bulkyAdder_small,bulkyAdder_medium,bulkyAdder_large,heavyAdder_small,heavyAdder_medium,heavyAdder_large,twoPersonRequired_small,twoPersonRequired_medium,twoPersonRequired_large,stackable,stackableSavings,elevatorFit
+mattress,mattress; foam mattress; spring mattress; queen mattress; king mattress; twin mattress,10.0,15.0,22.0,25.0,50.0,90.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+bed,bed; bed set; full bed; queen bed; king bed; twin bed,16.0,24.0,35.0,45.0,80.0,130.0,4.0,6.0,9.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+bunk bed,bunk bed; bunkbed; bunk beds,30.0,50.0,70.0,100.0,150.0,220.0,6.0,9.0,12.0,8.0,12.0,16.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+crib,crib; baby crib; kids crib; toddler crib,10.0,15.0,22.0,30.0,50.0,75.0,3.0,4.0,6.0,3.0,5.0,8.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Yes
+storage bed,storage bed; bed with storage,25.0,40.0,60.0,90.0,140.0,200.0,6.0,8.0,11.0,8.0,12.0,16.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+daybed,daybed; day bed; sofa bed frame,16.0,25.0,40.0,55.0,90.0,140.0,4.0,6.0,8.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+headboard,headboard; bed headboard,4.0,6.0,10.0,15.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+box spring,box spring; boxspring; foundation; bed foundation,8.0,12.0,18.0,20.0,35.0,60.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+nightstand,nightstand; bedside table; bedside cabinet; side table,4.0,6.0,10.0,18.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+dresser,dresser; drawer dresser; low dresser; bedroom dresser,14.0,22.0,32.0,60.0,110.0,180.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Yes,15.0,Usually
+tall dresser,tall dresser; chest of drawers; tall chest; high dresser,16.0,25.0,35.0,70.0,130.0,200.0,6.0,8.0,11.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Yes,15.0,Usually
+wardrobe,wardrobe; armoire; wardrobe cabinet; wardrobe closet; clothing wardrobe,22.0,35.0,50.0,100.0,150.0,220.0,7.0,10.0,14.0,6.0,9.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+vanity table,vanity; vanity table; dressing table; makeup table,9.0,15.0,22.0,35.0,60.0,95.0,4.0,6.0,8.0,3.0,5.0,8.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+mirror,mirror; wall mirror; bedroom mirror,3.0,5.0,8.0,12.0,20.0,35.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,No,0.0,Yes
+floor mirror,floor mirror; standing mirror; full mirror; full length mirror,5.0,8.0,14.0,20.0,35.0,60.0,3.0,4.0,5.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+hutch,hutch; top cabinet; dresser hutch; desk hutch; cabinet hutch,9.0,16.0,25.0,35.0,70.0,120.0,4.0,6.0,9.0,3.0,5.0,8.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+clothing rack,clothing rack; garment rack; clothes rack; rolling rack,5.0,8.0,12.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+bench,bench; bedroom bench; end bench; bed bench; storage bench; dining bench; entry bench; outdoor bench,5.0,8.0,14.0,20.0,40.0,70.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Yes
+trunk,trunk; storage trunk; storage chest; foot trunk; travel trunk; toy chest; blanket chest,7.0,12.0,20.0,35.0,70.0,120.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Yes
+,,,,,,,,,,,,,,,,,,,,,,,,,
+desk,desk; computer desk; writing desk; student desk; standing desk; adjustable desk,10.0,18.0,28.0,45.0,90.0,150.0,4.0,6.0,9.0,3.0,5.0,8.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+L desk,l desk; l shaped desk; corner desk; workstation desk,20.0,32.0,48.0,85.0,150.0,230.0,6.0,9.0,12.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+dining table,dining table; kitchen table; dinner table,20.0,32.0,48.0,70.0,120.0,190.0,5.0,8.0,11.0,3.0,5.0,8.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+coffee table,coffee table; center table; living room table; low table,8.0,14.0,20.0,30.0,55.0,85.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+side table,side table; end table; lamp table; accent table,4.0,6.0,10.0,18.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+console table,console table; hallway table; entry table; sofa table,8.0,14.0,20.0,30.0,55.0,85.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+workbench,workbench; work table; shop table; garage table; utility table,18.0,32.0,52.0,85.0,150.0,240.0,7.0,10.0,13.0,5.0,8.0,12.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+folding table,folding table; foldable table; collapsible table,6.0,10.0,15.0,20.0,35.0,55.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+patio table,patio table; outdoor table; garden table; backyard table,12.0,20.0,32.0,40.0,80.0,140.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+kitchen cart,kitchen cart; rolling cart; kitchen trolley; island cart; small island,8.0,14.0,22.0,30.0,65.0,110.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,yes
+kitchen island,kitchen island; movable island; large island; butcher block island; rolling island large,18.0,30.0,45.0,100.0,160.0,230.0,7.0,10.0,13.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+,,,,,,,,,,,,,,,,,,,,,,,,,
+bookshelf,bookshelf; bookcase; wood bookshelf; small bookcase; book shelf,12.0,20.0,32.0,50.0,85.0,140.0,4.0,6.0,9.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+shelving unit,shelving unit; storage rack; garage shelf; metal shelf; heavy shelf; rack unit; storage shelving,16.0,28.0,45.0,60.0,100.0,170.0,5.0,7.0,10.0,3.0,5.0,8.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+cabinet,cabinet; storage cabinet; floor cabinet; tall cabinet; pantry cabinet,16.0,26.0,42.0,60.0,110.0,170.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+filing cabinet,filing cabinet; file cabinet; file drawer; office file cabinet,10.0,18.0,26.0,50.0,100.0,170.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+display cabinet,display cabinet; display case; curio cabinet; glass cabinet,18.0,30.0,48.0,80.0,140.0,220.0,6.0,9.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+china cabinet,china cabinet; dish cabinet; hutch cabinet; large hutch,24.0,40.0,65.0,120.0,190.0,300.0,7.0,10.0,14.0,3.0,5.0,8.0,,,,,,,Yes,Yes,Yes,No,0.0,If disassembled
+tv stand,tv stand; tv table; television stand; tv cabinet; media console; entertainment console; entertainment stand; tv console,12.0,20.0,32.0,40.0,80.0,130.0,4.0,6.0,9.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+tool chest,tool chest; tool cabinet; mechanic chest,12.0,25.0,42.0,80.0,140.0,230.0,5.0,8.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+deck box,deck box; patio box; outdoor box; storage box,8.0,14.0,20.0,30.0,55.0,90.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+plastic storage bin,storage bin; tote; storage tote,2.0,4.0,6.0,5.0,10.0,15.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+suitcase,suitcase; luggage; travel bag; travel case,3.0,5.0,8.0,10.0,18.0,30.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+wall cabinet,wall cabinet; mounted cabinet; wall unit,8.0,14.0,20.0,30.0,55.0,90.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+locker,locker; storage locker; gym locker,12.0,20.0,32.0,70.0,120.0,190.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+safe,safe; security safe; lock safe; heavy safe; gun safe,8.0,18.0,32.0,80.0,160.0,300.0,6.0,9.0,13.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Maybe
+,,,,,,,,,,,,,,,,,,,,,,,,,
+chair,chair; accent chair; armchair; side chair,4.0,6.0,10.0,12.0,25.0,45.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+recliner,recliner; lounge chair,12.0,20.0,32.0,60.0,100.0,170.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+office chair,office chair; desk chair; computer chair; swivel chair; ergonomic chair,5.0,8.0,12.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+dining chair,dining chair; kitchen chair; table chair,4.0,6.0,10.0,12.0,25.0,45.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+stool,stool; bar stool; vanity stool; makeup stool; dressing stool,3.0,5.0,8.0,10.0,20.0,35.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+ottoman,ottoman; pouf; storage ottoman,4.0,6.0,10.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+sofa,sofa; couch; loveseat,28.0,45.0,70.0,110.0,180.0,280.0,7.0,10.0,14.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+sectional sofa,sectional sofa; sectional; l shape sofa; corner sofa; sectional couch,45.0,70.0,110.0,180.0,280.0,420.0,10.0,14.0,18.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+chaise lounge,chaise lounge; chaise; sofa chaise,18.0,30.0,45.0,75.0,130.0,200.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+hanging chair,hanging chair; egg chair; swing chair; pod chair; hammock chair,8.0,14.0,20.0,35.0,60.0,95.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+massage chair,massage chair; massage recliner; electric massage chair; shiatsu chair,20.0,32.0,48.0,90.0,150.0,230.0,6.0,9.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+,,,,,,,,,,,,,,,,,,,,,,,,,
+tv,tv; television; flat screen tv,3.0,6.0,10.0,18.0,35.0,65.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Yes
+monitor,monitor; computer monitor; display monitor,2.0,3.0,5.0,8.0,15.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,No,0.0,Yes
+computer,computer; desktop computer; computer tower; desktop pc,2.0,3.0,5.0,8.0,18.0,30.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+printer,printer; office printer; laser printer; inkjet printer,3.0,6.0,10.0,18.0,35.0,65.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+floor speaker,floor speaker; large speaker; tower speaker; big speaker,6.0,10.0,18.0,30.0,60.0,110.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+stereo console,stereo console; stereo system; sound system; audio console,10.0,16.0,28.0,50.0,100.0,170.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+,,,,,,,,,,,,,,,,,,,,,,,,,
+mini fridge,mini fridge; small fridge; bar fridge; dorm fridge,6.0,10.0,14.0,35.0,60.0,90.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+refrigerator,refrigerator; fridge; fridge freezer,24.0,40.0,60.0,140.0,220.0,320.0,6.0,9.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+freezer,freezer; deep freezer; chest freezer; upright freezer,20.0,35.0,50.0,110.0,180.0,260.0,6.0,8.0,11.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+washer,washer; washing machine; clothes washer,14.0,22.0,30.0,140.0,190.0,240.0,6.0,8.0,11.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+dryer,dryer; clothes dryer; tumble dryer,14.0,22.0,30.0,110.0,150.0,200.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+washer dryer combo,washer dryer combo; combo washer dryer; laundry center,18.0,30.0,42.0,170.0,230.0,300.0,7.0,10.0,13.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+dishwasher,dishwasher; built in dishwasher,8.0,14.0,20.0,70.0,110.0,150.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+stove,stove; oven; range,18.0,26.0,34.0,110.0,170.0,230.0,6.0,8.0,11.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+microwave,microwave; microwave oven,2.0,4.0,6.0,12.0,25.0,40.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+water dispenser,water dispenser; water cooler; office water cooler; bottle water cooler,5.0,8.0,12.0,25.0,45.0,70.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+portable ac,portable ac; portable air conditioner; ac unit,6.0,10.0,14.0,35.0,55.0,80.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+dehumidifier,dehumidifier; humidity remover,3.0,5.0,8.0,18.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+,,,,,,,,,,,,,,,,,,,,,,,,,
+treadmill,treadmill; running machine,18.0,30.0,45.0,110.0,180.0,260.0,5.0,8.0,11.0,3.0,5.0,8.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+elliptical,elliptical; elliptical machine,16.0,26.0,40.0,100.0,160.0,220.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+exercise bike,exercise bike; stationary bike; spin bike,12.0,20.0,32.0,70.0,120.0,180.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+rowing machine,rowing machine; rower,12.0,20.0,32.0,70.0,120.0,180.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+weight bench,weight bench; workout bench; gym bench,8.0,14.0,20.0,50.0,85.0,130.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Yes
+dumbbell set,dumbbell set; free weights; dumbbells,4.0,8.0,16.0,70.0,130.0,260.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Yes
+barbell set,barbell; weight plates; barbell set; olympic weights,4.0,10.0,20.0,90.0,180.0,320.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Yes
+home gym,home gym; gym machine; cable machine; bowflex; workout machine,26.0,42.0,65.0,180.0,300.0,420.0,7.0,10.0,14.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+power rack,power rack; squat rack; gym rack; weight rack,22.0,35.0,55.0,130.0,220.0,320.0,6.0,9.0,12.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+punching bag,punching bag; boxing bag; heavy bag,6.0,12.0,18.0,50.0,100.0,160.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,0.0,Yes
+game table,game table; foosball table; air hockey; game table,22.0,35.0,55.0,110.0,180.0,250.0,6.0,9.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+ping pong table,ping pong table; table tennis,12.0,20.0,32.0,50.0,85.0,130.0,4.0,6.0,8.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,0.0,Usually
+pool table,pool table; billiards table; snooker table,45.0,70.0,100.0,350.0,520.0,720.0,9.0,12.0,16.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,No
+arcade machine,arcade machine; arcade game; arcade cabinet; video game machine,30.0,50.0,75.0,170.0,260.0,360.0,7.0,10.0,13.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+pinball machine,pinball machine; pinball table,34.0,55.0,80.0,200.0,300.0,420.0,7.0,10.0,14.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+piano upright,upright piano; standing piano,36.0,60.0,85.0,260.0,360.0,520.0,10.0,14.0,18.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,No
+piano grand,grand piano; baby grand piano,70.0,105.0,150.0,420.0,650.0,900.0,12.0,16.0,22.0,6.0,9.0,12.0,,,,,,,Yes,Yes,Yes,No,0.0,No
+aquarium,aquarium; fish tank,12.0,24.0,45.0,100.0,200.0,380.0,5.0,7.0,10.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+hot tub,hot tub; jacuzzi; spa tub,50.0,80.0,120.0,320.0,550.0,800.0,12.0,16.0,22.0,8.0,12.0,16.0,,,,,,,Yes,Yes,Yes,No,0.0,No
+,,,,,,,,,,,,,,,,,,,,,,,,,
+bbq grill,bbq grill; barbecue; grill,8.0,14.0,20.0,35.0,60.0,95.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+lawn mower,lawn mower; mower,6.0,10.0,14.0,35.0,60.0,90.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+snow blower,snow blower; snow thrower,10.0,16.0,24.0,55.0,90.0,140.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+bicycle,bicycle; bike,5.0,8.0,12.0,18.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+ladder,ladder; step ladder; extension ladder,5.0,8.0,16.0,18.0,35.0,70.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+planter,planter; plant pot; flower pot,4.0,8.0,16.0,18.0,35.0,70.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+patio umbrella,patio umbrella; outdoor umbrella,3.0,5.0,8.0,8.0,15.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+garden tools,garden tools; yard tools; tool bundle,3.0,6.0,12.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+air compressor,air compressor; compressor; shop compressor,8.0,14.0,22.0,50.0,100.0,160.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,0.0,Usually
+shop vac,shop vac; shop vacuum; wet dry vac; wet dry vacuum,5.0,8.0,12.0,22.0,40.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+pressure washer,pressure washer; power washer; jet washer,6.0,10.0,16.0,30.0,50.0,85.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+generator,generator; portable generator; power generator,8.0,14.0,22.0,50.0,100.0,160.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,0.0,Usually
+wheelbarrow,wheelbarrow; garden wheelbarrow,6.0,10.0,14.0,22.0,40.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+riding lawn mower,riding mower; riding lawn mower; lawn tractor,35.0,60.0,90.0,220.0,350.0,520.0,7.0,10.0,14.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,No
+fire pit,fire pit; outdoor fire pit; patio fire pit,8.0,14.0,22.0,35.0,70.0,120.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Yes,15.0,Usually
+patio heater,patio heater; outdoor heater; propane heater,10.0,16.0,24.0,45.0,80.0,130.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,No,0.0,Usually
+trampoline,trampoline; backyard trampoline; outdoor trampoline,20.0,32.0,55.0,70.0,110.0,160.0,6.0,9.0,12.0,5.0,8.0,12.0,,,,,,,Yes,Yes,Yes,Usually,0.0,Usually
+,,,,,,,,,,,,,,,,,,,,,,,,,
+area rug,area rug; rug,4.0,8.0,16.0,18.0,35.0,70.0,2.0,3.0,5.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+large rug,large rug; oversized rug; big rug; carpet roll,12.0,20.0,32.0,35.0,70.0,120.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Usually,15.0,Usually
+floor lamp,floor lamp; standing lamp,2.0,4.0,6.0,8.0,15.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+artwork,artwork; painting; framed art; wall art; picture frame,2.0,3.0,6.0,5.0,12.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,0.0,Yes
+christmas tree,christmas tree; xmas tree; artificial tree,5.0,8.0,16.0,12.0,25.0,50.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+cat tree,cat tree; cat tower; pet tower; scratching post,6.0,12.0,20.0,25.0,50.0,85.0,3.0,5.0,7.0,0.0,0.0,0.0,,,,,,,Maybe,Maybe,Maybe,Usually,15.0,Yes
+standing clock,standing clock; grandfather clock; floor clock; tall clock; pendulum clock,18.0,30.0,45.0,100.0,170.0,250.0,6.0,9.0,12.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+space heater,space heater; heater; portable heater; electric heater,2.0,5.0,8.0,12.0,25.0,40.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+fan,fan; standing fan; tower fan; floor fan; pedestal fan,2.0,4.0,6.0,8.0,15.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+sports bag,sports bag; hockey bag; golf bag; equipment bag; gear bag,5.0,8.0,12.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+cart,cart; stroller; wagon; push cart; utility cart; garden cart; folding wagon,8.0,14.0,20.0,22.0,40.0,70.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+ride on toy,ride on toy; ride on car; kids car; power wheels;  kids ride on,10.0,16.0,24.0,25.0,45.0,80.0,3.0,4.0,6.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Usually
+car seat,car seat; baby car seat; booster seat; child seat,3.0,5.0,8.0,8.0,15.0,25.0,2.0,2.0,3.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,30.0,Yes
+cooler,cooler; ice chest; camping cooler; igloo cooler,5.0,8.0,12.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+tool bag,tool bag; tool box; toolbox; tool kit; tools bag,5.0,8.0,12.0,22.0,40.0,70.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+pet crate,pet crate; dog crate; cat crate; animal crate; kennel,6.0,10.0,16.0,18.0,35.0,60.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+bike,bike; bicycle; mountain bike; road bike; kids bike; bmx; electric bike; e bike,5.0,8.0,12.0,18.0,30.0,50.0,2.0,3.0,4.0,0.0,0.0,0.0,,,,,,,No,No,No,Yes,15.0,Yes
+,,,,,,,,,,,,,,,,,,,,,,,,,
+commercial fridge,commercial fridge; display fridge; drink cooler; glass door fridge; restaurant fridge; store fridge; merchandiser fridge,36.0,60.0,85.0,220.0,320.0,420.0,8.0,12.0,16.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually
+vending machine,vending machine; snack machine; soda machine; drink machine; pop machine,34.0,58.0,85.0,260.0,380.0,480.0,9.0,13.0,18.0,0.0,0.0,0.0,,,,,,,Yes,Yes,Yes,No,0.0,Usually

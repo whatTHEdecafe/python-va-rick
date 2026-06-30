@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260616_195723_testing_delete",
+  "name": "testing delete",
+  "createdAt": "2026-06-16T19:57:23Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Large planter",
+        "quantity": 1,
+        "location": "outdoor",
+        "size": "None",
+        "imageID": "1"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "clutterLevel": "minimal",
+      "notes": "Outdoor planter visible next to a garage/driveway."
+    },
+    "metrics": {
+      "file_analysis_time": 5.127790927886963,
+      "api_calls": 1,
+      "images_processed": 22,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Large planter",
+      "quantity": 1,
+      "location": "outdoor",
+      "size": "None",
+      "imageID": "1"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg"
+    ],
+    "original_names": [
+      "IMG_4168.HEIC",
+      "IMG_4169.jpg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

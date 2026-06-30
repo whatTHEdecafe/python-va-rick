@@ -1,0 +1,427 @@
+{
+  "movingItemsLogistics": {
+    "metadata": {
+      "description": "Moving logistics data for different furniture items with time estimates based on size",
+      "version": "1.1",
+      "lastUpdated": "2025-10-08",
+      "units": {
+        "time": "minutes",
+        "sizes": ["Small", "Medium", "Large"],
+        "sizeAbbreviations": ["S", "M", "L"]
+      }
+    },
+    "categories": [
+      {
+        "category": "Cabinets & chests",
+        "baseTime": {
+          "small": 12,
+          "medium": 22,
+          "large": 40
+        },
+        "disassemblyAdder": {
+          "small": 10,
+          "medium": 20,
+          "large": 40
+        },
+        "bulkyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 20
+        },
+        "heavyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 20
+        },
+        "elevatorCompatibility": {
+          "description": "S/M usually yes; L often no (needs disassembly)",
+          "small": true,
+          "medium": true,
+          "large": false,
+          "largeNote": "often requires disassembly"
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0
+        },
+        "perFloorStairsAdder": {
+          "small": 3,
+          "medium": 6,
+          "large": 12
+        },
+        "classificationLogic": {
+          "small": "Nightstands, 2-drawer chest",
+          "medium": "Standard dresser (4-5 drawers)",
+          "large": "Wardrobe, armoire, large cabinet"
+        }
+      },
+      {
+        "category": "Shelves (assembled)",
+        "baseTime": {
+          "small": 8,
+          "medium": 14,
+          "large": 22
+        },
+        "disassemblyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 20
+        },
+        "bulkyAdder": {
+          "small": 3,
+          "medium": 6,
+          "large": 12
+        },
+        "heavyAdder": {
+          "small": 2,
+          "medium": 6,
+          "large": 12
+        },
+        "elevatorCompatibility": {
+          "description": "Usually fits if disassembled",
+          "small": true,
+          "medium": true,
+          "large": true,
+          "note": "when disassembled"
+        },
+        "stackable": {
+          "isStackable": true,
+          "savingPercentage": 40,
+          "note": "saving on extras if flat/stacked"
+        },
+        "perFloorStairsAdder": {
+          "small": 2,
+          "medium": 4,
+          "large": 8
+        },
+        "classificationLogic": {
+          "small": "Small bookshelf (2-3 tiers, IKEA cubes)",
+          "medium": "4-5 shelf unit",
+          "large": "Oversized/tall shelving system or wall unit"
+        }
+      },
+      {
+        "category": "Table",
+        "baseTime": {
+          "small": 6,
+          "medium": 12,
+          "large": 20
+        },
+        "disassemblyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 15
+        },
+        "bulkyAdder": {
+          "small": 2,
+          "medium": 6,
+          "large": 12
+        },
+        "heavyAdder": {
+          "small": 2,
+          "medium": 6,
+          "large": 12
+        },
+        "elevatorCompatibility": {
+          "description": "S/M yes; L maybe only if disassembled",
+          "small": true,
+          "medium": true,
+          "large": false,
+          "largeNote": "maybe only if disassembled"
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0
+        },
+        "perFloorStairsAdder": {
+          "small": 2,
+          "medium": 4,
+          "large": 8
+        },
+        "classificationLogic": {
+          "small": "Side/coffee table",
+          "medium": "4-person dining table, desk",
+          "large": "6-10 person dining or conference table"
+        }
+      },
+      {
+        "category": "Chair",
+        "baseTime": {
+          "small": 2,
+          "medium": 3,
+          "large": 5
+        },
+        "disassemblyAdder": {
+          "small": 0,
+          "medium": 5,
+          "large": 8
+        },
+        "bulkyAdder": {
+          "small": 0,
+          "medium": 2,
+          "large": 4
+        },
+        "heavyAdder": {
+          "small": 0,
+          "medium": 3,
+          "large": 6
+        },
+        "elevatorCompatibility": {
+          "description": "Fits elevator",
+          "small": true,
+          "medium": true,
+          "large": true
+        },
+        "stackable": {
+          "isStackable": true,
+          "savingPercentage": 50,
+          "note": "saving on extras for stackable chairs"
+        },
+        "perFloorStairsAdder": {
+          "small": 1,
+          "medium": 2,
+          "large": 3
+        },
+        "classificationLogic": {
+          "small": "Dining chair, small office chair",
+          "medium": "Armchair, recliner",
+          "large": "Oversized lounge chair, heavy recliner"
+        }
+      },
+      {
+        "category": "Couch / Sofa",
+        "baseTime": {
+          "small": 12,
+          "medium": 18,
+          "large": 30
+        },
+        "disassemblyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 20
+        },
+        "bulkyAdder": {
+          "small": 8,
+          "medium": 12,
+          "large": 20
+        },
+        "heavyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 18
+        },
+        "elevatorCompatibility": {
+          "description": "S small/med often yes (if turned); L often no",
+          "small": true,
+          "medium": true,
+          "large": false,
+          "note": "small/medium often yes if turned; large often no"
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0
+        },
+        "perFloorStairsAdder": {
+          "small": 4,
+          "medium": 8,
+          "large": 16
+        },
+        "classificationLogic": {
+          "small": "Loveseat (2-seater)",
+          "medium": "Standard 3-seater or small sectional",
+          "large": "5-6 seater sectional, sleeper sofa, U-shaped"
+        }
+      },
+      {
+        "category": "Bed (frame)",
+        "baseTime": {
+          "small": 10,
+          "medium": 16,
+          "large": 28
+        },
+        "disassemblyAdder": {
+          "small": 10,
+          "medium": 20,
+          "large": 30
+        },
+        "bulkyAdder": {
+          "small": 3,
+          "medium": 6,
+          "large": 12
+        },
+        "heavyAdder": {
+          "small": 3,
+          "medium": 6,
+          "large": 12
+        },
+        "elevatorCompatibility": {
+          "description": "Usually fits if disassembled",
+          "small": true,
+          "medium": true,
+          "large": true,
+          "note": "when disassembled"
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0
+        },
+        "perFloorStairsAdder": {
+          "small": 3,
+          "medium": 6,
+          "large": 12
+        },
+        "classificationLogic": {
+          "small": "Twin/single frame",
+          "medium": "Full/queen frame with headboard",
+          "large": "King/California king, heavy ornate bed"
+        }
+      },
+      {
+        "category": "Mattress",
+        "baseTime": {
+          "small": 4,
+          "medium": 6,
+          "large": 10
+        },
+        "disassemblyAdder": {
+          "small": 0,
+          "medium": 0,
+          "large": 0
+        },
+        "bulkyAdder": {
+          "small": 2,
+          "medium": 4,
+          "large": 6
+        },
+        "heavyAdder": {
+          "small": 1,
+          "medium": 3,
+          "large": 6
+        },
+        "elevatorCompatibility": {
+          "description": "Usually fits elevator",
+          "small": true,
+          "medium": true,
+          "large": true
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0
+        },
+        "perFloorStairsAdder": {
+          "small": 2,
+          "medium": 4,
+          "large": 6
+        },
+        "classificationLogic": {
+          "small": "Twin/single",
+          "medium": "Full/queen",
+          "large": "King/California king"
+        }
+      },
+      {
+        "category": "TV + media stand",
+        "baseTime": {
+          "small": 6,
+          "medium": 12,
+          "large": 18
+        },
+        "disassemblyAdder": {
+          "small": 5,
+          "medium": 10,
+          "large": 15
+        },
+        "bulkyAdder": {
+          "small": 1,
+          "medium": 3,
+          "large": 5
+        },
+        "heavyAdder": {
+          "small": 1,
+          "medium": 3,
+          "large": 5
+        },
+        "elevatorCompatibility": {
+          "description": "Usually yes (stand may disassemble)",
+          "small": true,
+          "medium": true,
+          "large": true,
+          "note": "stand may require disassembly"
+        },
+        "stackable": {
+          "isStackable": false,
+          "savingPercentage": 0,
+          "note": "Stand alone: no; TVs: yes (see TVs row)"
+        },
+        "perFloorStairsAdder": {
+          "small": 2,
+          "medium": 4,
+          "large": 8
+        },
+        "classificationLogic": {
+          "small": "Small TV stand (<3 ft)",
+          "medium": "Mid-sized console (4-5 ft)",
+          "large": "Large entertainment unit or heavy wood stand"
+        }
+      },
+      {
+        "category": "TVs (flat panels)",
+        "baseTime": {
+          "small": 4,
+          "medium": 6,
+          "large": 10
+        },
+        "disassemblyAdder": {
+          "small": 0,
+          "medium": 10,
+          "large": 15,
+          "note": "if wall-mounted"
+        },
+        "bulkyAdder": {
+          "small": 0,
+          "medium": 1,
+          "large": 3
+        },
+        "heavyAdder": {
+          "small": 0,
+          "medium": 2,
+          "large": 5
+        },
+        "elevatorCompatibility": {
+          "description": "Fits elevator",
+          "small": true,
+          "medium": true,
+          "large": true
+        },
+        "stackable": {
+          "isStackable": true,
+          "savingPercentage": 30,
+          "note": "saving on extras"
+        },
+        "perFloorStairsAdder": {
+          "small": 1,
+          "medium": 2,
+          "large": 4
+        },
+        "classificationLogic": {
+          "small": "32-40\" TV (one person)",
+          "medium": "42-55\" TV (two people)",
+          "large": "60\"+ TV, oversized/fragile panels"
+        }
+      }
+    ],
+    "searchableFields": [
+      "category",
+      "classificationLogic.small",
+      "classificationLogic.medium", 
+      "classificationLogic.large",
+      "elevatorCompatibility.description",
+      "stackable.note"
+    ],
+    "calculationFormulas": {
+      "totalTime": "baseTime + disassemblyAdder + bulkyAdder + heavyAdder + (numberOfFloors * perFloorStairsAdder)",
+      "stackableSaving": "baseTime * (stackable.savingPercentage / 100) * (numberOfExtraItems)",
+      "elevatorBonus": "If elevatorCompatible, reduce perFloorStairsAdder by 50%"
+    }
+  }
+}

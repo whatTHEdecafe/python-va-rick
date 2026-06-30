@@ -1,0 +1,6648 @@
+{
+  "movingItemsLogistics": {
+    "metadata": {
+      "description": "Moving logistics database converted from CSV format",
+      "version": "1.0",
+      "lastUpdated": "2026-03-27",
+      "source": "converted_items.csv",
+      "units": {
+        "volume": "cubic feet",
+        "weight": "pounds",
+        "time": "minutes",
+        "sizes": [
+          "small",
+          "medium",
+          "large"
+        ]
+      }
+    },
+    "categories": [
+      {
+        "category": "mattress",
+        "aliases": [
+          "mattress",
+          "foam mattress",
+          "spring mattress",
+          "queen mattress",
+          "king mattress",
+          "twin mattress"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 15.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 25.0,
+          "medium": 50.0,
+          "large": 90.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "bed",
+        "aliases": [
+          "bed",
+          "bed set",
+          "full bed",
+          "queen bed",
+          "king bed",
+          "twin bed"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 24.0,
+          "large": 35.0
+        },
+        "weight": {
+          "small": 45.0,
+          "medium": 80.0,
+          "large": 130.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 9.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "bunk bed",
+        "aliases": [
+          "bunk bed",
+          "bunkbed",
+          "bunk beds"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 30.0,
+          "medium": 50.0,
+          "large": 70.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 150.0,
+          "large": 220.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 8.0,
+          "medium": 12.0,
+          "large": 16.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "crib",
+        "aliases": [
+          "crib",
+          "baby crib",
+          "kids crib",
+          "toddler crib"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 15.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 50.0,
+          "large": 75.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "storage bed",
+        "aliases": [
+          "storage bed",
+          "bed with storage"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 25.0,
+          "medium": 40.0,
+          "large": 60.0
+        },
+        "weight": {
+          "small": 90.0,
+          "medium": 140.0,
+          "large": 200.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 8.0,
+          "medium": 12.0,
+          "large": 16.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "daybed",
+        "aliases": [
+          "daybed",
+          "day bed",
+          "sofa bed frame"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 25.0,
+          "large": 40.0
+        },
+        "weight": {
+          "small": 55.0,
+          "medium": 90.0,
+          "large": 140.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "headboard",
+        "aliases": [
+          "headboard",
+          "bed headboard"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 15.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "box spring",
+        "aliases": [
+          "box spring",
+          "boxspring",
+          "foundation",
+          "bed foundation"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 12.0,
+          "large": 18.0
+        },
+        "weight": {
+          "small": 20.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "nightstand",
+        "aliases": [
+          "nightstand",
+          "bedside table",
+          "bedside cabinet",
+          "side table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "dresser",
+        "aliases": [
+          "dresser",
+          "drawer dresser",
+          "low dresser",
+          "bedroom dresser"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 14.0,
+          "medium": 22.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 60.0,
+          "medium": 110.0,
+          "large": 180.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "tall dresser",
+        "aliases": [
+          "tall dresser",
+          "chest of drawers",
+          "tall chest",
+          "high dresser"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 25.0,
+          "large": 35.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 130.0,
+          "large": 200.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "wardrobe",
+        "aliases": [
+          "wardrobe",
+          "armoire",
+          "wardrobe cabinet",
+          "wardrobe closet",
+          "clothing wardrobe"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 22.0,
+          "medium": 35.0,
+          "large": 50.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 150.0,
+          "large": 220.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "vanity table",
+        "aliases": [
+          "vanity",
+          "vanity table",
+          "dressing table",
+          "makeup table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 9.0,
+          "medium": 15.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 95.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "mirror",
+        "aliases": [
+          "mirror",
+          "wall mirror",
+          "bedroom mirror"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 35.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "floor mirror",
+        "aliases": [
+          "floor mirror",
+          "standing mirror",
+          "full mirror",
+          "full length mirror"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 20.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "hutch",
+        "aliases": [
+          "hutch",
+          "top cabinet",
+          "dresser hutch",
+          "desk hutch",
+          "cabinet hutch"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 9.0,
+          "medium": 16.0,
+          "large": 25.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 70.0,
+          "large": 120.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 9.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "clothing rack",
+        "aliases": [
+          "clothing rack",
+          "garment rack",
+          "clothes rack",
+          "rolling rack"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "bench",
+        "aliases": [
+          "bench",
+          "bedroom bench",
+          "end bench",
+          "bed bench",
+          "storage bench",
+          "dining bench",
+          "entry bench",
+          "outdoor bench"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 20.0,
+          "medium": 40.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "trunk",
+        "aliases": [
+          "trunk",
+          "storage trunk",
+          "storage chest",
+          "foot trunk",
+          "travel trunk",
+          "toy chest",
+          "blanket chest"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 7.0,
+          "medium": 12.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 70.0,
+          "large": 120.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "desk",
+        "aliases": [
+          "desk",
+          "computer desk",
+          "writing desk",
+          "student desk",
+          "standing desk",
+          "adjustable desk"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 18.0,
+          "large": 28.0
+        },
+        "weight": {
+          "small": 45.0,
+          "medium": 90.0,
+          "large": 150.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 9.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "L desk",
+        "aliases": [
+          "l desk",
+          "l shaped desk",
+          "corner desk",
+          "workstation desk"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 20.0,
+          "medium": 32.0,
+          "large": 48.0
+        },
+        "weight": {
+          "small": 85.0,
+          "medium": 150.0,
+          "large": 230.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "dining table",
+        "aliases": [
+          "dining table",
+          "kitchen table",
+          "dinner table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 20.0,
+          "medium": 32.0,
+          "large": 48.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 120.0,
+          "large": 190.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "coffee table",
+        "aliases": [
+          "coffee table",
+          "center table",
+          "living room table",
+          "low table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 55.0,
+          "large": 85.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "side table",
+        "aliases": [
+          "side table",
+          "end table",
+          "lamp table",
+          "accent table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "console table",
+        "aliases": [
+          "console table",
+          "hallway table",
+          "entry table",
+          "sofa table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 55.0,
+          "large": 85.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "workbench",
+        "aliases": [
+          "workbench",
+          "work table",
+          "shop table",
+          "garage table",
+          "utility table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 32.0,
+          "large": 52.0
+        },
+        "weight": {
+          "small": 85.0,
+          "medium": 150.0,
+          "large": 240.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 13.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "folding table",
+        "aliases": [
+          "folding table",
+          "foldable table",
+          "collapsible table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 15.0
+        },
+        "weight": {
+          "small": 20.0,
+          "medium": 35.0,
+          "large": 55.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "patio table",
+        "aliases": [
+          "patio table",
+          "outdoor table",
+          "garden table",
+          "backyard table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 40.0,
+          "medium": 80.0,
+          "large": 140.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "kitchen cart",
+        "aliases": [
+          "kitchen cart",
+          "rolling cart",
+          "kitchen trolley",
+          "island cart",
+          "small island"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 65.0,
+          "large": 110.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "yes"
+      },
+      {
+        "category": "kitchen island",
+        "aliases": [
+          "kitchen island",
+          "movable island",
+          "large island",
+          "butcher block island",
+          "rolling island large"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 160.0,
+          "large": 230.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 13.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "bookshelf",
+        "aliases": [
+          "bookshelf",
+          "bookcase",
+          "wood bookshelf",
+          "small bookcase",
+          "book shelf"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 85.0,
+          "large": 140.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 9.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "shelving unit",
+        "aliases": [
+          "shelving unit",
+          "storage rack",
+          "garage shelf",
+          "metal shelf",
+          "heavy shelf",
+          "rack unit",
+          "storage shelving"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 28.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 60.0,
+          "medium": 100.0,
+          "large": 170.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "cabinet",
+        "aliases": [
+          "cabinet",
+          "storage cabinet",
+          "floor cabinet",
+          "tall cabinet",
+          "pantry cabinet"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 26.0,
+          "large": 42.0
+        },
+        "weight": {
+          "small": 60.0,
+          "medium": 110.0,
+          "large": 170.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "filing cabinet",
+        "aliases": [
+          "filing cabinet",
+          "file cabinet",
+          "file drawer",
+          "office file cabinet"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 18.0,
+          "large": 26.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 100.0,
+          "large": 170.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "display cabinet",
+        "aliases": [
+          "display cabinet",
+          "display case",
+          "curio cabinet",
+          "glass cabinet"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 48.0
+        },
+        "weight": {
+          "small": 80.0,
+          "medium": 140.0,
+          "large": 220.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "china cabinet",
+        "aliases": [
+          "china cabinet",
+          "dish cabinet",
+          "hutch cabinet",
+          "large hutch"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 24.0,
+          "medium": 40.0,
+          "large": 65.0
+        },
+        "weight": {
+          "small": 120.0,
+          "medium": 190.0,
+          "large": 300.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "If disassembled"
+      },
+      {
+        "category": "tv stand",
+        "aliases": [
+          "tv stand",
+          "tv table",
+          "television stand",
+          "tv cabinet",
+          "media console",
+          "entertainment console",
+          "entertainment stand",
+          "tv console"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 40.0,
+          "medium": 80.0,
+          "large": 130.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 9.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "tool chest",
+        "aliases": [
+          "tool chest",
+          "tool cabinet",
+          "mechanic chest"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 42.0
+        },
+        "weight": {
+          "small": 80.0,
+          "medium": 140.0,
+          "large": 230.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "deck box",
+        "aliases": [
+          "deck box",
+          "patio box",
+          "outdoor box",
+          "storage box"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 55.0,
+          "large": 90.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "plastic storage bin",
+        "aliases": [
+          "storage bin",
+          "tote",
+          "storage tote"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "weight": {
+          "small": 5.0,
+          "medium": 10.0,
+          "large": 15.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "suitcase",
+        "aliases": [
+          "suitcase",
+          "luggage",
+          "travel bag",
+          "travel case"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 10.0,
+          "medium": 18.0,
+          "large": 30.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "wall cabinet",
+        "aliases": [
+          "wall cabinet",
+          "mounted cabinet",
+          "wall unit"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 55.0,
+          "large": 90.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "locker",
+        "aliases": [
+          "locker",
+          "storage locker",
+          "gym locker"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 120.0,
+          "large": 190.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "safe",
+        "aliases": [
+          "safe",
+          "security safe",
+          "lock safe",
+          "heavy safe",
+          "gun safe"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 18.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 80.0,
+          "medium": 160.0,
+          "large": 300.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 13.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Maybe"
+      },
+      {
+        "category": "chair",
+        "aliases": [
+          "chair",
+          "accent chair",
+          "armchair",
+          "side chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 45.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "recliner",
+        "aliases": [
+          "recliner",
+          "lounge chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 60.0,
+          "medium": 100.0,
+          "large": 170.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "office chair",
+        "aliases": [
+          "office chair",
+          "desk chair",
+          "computer chair",
+          "swivel chair",
+          "ergonomic chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "dining chair",
+        "aliases": [
+          "dining chair",
+          "kitchen chair",
+          "table chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 45.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "stool",
+        "aliases": [
+          "stool",
+          "bar stool",
+          "vanity stool",
+          "makeup stool",
+          "dressing stool"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 10.0,
+          "medium": 20.0,
+          "large": 35.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "ottoman",
+        "aliases": [
+          "ottoman",
+          "pouf",
+          "storage ottoman"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "sofa",
+        "aliases": [
+          "sofa",
+          "couch",
+          "loveseat"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 28.0,
+          "medium": 45.0,
+          "large": 70.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 180.0,
+          "large": 280.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "sectional sofa",
+        "aliases": [
+          "sectional sofa",
+          "sectional",
+          "l shape sofa",
+          "corner sofa",
+          "sectional couch"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 45.0,
+          "medium": 70.0,
+          "large": 110.0
+        },
+        "weight": {
+          "small": 180.0,
+          "medium": 280.0,
+          "large": 420.0
+        },
+        "baseTime": {
+          "small": 10.0,
+          "medium": 14.0,
+          "large": 18.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "chaise lounge",
+        "aliases": [
+          "chaise lounge",
+          "chaise",
+          "sofa chaise"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 75.0,
+          "medium": 130.0,
+          "large": 200.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "hanging chair",
+        "aliases": [
+          "hanging chair",
+          "egg chair",
+          "swing chair",
+          "pod chair",
+          "hammock chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 95.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "massage chair",
+        "aliases": [
+          "massage chair",
+          "massage recliner",
+          "electric massage chair",
+          "shiatsu chair"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 20.0,
+          "medium": 32.0,
+          "large": 48.0
+        },
+        "weight": {
+          "small": 90.0,
+          "medium": 150.0,
+          "large": 230.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "tv",
+        "aliases": [
+          "tv",
+          "television",
+          "flat screen tv"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 65.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "monitor",
+        "aliases": [
+          "monitor",
+          "computer monitor",
+          "display monitor"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 15.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "computer",
+        "aliases": [
+          "computer",
+          "desktop computer",
+          "computer tower",
+          "desktop pc"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 18.0,
+          "large": 30.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "printer",
+        "aliases": [
+          "printer",
+          "office printer",
+          "laser printer",
+          "inkjet printer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 6.0,
+          "large": 10.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 65.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "floor speaker",
+        "aliases": [
+          "floor speaker",
+          "large speaker",
+          "tower speaker",
+          "big speaker"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 18.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 60.0,
+          "large": 110.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "stereo console",
+        "aliases": [
+          "stereo console",
+          "stereo system",
+          "sound system",
+          "audio console"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 16.0,
+          "large": 28.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 100.0,
+          "large": 170.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "mini fridge",
+        "aliases": [
+          "mini fridge",
+          "small fridge",
+          "bar fridge",
+          "dorm fridge"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 90.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "refrigerator",
+        "aliases": [
+          "refrigerator",
+          "fridge",
+          "fridge freezer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 24.0,
+          "medium": 40.0,
+          "large": 60.0
+        },
+        "weight": {
+          "small": 140.0,
+          "medium": 220.0,
+          "large": 320.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "freezer",
+        "aliases": [
+          "freezer",
+          "deep freezer",
+          "chest freezer",
+          "upright freezer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 20.0,
+          "medium": 35.0,
+          "large": 50.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 180.0,
+          "large": 260.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "washer",
+        "aliases": [
+          "washer",
+          "washing machine",
+          "clothes washer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 14.0,
+          "medium": 22.0,
+          "large": 30.0
+        },
+        "weight": {
+          "small": 140.0,
+          "medium": 190.0,
+          "large": 240.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "dryer",
+        "aliases": [
+          "dryer",
+          "clothes dryer",
+          "tumble dryer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 14.0,
+          "medium": 22.0,
+          "large": 30.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 150.0,
+          "large": 200.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "washer dryer combo",
+        "aliases": [
+          "washer dryer combo",
+          "combo washer dryer",
+          "laundry center"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 42.0
+        },
+        "weight": {
+          "small": 170.0,
+          "medium": 230.0,
+          "large": 300.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 13.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "dishwasher",
+        "aliases": [
+          "dishwasher",
+          "built in dishwasher"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 110.0,
+          "large": 150.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "stove",
+        "aliases": [
+          "stove",
+          "oven",
+          "range"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 26.0,
+          "large": 34.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 170.0,
+          "large": 230.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "microwave",
+        "aliases": [
+          "microwave",
+          "microwave oven"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 40.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "water dispenser",
+        "aliases": [
+          "water dispenser",
+          "water cooler",
+          "office water cooler",
+          "bottle water cooler"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 25.0,
+          "medium": 45.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "portable ac",
+        "aliases": [
+          "portable ac",
+          "portable air conditioner",
+          "ac unit"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 55.0,
+          "large": 80.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "dehumidifier",
+        "aliases": [
+          "dehumidifier",
+          "humidity remover"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "treadmill",
+        "aliases": [
+          "treadmill",
+          "running machine"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 180.0,
+          "large": 260.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 11.0
+        },
+        "disassemblyAdder": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "elliptical",
+        "aliases": [
+          "elliptical",
+          "elliptical machine"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 16.0,
+          "medium": 26.0,
+          "large": 40.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 160.0,
+          "large": 220.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "exercise bike",
+        "aliases": [
+          "exercise bike",
+          "stationary bike",
+          "spin bike"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 120.0,
+          "large": 180.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "rowing machine",
+        "aliases": [
+          "rowing machine",
+          "rower"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 120.0,
+          "large": 180.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "weight bench",
+        "aliases": [
+          "weight bench",
+          "workout bench",
+          "gym bench"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 85.0,
+          "large": 130.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "dumbbell set",
+        "aliases": [
+          "dumbbell set",
+          "free weights",
+          "dumbbells"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 8.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 130.0,
+          "large": 260.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "barbell set",
+        "aliases": [
+          "barbell",
+          "weight plates",
+          "barbell set",
+          "olympic weights"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 10.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 90.0,
+          "medium": 180.0,
+          "large": 320.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "home gym",
+        "aliases": [
+          "home gym",
+          "gym machine",
+          "cable machine",
+          "bowflex",
+          "workout machine"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 26.0,
+          "medium": 42.0,
+          "large": 65.0
+        },
+        "weight": {
+          "small": 180.0,
+          "medium": 300.0,
+          "large": 420.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "power rack",
+        "aliases": [
+          "power rack",
+          "squat rack",
+          "gym rack",
+          "weight rack"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 22.0,
+          "medium": 35.0,
+          "large": 55.0
+        },
+        "weight": {
+          "small": 130.0,
+          "medium": 220.0,
+          "large": 320.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "punching bag",
+        "aliases": [
+          "punching bag",
+          "boxing bag",
+          "heavy bag"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 12.0,
+          "large": 18.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 100.0,
+          "large": 160.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "game table",
+        "aliases": [
+          "game table",
+          "foosball table",
+          "air hockey",
+          "game table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 22.0,
+          "medium": 35.0,
+          "large": 55.0
+        },
+        "weight": {
+          "small": 110.0,
+          "medium": 180.0,
+          "large": 250.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "ping pong table",
+        "aliases": [
+          "ping pong table",
+          "table tennis"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 85.0,
+          "large": 130.0
+        },
+        "baseTime": {
+          "small": 4.0,
+          "medium": 6.0,
+          "large": 8.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "pool table",
+        "aliases": [
+          "pool table",
+          "billiards table",
+          "snooker table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 45.0,
+          "medium": 70.0,
+          "large": 100.0
+        },
+        "weight": {
+          "small": 350.0,
+          "medium": 520.0,
+          "large": 720.0
+        },
+        "baseTime": {
+          "small": 9.0,
+          "medium": 12.0,
+          "large": 16.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "No"
+      },
+      {
+        "category": "arcade machine",
+        "aliases": [
+          "arcade machine",
+          "arcade game",
+          "arcade cabinet",
+          "video game machine"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 30.0,
+          "medium": 50.0,
+          "large": 75.0
+        },
+        "weight": {
+          "small": 170.0,
+          "medium": 260.0,
+          "large": 360.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 13.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "pinball machine",
+        "aliases": [
+          "pinball machine",
+          "pinball table"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 34.0,
+          "medium": 55.0,
+          "large": 80.0
+        },
+        "weight": {
+          "small": 200.0,
+          "medium": 300.0,
+          "large": 420.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "piano upright",
+        "aliases": [
+          "upright piano",
+          "standing piano"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 36.0,
+          "medium": 60.0,
+          "large": 85.0
+        },
+        "weight": {
+          "small": 260.0,
+          "medium": 360.0,
+          "large": 520.0
+        },
+        "baseTime": {
+          "small": 10.0,
+          "medium": 14.0,
+          "large": 18.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "No"
+      },
+      {
+        "category": "piano grand",
+        "aliases": [
+          "grand piano",
+          "baby grand piano"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 70.0,
+          "medium": 105.0,
+          "large": 150.0
+        },
+        "weight": {
+          "small": 420.0,
+          "medium": 650.0,
+          "large": 900.0
+        },
+        "baseTime": {
+          "small": 12.0,
+          "medium": 16.0,
+          "large": 22.0
+        },
+        "disassemblyAdder": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "No"
+      },
+      {
+        "category": "aquarium",
+        "aliases": [
+          "aquarium",
+          "fish tank"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 24.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 200.0,
+          "large": 380.0
+        },
+        "baseTime": {
+          "small": 5.0,
+          "medium": 7.0,
+          "large": 10.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "hot tub",
+        "aliases": [
+          "hot tub",
+          "jacuzzi",
+          "spa tub"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 50.0,
+          "medium": 80.0,
+          "large": 120.0
+        },
+        "weight": {
+          "small": 320.0,
+          "medium": 550.0,
+          "large": 800.0
+        },
+        "baseTime": {
+          "small": 12.0,
+          "medium": 16.0,
+          "large": 22.0
+        },
+        "disassemblyAdder": {
+          "small": 8.0,
+          "medium": 12.0,
+          "large": 16.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "No"
+      },
+      {
+        "category": "bbq grill",
+        "aliases": [
+          "bbq grill",
+          "barbecue",
+          "grill"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 95.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "lawn mower",
+        "aliases": [
+          "lawn mower",
+          "mower"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 90.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "snow blower",
+        "aliases": [
+          "snow blower",
+          "snow thrower"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 16.0,
+          "large": 24.0
+        },
+        "weight": {
+          "small": 55.0,
+          "medium": 90.0,
+          "large": 140.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "bicycle",
+        "aliases": [
+          "bicycle",
+          "bike"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "ladder",
+        "aliases": [
+          "ladder",
+          "step ladder",
+          "extension ladder"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "planter",
+        "aliases": [
+          "planter",
+          "plant pot",
+          "flower pot"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 8.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "patio umbrella",
+        "aliases": [
+          "patio umbrella",
+          "outdoor umbrella"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 15.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "garden tools",
+        "aliases": [
+          "garden tools",
+          "yard tools",
+          "tool bundle"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 6.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "air compressor",
+        "aliases": [
+          "air compressor",
+          "compressor",
+          "shop compressor"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 100.0,
+          "large": 160.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "shop vac",
+        "aliases": [
+          "shop vac",
+          "shop vacuum",
+          "wet dry vac",
+          "wet dry vacuum"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 22.0,
+          "medium": 40.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "pressure washer",
+        "aliases": [
+          "pressure washer",
+          "power washer",
+          "jet washer"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 30.0,
+          "medium": 50.0,
+          "large": 85.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "generator",
+        "aliases": [
+          "generator",
+          "portable generator",
+          "power generator"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 50.0,
+          "medium": 100.0,
+          "large": 160.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "wheelbarrow",
+        "aliases": [
+          "wheelbarrow",
+          "garden wheelbarrow"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "weight": {
+          "small": 22.0,
+          "medium": 40.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "riding lawn mower",
+        "aliases": [
+          "riding mower",
+          "riding lawn mower",
+          "lawn tractor"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 35.0,
+          "medium": 60.0,
+          "large": 90.0
+        },
+        "weight": {
+          "small": 220.0,
+          "medium": 350.0,
+          "large": 520.0
+        },
+        "baseTime": {
+          "small": 7.0,
+          "medium": 10.0,
+          "large": 14.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "No"
+      },
+      {
+        "category": "fire pit",
+        "aliases": [
+          "fire pit",
+          "outdoor fire pit",
+          "patio fire pit"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 22.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 70.0,
+          "large": 120.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "patio heater",
+        "aliases": [
+          "patio heater",
+          "outdoor heater",
+          "propane heater"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 16.0,
+          "large": 24.0
+        },
+        "weight": {
+          "small": 45.0,
+          "medium": 80.0,
+          "large": 130.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "trampoline",
+        "aliases": [
+          "trampoline",
+          "backyard trampoline",
+          "outdoor trampoline"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 20.0,
+          "medium": 32.0,
+          "large": 55.0
+        },
+        "weight": {
+          "small": 70.0,
+          "medium": 110.0,
+          "large": 160.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "area rug",
+        "aliases": [
+          "area rug",
+          "rug"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 4.0,
+          "medium": 8.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 5.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "large rug",
+        "aliases": [
+          "large rug",
+          "oversized rug",
+          "big rug",
+          "carpet roll"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 12.0,
+          "medium": 20.0,
+          "large": 32.0
+        },
+        "weight": {
+          "small": 35.0,
+          "medium": 70.0,
+          "large": 120.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "floor lamp",
+        "aliases": [
+          "floor lamp",
+          "standing lamp"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 15.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "artwork",
+        "aliases": [
+          "artwork",
+          "painting",
+          "framed art",
+          "wall art",
+          "picture frame"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 6.0
+        },
+        "weight": {
+          "small": 5.0,
+          "medium": 12.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "christmas tree",
+        "aliases": [
+          "christmas tree",
+          "xmas tree",
+          "artificial tree"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "cat tree",
+        "aliases": [
+          "cat tree",
+          "cat tower",
+          "pet tower",
+          "scratching post"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 12.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 25.0,
+          "medium": 50.0,
+          "large": 85.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 7.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "standing clock",
+        "aliases": [
+          "standing clock",
+          "grandfather clock",
+          "floor clock",
+          "tall clock",
+          "pendulum clock"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 45.0
+        },
+        "weight": {
+          "small": 100.0,
+          "medium": 170.0,
+          "large": 250.0
+        },
+        "baseTime": {
+          "small": 6.0,
+          "medium": 9.0,
+          "large": 12.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "space heater",
+        "aliases": [
+          "space heater",
+          "heater",
+          "portable heater",
+          "electric heater"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 12.0,
+          "medium": 25.0,
+          "large": 40.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "fan",
+        "aliases": [
+          "fan",
+          "standing fan",
+          "tower fan",
+          "floor fan",
+          "pedestal fan"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 2.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 15.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "sports bag",
+        "aliases": [
+          "sports bag",
+          "hockey bag",
+          "golf bag",
+          "equipment bag",
+          "gear bag"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "cart",
+        "aliases": [
+          "cart",
+          "stroller",
+          "wagon",
+          "push cart",
+          "utility cart",
+          "garden cart",
+          "folding wagon"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 8.0,
+          "medium": 14.0,
+          "large": 20.0
+        },
+        "weight": {
+          "small": 22.0,
+          "medium": 40.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "ride on toy",
+        "aliases": [
+          "ride on toy",
+          "ride on car",
+          "kids car",
+          "power wheels",
+          "kids ride on"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 10.0,
+          "medium": 16.0,
+          "large": 24.0
+        },
+        "weight": {
+          "small": 25.0,
+          "medium": 45.0,
+          "large": 80.0
+        },
+        "baseTime": {
+          "small": 3.0,
+          "medium": 4.0,
+          "large": 6.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "car seat",
+        "aliases": [
+          "car seat",
+          "baby car seat",
+          "booster seat",
+          "child seat"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 3.0,
+          "medium": 5.0,
+          "large": 8.0
+        },
+        "weight": {
+          "small": 8.0,
+          "medium": 15.0,
+          "large": 25.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 2.0,
+          "large": 3.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 30.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "cooler",
+        "aliases": [
+          "cooler",
+          "ice chest",
+          "camping cooler",
+          "igloo cooler"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "tool bag",
+        "aliases": [
+          "tool bag",
+          "tool box",
+          "toolbox",
+          "tool kit",
+          "tools bag"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 22.0,
+          "medium": 40.0,
+          "large": 70.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "pet crate",
+        "aliases": [
+          "pet crate",
+          "dog crate",
+          "cat crate",
+          "animal crate",
+          "kennel"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 6.0,
+          "medium": 10.0,
+          "large": 16.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 35.0,
+          "large": 60.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "bike",
+        "aliases": [
+          "bike",
+          "bicycle",
+          "mountain bike",
+          "road bike",
+          "kids bike",
+          "bmx",
+          "electric bike",
+          "e bike"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 5.0,
+          "medium": 8.0,
+          "large": 12.0
+        },
+        "weight": {
+          "small": 18.0,
+          "medium": 30.0,
+          "large": 50.0
+        },
+        "baseTime": {
+          "small": 2.0,
+          "medium": 3.0,
+          "large": 4.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": true,
+        "stackableSavings": 15.0,
+        "elevatorFit": "Yes"
+      },
+      {
+        "category": "commercial fridge",
+        "aliases": [
+          "commercial fridge",
+          "display fridge",
+          "drink cooler",
+          "glass door fridge",
+          "restaurant fridge",
+          "store fridge",
+          "merchandiser fridge"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 36.0,
+          "medium": 60.0,
+          "large": 85.0
+        },
+        "weight": {
+          "small": 220.0,
+          "medium": 320.0,
+          "large": 420.0
+        },
+        "baseTime": {
+          "small": 8.0,
+          "medium": 12.0,
+          "large": 16.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      },
+      {
+        "category": "vending machine",
+        "aliases": [
+          "vending machine",
+          "snack machine",
+          "soda machine",
+          "drink machine",
+          "pop machine"
+        ],
+        "classificationLogic": {
+          "small": null,
+          "medium": null,
+          "large": null
+        },
+        "volume": {
+          "small": 34.0,
+          "medium": 58.0,
+          "large": 85.0
+        },
+        "weight": {
+          "small": 260.0,
+          "medium": 380.0,
+          "large": 480.0
+        },
+        "baseTime": {
+          "small": 9.0,
+          "medium": 13.0,
+          "large": 18.0
+        },
+        "disassemblyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "bulkyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "heavyAdder": {
+          "small": 0.0,
+          "medium": 0.0,
+          "large": 0.0
+        },
+        "twoPersonRequired": {
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "stackable": false,
+        "stackableSavings": 0.0,
+        "elevatorFit": "Usually"
+      }
+    ]
+  }
+}

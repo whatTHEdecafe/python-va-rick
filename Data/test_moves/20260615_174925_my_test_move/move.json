@@ -1,0 +1,265 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260615_174925_my_test_move",
+  "name": "ex job 1",
+  "createdAt": "2026-06-15T17:49:25Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Armchair",
+        "quantity": 1,
+        "location": "entrance/living room",
+        "size": "medium"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large"
+      },
+      {
+        "name": "Recliner",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium"
+      },
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium"
+      },
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "living room/dining area",
+        "size": "small"
+      },
+      {
+        "name": "Dining chair",
+        "quantity": 4,
+        "location": "living room/dining area",
+        "size": "small"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium"
+      },
+      {
+        "name": "Mattress",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "twin"
+      },
+      {
+        "name": "Box spring/Foundation",
+        "quantity": 2,
+        "location": "bedroom",
+        "size": "twin"
+      },
+      {
+        "name": "Ladder",
+        "quantity": 1,
+        "location": "hallway/utility area",
+        "size": "6ft"
+      },
+      {
+        "name": "Treadmill",
+        "quantity": 1,
+        "location": "office/gym room",
+        "size": "medium"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office/gym room",
+        "size": "medium"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office/gym room",
+        "size": "small"
+      },
+      {
+        "name": "Coffee table",
+        "quantity": 1,
+        "location": "office/gym room",
+        "size": "small"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "office/gym room",
+        "size": "medium"
+      }
+    ],
+    "summary": {
+      "totalItems": 21,
+      "clutterLevel": "moderate",
+      "notes": "Multiple rooms are visible with a mix of furniture and packed items. Several area rugs are rolled up and visible in one image."
+    },
+    "metrics": {
+      "file_analysis_time": 18.288137435913086,
+      "api_calls": 1,
+      "images_processed": 7,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Armchair",
+      "quantity": 1,
+      "location": "entrance/living room",
+      "size": "medium"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large"
+    },
+    {
+      "name": "Recliner",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium"
+    },
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium"
+    },
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "living room/dining area",
+      "size": "small"
+    },
+    {
+      "name": "Dining chair",
+      "quantity": 4,
+      "location": "living room/dining area",
+      "size": "small"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium"
+    },
+    {
+      "name": "Mattress",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "twin"
+    },
+    {
+      "name": "Box spring/Foundation",
+      "quantity": 2,
+      "location": "bedroom",
+      "size": "twin"
+    },
+    {
+      "name": "Ladder",
+      "quantity": 1,
+      "location": "hallway/utility area",
+      "size": "6ft"
+    },
+    {
+      "name": "Treadmill",
+      "quantity": 1,
+      "location": "office/gym room",
+      "size": "medium"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office/gym room",
+      "size": "medium"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office/gym room",
+      "size": "small"
+    },
+    {
+      "name": "Coffee table",
+      "quantity": 1,
+      "location": "office/gym room",
+      "size": "small"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "office/gym room",
+      "size": "medium"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg"
+    ],
+    "original_names": [
+      "image000000 2.JPG",
+      "image000001.JPG",
+      "image000002.JPG",
+      "image000003.JPG",
+      "image000004.JPG",
+      "image000005.JPG",
+      "image000006.JPG"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

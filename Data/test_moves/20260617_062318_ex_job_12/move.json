@@ -1,0 +1,545 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_062318_ex_job_12",
+  "name": "ex job 12",
+  "createdAt": "2026-06-17T06:23:18Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Portable AC",
+        "quantity": 1,
+        "location": "storage/garage",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "twin",
+        "imageID": "3"
+      },
+      {
+        "name": "Mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "twin",
+        "imageID": "3"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "medium",
+        "imageID": "4"
+      },
+      {
+        "name": "Wardrobe/Armoire",
+        "quantity": 1,
+        "location": "hallway/misc room",
+        "size": "medium",
+        "imageID": "5"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "hallway/misc room",
+        "size": "small",
+        "imageID": "6"
+      },
+      {
+        "name": "Ladder",
+        "quantity": 1,
+        "location": "hallway/misc room",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "5-drawer",
+        "imageID": "8"
+      },
+      {
+        "name": "Bed frame",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "9"
+      },
+      {
+        "name": "Mattress",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "queen",
+        "imageID": "9"
+      },
+      {
+        "name": "Nightstand",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "9"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "small",
+        "imageID": "10"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office",
+        "size": "standard desk",
+        "imageID": "11"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office",
+        "size": "small",
+        "imageID": "11"
+      },
+      {
+        "name": "Filing cabinet",
+        "quantity": 1,
+        "location": "office",
+        "size": "2-drawer",
+        "imageID": "11"
+      },
+      {
+        "name": "Computer tower + monitor",
+        "quantity": 1,
+        "location": "office",
+        "size": "small",
+        "imageID": "11"
+      },
+      {
+        "name": "Printer",
+        "quantity": 1,
+        "location": "office",
+        "size": "small",
+        "imageID": "11"
+      },
+      {
+        "name": "TV (flat panel)",
+        "quantity": 1,
+        "location": "living room",
+        "size": "60+ in (2-person)",
+        "imageID": "12"
+      },
+      {
+        "name": "Media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "12"
+      },
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "loveseat",
+        "imageID": "13"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "14"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "hallway",
+        "size": "small desk",
+        "imageID": "15"
+      },
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "dining area",
+        "size": "4-seat",
+        "imageID": "16"
+      },
+      {
+        "name": "Dining chair",
+        "quantity": 4,
+        "location": "dining area",
+        "size": "small",
+        "imageID": "16"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "17"
+      },
+      {
+        "name": "Floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "18"
+      },
+      {
+        "name": "Recliner",
+        "quantity": 1,
+        "location": "living room",
+        "size": "power recliner",
+        "imageID": "19"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "20"
+      },
+      {
+        "name": "Media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "22"
+      },
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small kitchen table",
+        "imageID": "23"
+      },
+      {
+        "name": "China cabinet",
+        "quantity": 1,
+        "location": "misc room",
+        "size": "small",
+        "imageID": "24"
+      },
+      {
+        "name": "End table",
+        "quantity": 1,
+        "location": "hallway/misc room",
+        "size": "small",
+        "imageID": "25"
+      }
+    ],
+    "summary": {
+      "totalItems": 32,
+      "clutterLevel": "moderate",
+      "notes": "Items identified across multiple rooms including storage, bedrooms, office, living room, and dining area. Several items are boxed but were clearly identifiable from labeling. Boxes are not counted."
+    },
+    "metrics": {
+      "file_analysis_time": 51.23920917510986,
+      "api_calls": 1,
+      "images_processed": 61,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Portable AC",
+      "quantity": 1,
+      "location": "storage/garage",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "twin",
+      "imageID": "3"
+    },
+    {
+      "name": "Mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "twin",
+      "imageID": "3"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "medium",
+      "imageID": "4"
+    },
+    {
+      "name": "Wardrobe/Armoire",
+      "quantity": 1,
+      "location": "hallway/misc room",
+      "size": "medium",
+      "imageID": "5"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "hallway/misc room",
+      "size": "small",
+      "imageID": "6"
+    },
+    {
+      "name": "Ladder",
+      "quantity": 1,
+      "location": "hallway/misc room",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "5-drawer",
+      "imageID": "8"
+    },
+    {
+      "name": "Bed frame",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "9"
+    },
+    {
+      "name": "Mattress",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "queen",
+      "imageID": "9"
+    },
+    {
+      "name": "Nightstand",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "9"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "small",
+      "imageID": "10"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office",
+      "size": "standard desk",
+      "imageID": "11"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office",
+      "size": "small",
+      "imageID": "11"
+    },
+    {
+      "name": "Filing cabinet",
+      "quantity": 1,
+      "location": "office",
+      "size": "2-drawer",
+      "imageID": "11"
+    },
+    {
+      "name": "Computer tower + monitor",
+      "quantity": 1,
+      "location": "office",
+      "size": "small",
+      "imageID": "11"
+    },
+    {
+      "name": "Printer",
+      "quantity": 1,
+      "location": "office",
+      "size": "small",
+      "imageID": "11"
+    },
+    {
+      "name": "TV (flat panel)",
+      "quantity": 1,
+      "location": "living room",
+      "size": "60+ in (2-person)",
+      "imageID": "12"
+    },
+    {
+      "name": "Media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "12"
+    },
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "loveseat",
+      "imageID": "13"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "14"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "hallway",
+      "size": "small desk",
+      "imageID": "15"
+    },
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "dining area",
+      "size": "4-seat",
+      "imageID": "16"
+    },
+    {
+      "name": "Dining chair",
+      "quantity": 4,
+      "location": "dining area",
+      "size": "small",
+      "imageID": "16"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "17"
+    },
+    {
+      "name": "Floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "18"
+    },
+    {
+      "name": "Recliner",
+      "quantity": 1,
+      "location": "living room",
+      "size": "power recliner",
+      "imageID": "19"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "20"
+    },
+    {
+      "name": "Media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "22"
+    },
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small kitchen table",
+      "imageID": "23"
+    },
+    {
+      "name": "China cabinet",
+      "quantity": 1,
+      "location": "misc room",
+      "size": "small",
+      "imageID": "24"
+    },
+    {
+      "name": "End table",
+      "quantity": 1,
+      "location": "hallway/misc room",
+      "size": "small",
+      "imageID": "25"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg",
+      "preview_14.jpg",
+      "preview_15.jpg",
+      "preview_16.jpg",
+      "preview_17.jpg",
+      "preview_18.jpg",
+      "preview_19.jpg",
+      "preview_20.jpg",
+      "preview_21.jpg",
+      "preview_22.jpg",
+      "preview_23.jpg",
+      "preview_24.jpg"
+    ],
+    "original_names": [
+      "PHOTO-2026-03-18-09-03-51.jpg",
+      "PHOTO-2026-03-18-09-03-52.jpg",
+      "PHOTO-2026-03-18-09-03-53 2.jpg",
+      "PHOTO-2026-03-18-09-03-53 3.jpg",
+      "PHOTO-2026-03-18-09-03-53 4.jpg",
+      "PHOTO-2026-03-18-09-03-53 5.jpg",
+      "PHOTO-2026-03-18-09-03-53 6.jpg",
+      "PHOTO-2026-03-18-09-03-53.jpg",
+      "PHOTO-2026-03-18-09-03-55.jpg",
+      "PHOTO-2026-03-18-09-03-56 2.jpg",
+      "PHOTO-2026-03-18-09-03-56 3.jpg",
+      "PHOTO-2026-03-18-09-03-56 4.jpg",
+      "PHOTO-2026-03-18-09-03-56 5.jpg",
+      "PHOTO-2026-03-18-09-03-56 6.jpg",
+      "PHOTO-2026-03-18-09-03-56 7.jpg",
+      "PHOTO-2026-03-18-09-03-56 8.jpg",
+      "PHOTO-2026-03-18-09-03-56.jpg",
+      "PHOTO-2026-03-18-09-03-57 2.jpg",
+      "PHOTO-2026-03-18-09-03-57 3.jpg",
+      "PHOTO-2026-03-18-09-03-57 4.jpg",
+      "PHOTO-2026-03-18-09-03-57 5.jpg",
+      "PHOTO-2026-03-18-09-03-57 6.jpg",
+      "PHOTO-2026-03-18-09-03-57 7.jpg",
+      "PHOTO-2026-03-18-09-03-57 8.jpg",
+      "PHOTO-2026-03-18-09-03-57.jpg"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

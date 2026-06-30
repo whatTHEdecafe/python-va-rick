@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_191000_garbage",
+  "name": "garbage",
+  "createdAt": "2026-06-17T19:10:00Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Recliner",
+        "quantity": 1,
+        "location": "living room",
+        "size": null,
+        "imageID": "original_image"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "clutterLevel": "moderate",
+      "notes": "One recliner is visible in the provided image thumbnail."
+    },
+    "metrics": {
+      "file_analysis_time": 3.969764232635498,
+      "api_calls": 1,
+      "images_processed": 5,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Recliner",
+      "quantity": 1,
+      "location": "living room",
+      "size": null,
+      "imageID": "original_image"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg"
+    ],
+    "original_names": [
+      "GARGABE PIC.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

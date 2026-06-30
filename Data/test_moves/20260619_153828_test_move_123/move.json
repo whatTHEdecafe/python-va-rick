@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260619_153828_test_move_123",
+  "name": "test move 123",
+  "createdAt": "2026-06-19T15:38:28Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Washer",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "None",
+        "imageID": "original"
+      },
+      {
+        "name": "Dryer",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "None",
+        "imageID": "original"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "Artwork/Framed",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "None",
+        "imageID": "original"
+      }
+    ],
+    "summary": {
+      "totalItems": 4,
+      "clutterLevel": "light",
+      "notes": "Laundry room items identified."
+    },
+    "metrics": {
+      "file_analysis_time": 4.64520263671875,
+      "api_calls": 1,
+      "images_processed": 1,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Washer",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "None",
+      "imageID": "original"
+    },
+    {
+      "name": "Dryer",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "None",
+      "imageID": "original"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "Artwork/Framed",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "None",
+      "imageID": "original"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg"
+    ],
+    "original_names": [
+      "ChatGPT Image Apr 30, 2026, 02_08_11 PM.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

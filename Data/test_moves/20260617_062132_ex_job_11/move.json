@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_062132_ex_job_11",
+  "name": "ex job 11",
+  "createdAt": "2026-06-17T06:21:32Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "metal shelving unit",
+        "quantity": 1,
+        "location": "attic",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "suitcase",
+        "quantity": 2,
+        "location": "attic",
+        "size": "large",
+        "imageID": "1"
+      },
+      {
+        "name": "dresser",
+        "quantity": 1,
+        "location": "attic",
+        "size": "medium",
+        "imageID": "6"
+      },
+      {
+        "name": "couch / sofa",
+        "quantity": 1,
+        "location": "attic",
+        "size": "loveseat",
+        "imageID": "7"
+      },
+      {
+        "name": "TV (flat panel)",
+        "quantity": 1,
+        "location": "attic",
+        "size": "medium",
+        "imageID": "8"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "attic",
+        "size": "small",
+        "imageID": "8"
+      },
+      {
+        "name": "dining chair",
+        "quantity": 2,
+        "location": "attic",
+        "size": "small",
+        "imageID": "9"
+      },
+      {
+        "name": "office desk",
+        "quantity": 1,
+        "location": "attic",
+        "size": "medium",
+        "imageID": "12"
+      },
+      {
+        "name": "office chair",
+        "quantity": 1,
+        "location": "attic",
+        "size": "small",
+        "imageID": "12"
+      }
+    ],
+    "summary": {
+      "totalItems": 11,
+      "clutterLevel": "high",
+      "notes": "Multiple items are packed in boxes or have items stacked on them. The attic appears to be used as storage space. Item 'large planter' could be considered as 'Garden tools bundle' depending on its use."
+    },
+    "metrics": {
+      "file_analysis_time": 22.099833011627197,
+      "api_calls": 1,
+      "images_processed": 36,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "metal shelving unit",
+      "quantity": 1,
+      "location": "attic",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "suitcase",
+      "quantity": 2,
+      "location": "attic",
+      "size": "large",
+      "imageID": "1"
+    },
+    {
+      "name": "dresser",
+      "quantity": 1,
+      "location": "attic",
+      "size": "medium",
+      "imageID": "6"
+    },
+    {
+      "name": "couch / sofa",
+      "quantity": 1,
+      "location": "attic",
+      "size": "loveseat",
+      "imageID": "7"
+    },
+    {
+      "name": "TV (flat panel)",
+      "quantity": 1,
+      "location": "attic",
+      "size": "medium",
+      "imageID": "8"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "attic",
+      "size": "small",
+      "imageID": "8"
+    },
+    {
+      "name": "dining chair",
+      "quantity": 2,
+      "location": "attic",
+      "size": "small",
+      "imageID": "9"
+    },
+    {
+      "name": "office desk",
+      "quantity": 1,
+      "location": "attic",
+      "size": "medium",
+      "imageID": "12"
+    },
+    {
+      "name": "office chair",
+      "quantity": 1,
+      "location": "attic",
+      "size": "small",
+      "imageID": "12"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg"
+    ],
+    "original_names": [
+      "Resized_20260322_154119.JPEG",
+      "Resized_20260322_154125.JPEG",
+      "Resized_20260322_154525 2.JPEG",
+      "Resized_20260322_154525.JPEG",
+      "Resized_20260322_154528.JPEG",
+      "Resized_20260322_154533.JPEG",
+      "Resized_20260322_155938 2.JPEG",
+      "Resized_20260322_155943.JPEG",
+      "Resized_20260322_155947.JPEG",
+      "Resized_20260322_155951.JPEG",
+      "Resized_20260322_172126.JPEG",
+      "Resized_20260322_172132.JPEG",
+      "Screen Shot 2026-04-10 at 10.22.52 AM.png",
+      "Screen Shot 2026-04-10 at 10.24.15 AM.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

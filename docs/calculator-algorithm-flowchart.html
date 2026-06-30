@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MoovEZ — V9 Calculator Algorithm (C# Port)</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
+
+  :root {
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --border: #cbd5e1;
+    --border-subtle: #e2e8f0;
+    --accent: #c2410c;
+    --accent2: #0f766e;
+    --accent3: #6d28d9;
+    --calc: #047857;
+    --warn-bg: #fffbeb;
+    --warn-border: #f59e0b;
+    --text: #0f172a;
+    --muted: #475569;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans', sans-serif;
+    --shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+    --row-hover: #f1f5f9;
+    --src-sql: #1d4ed8;
+    --src-sql-bg: #eff6ff;
+    --src-user: #047857;
+    --src-user-bg: #ecfdf5;
+    --src-hard: #b45309;
+    --src-hard-bg: #fffbeb;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding: 40px 24px 80px;
+    line-height: 1.55;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-bottom: 32px;
+    letter-spacing: 0.06em;
+  }
+
+  .legend {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+    padding: 14px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    font-family: var(--mono);
+    color: var(--muted);
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 2px 7px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  .badge-sql { background: var(--src-sql-bg); color: var(--src-sql); }
+  .badge-user { background: var(--src-user-bg); color: var(--src-user); }
+  .badge-hard { background: var(--src-hard-bg); color: var(--src-hard); }
+
+  section {
+    margin-bottom: 40px;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 24px 28px;
+    box-shadow: var(--shadow);
+  }
+
+  section h2 {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--calc);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  section h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 16px 0 8px;
+    color: var(--text);
+  }
+
+  section p, section li {
+    font-size: 0.88rem;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  section ul {
+    margin-left: 1.25rem;
+    margin-bottom: 12px;
+  }
+
+  section li { margin-bottom: 4px; }
+
+  code, .formula {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    background: var(--bg);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--border-subtle);
+  }
+
+  .mermaid-wrap {
+    margin: 16px 0;
+    padding: 20px 16px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+  }
+
+  /* Detail flowcharts (sections 2–5): readable but fit the page */
+  .mermaid-wrap--lg {
+    min-height: 0;
+    padding: 20px 16px;
+  }
+
+  .mermaid-wrap svg {
+    display: block;
+    margin: 0 auto;
+    height: auto !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .mermaid-wrap--lg svg {
+    max-width: 720px;
+    min-width: 0;
+  }
+
+  #pipeline .mermaid-wrap svg {
+    max-width: 520px;
+  }
+
+  /* Section 3: access friction — extra-large diagram */
+  #access-friction {
+    width: min(1180px, calc(100vw - 48px));
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #access-friction .mermaid-wrap--friction {
+    padding: 36px 28px 48px;
+    overflow-x: auto;
+    min-height: 480px;
+  }
+
+  #access-friction .mermaid-wrap--friction svg {
+    display: block;
+    margin: 0 auto;
+    max-width: none !important;
+    width: auto !important;
+    min-width: 1000px;
+    height: auto !important;
+  }
+
+  .sources {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border-subtle);
+  }
+
+  table.constants {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-top: 12px;
+  }
+
+  table.constants th,
+  table.constants td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  table.constants th {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--bg);
+  }
+
+  table.constants tr:hover td { background: var(--row-hover); }
+
+  table.constants td:first-child {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--calc);
+  }
+
+  .callout-warn {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 8px;
+  }
+
+  .callout-warn h3 {
+    color: #b45309;
+    margin-top: 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .callout-warn ul { margin-bottom: 0; }
+
+  footer {
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  footer a {
+    color: var(--accent2);
+    text-decoration: none;
+  }
+
+  footer a:hover { text-decoration: underline; }
+
+  .meta-note {
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .narrative-intro {
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 22px 26px;
+    margin-bottom: 32px;
+    box-shadow: var(--shadow);
+  }
+
+  .narrative-intro h2 {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--calc);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .narrative-intro p {
+    font-size: 0.92rem;
+    max-width: 72ch;
+    margin-bottom: 12px;
+  }
+
+  .narrative-intro p:last-of-type { margin-bottom: 0; }
+
+  .equation-block {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    background: var(--bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 16px 18px;
+    margin: 16px 0;
+    line-height: 1.75;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    color: var(--text);
+  }
+
+  .section-lead {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 12px;
+    max-width: 68ch;
+  }
+</style>
+</head>
+<body>
+
+<h1>V9 Calculator Algorithm</h1>
+<p class="subtitle">MovingCalculator · C#/.NET port reference · Source: Version 9/Gemini/modules/calculator.py</p>
+
+<div class="legend" aria-label="Data source legend">
+  <span class="legend-item"><span class="badge badge-sql">SQL</span> Catalog / DB</span>
+  <span class="legend-item"><span class="badge badge-user">USER</span> UI / Vision / booking input</span>
+  <span class="legend-item"><span class="badge badge-hard">HARDCODED</span> Constants &amp; lookup maps</span>
+</div>
+
+<section class="narrative-intro" id="overview">
+  <h2>How this calculator works (plain English)</h2>
+  <p>
+    <strong>What goes in:</strong> a list of items (from vision or the UI), how movers get in and out at pickup and dropoff
+    (ground, stairs, or elevator, plus floor count), and optional travel minutes between locations.
+  </p>
+  <p>
+    <strong>What comes out:</strong> how long the move should take, how many movers we suggest, and a price
+    (number of movers × time × hourly rate, plus tax).
+  </p>
+  <p>
+    <strong>Where the numbers live:</strong> most per-item minutes come from the catalog or database.
+    Rules for stairs, elevators, crew size, and tax are fixed values in code (see the constants table at the bottom).
+  </p>
+
+  <p><strong>Steps in order</strong></p>
+  <pre class="equation-block">1) Time per item (minutes)
+   load_minutes = catalog base time (+ extra if customer asked to disassemble)
+   unload_minutes = load_minutes × unload factor (unload is often quicker)
+   item_total_minutes = load_minutes + unload_minutes
+
+2) Time for the whole job (before travel)
+   Add up all items (boxes grouped together may get a discount).
+   If you send more movers, the job finishes sooner—but extra movers do not cut time in half.
+   Pickup/dropoff stairs: multiply job time by (1 + stair penalty for pickup + stair penalty for dropoff).
+   Elevator: add extra minutes for elevator trips (separate from the multiply above).
+
+3) How many movers?
+   Try 2, 3, … up to how many seats fit in the truck.
+   For each option, compute job time and cost; pick the option that balances speed vs price.
+   Small jobs favor cheaper crew; bigger jobs still care about cost but a bit more about time.
+
+4) Price
+   total_minutes = job time + travel
+   price = total_minutes × number of movers × dollars per minute × (1 + tax rate)</pre>
+
+  <p>
+    <strong>Stairs vs elevator:</strong> stairs make the <em>whole</em> move take longer (a percent-style bump per floor).
+    Elevator adds <em>extra minutes</em> for riding and waiting (per trip), not as a percent of item time.
+  </p>
+</section>
+
+<!-- Section 1 -->
+<section id="pipeline">
+  <h2>1. High-level pipeline</h2>
+  <p class="section-lead">This is the full path from “customer gave us items” to “we return time, crew, and price.”</p>
+  <p>Entry point: <code>calculate_total_logistics()</code></p>
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+flowchart TD
+    Entry["calculate_total_logistics"] --> BuildTasks
+    BuildTasks["1. build_tasks + stackable grouping"] --> Vehicles
+    Vehicles["2. select_optimal_vehicles → cab_seats"] --> CrewLoop
+    CrewLoop["3. For m=2..cab_seats: calculate_job_time"] --> CrewPick
+    CrewPick["4. Score crew + optional forced_movers"] --> Travel
+    Travel["5. Add pre_move + travel minutes"] --> Split
+    Split["6. Load/unload split + pricing + hour range"]
+    </pre>
+  </div>
+  <div class="sources">
+    <strong>Inputs:</strong>
+    Items <span class="badge badge-user">USER</span> + catalog enrich <span class="badge badge-sql">SQL</span> ·
+    pickup/dropoff access <span class="badge badge-user">USER</span> ·
+    travel_time, pre_move_travel, forced_movers <span class="badge badge-user">USER</span> ·
+    Trucks list <span class="badge badge-hard">HARDCODED</span> today (C# may use <span class="badge badge-sql">SQL</span>) ·
+    Hour range CSV <span class="badge badge-hard">HARDCODED</span> file
+  </div>
+</section>
+
+<!-- Section 2 -->
+<section id="build-tasks">
+  <h2>2. Build tasks</h2>
+  <p class="section-lead">Here we look up each item in the catalog and work out how many minutes load + unload should take.</p>
+  <p><code>build_tasks()</code> → <code>_apply_stackable_grouping()</code></p>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Items["For each job item"] --> Lookup["find_item_category"]
+    Lookup --> Size["choose_size_for_item"]
+    Size --> Time["compute_base_item_time"]
+    Time --> UnitTasks["Expand quantity → tasks"]
+    UnitTasks --> Stack["_apply_stackable_grouping"]
+    </pre>
+  </div>
+
+  <h3>compute_base_item_time (active only)</h3>
+  <ol>
+    <li><code>base = baseTime[size]</code> <span class="badge badge-sql">SQL</span></li>
+    <li>If disassemble flag → <code>base += disassemblyAdder[size]</code> <span class="badge badge-sql">SQL</span> + <span class="badge badge-user">USER</span></li>
+    <li><code>load_time = base</code></li>
+    <li><code>unload_time = base × unload_ratio</code> <span class="badge badge-hard">HARDCODED</span> ratios; hints from <span class="badge badge-sql">SQL</span> stackable / disassemblyAdder</li>
+    <li><code>total = max(load + unload, 2.0)</code></li>
+  </ol>
+
+  <h3>Task fields (after build)</h3>
+  <p><code>id, name, p, load_time, unload_time, size, stackable, stackableSavings, weight, volume</code> — batched tasks add <code>count, is_batch</code>.</p>
+
+  <h3>Stackable batching</h3>
+  <p>Group by <code>(name, size)</code> when <code>stackable</code> and <code>stackableSavings &gt; 0</code>. Combined times × <code>(1 − savings%/100)</code>. <span class="badge badge-sql">SQL</span></p>
+
+  <p><strong>Weight/volume:</strong> from catalog if missing — vehicle selection only, not time adders.</p>
+</section>
+
+<!-- Section 3 -->
+<section id="access-friction">
+  <h2>3. Access friction — stairs &amp; elevator</h2>
+  <p class="section-lead">Stairs and elevators change how long the move takes; stairs use a multiplier, elevator adds trip time.</p>
+  <p>Inside <code>calculate_job_time()</code> after the “more movers, less time” step below.</p>
+  <div class="mermaid-wrap mermaid-wrap--friction">
+    <pre class="mermaid">
+%%{init: {'flowchart': {'nodeSpacing': 64, 'rankSpacing': 88, 'padding': 28, 'useMaxWidth': false}, 'themeVariables': {'fontSize': '18px'}}}%%
+flowchart TB
+    Base["① base_time<br/>after parallelism"]
+
+    subgraph legDelta ["A. Per leg — _access_friction_delta"]
+        direction LR
+        dGround["ground<br/>delta = 0"]
+        dStairs["stairs<br/>delta = 0.06 + 0.035 x floors"]
+        dElev["elevator<br/>delta = 0"]
+    end
+
+    Mult["② stair_friction = 1 + pickup_delta + dropoff_delta"]
+    Adj["③ adjusted_time = base_time x stair_friction"]
+
+    subgraph elevLeg ["B. Each elevator leg — _compute_elevator_adder"]
+        direction LR
+        eTrip["trip_time<br/>1.5 + 0.08 x floors"]
+        eTrips["trips<br/>ceil tasks / 2"]
+        eLeg["leg_minutes<br/>trips x trip_time"]
+        eTrip --> eTrips --> eLeg
+    end
+
+    Add["④ elevator_minutes<br/>pickup leg + dropoff leg"]
+    Final["⑤ final_time"]
+
+    Base --> Mult
+    legDelta --> Mult
+    Mult --> Adj
+    Adj --> Add
+    elevLeg --> Add
+    Add --> Final
+    </pre>
+  </div>
+
+  <h3>Stairs (multiplicative)</h3>
+  <ul>
+    <li>Per leg: <code class="formula">delta = 0.06 + 0.035 × floors</code> (floors capped at 50)</li>
+    <li><code class="formula">adjusted_time = base_time × (1 + pickup_delta + dropoff_delta)</code></li>
+  </ul>
+
+  <h3>Elevator (additive wall-clock)</h3>
+  <ul>
+    <li><code class="formula">trip_time = 1.5 + 0.08 × floors</code></li>
+    <li><code class="formula">trips = ceil(num_tasks / 2.0)</code> — num_tasks = len(tasks) after batching</li>
+    <li>Both legs summed; not proportional to item complexity</li>
+    <li>If elevator on either leg: <code>effective_teams = min(teams, 1.5)</code></li>
+  </ul>
+
+  <div class="sources">
+    <code>access.type</code>, <code>access.floors</code> <span class="badge badge-user">USER</span> ·
+    STAIR_*, ELEVATOR_*, AVG_ITEMS_PER_ELEVATOR_LOAD <span class="badge badge-hard">HARDCODED</span>
+    (not catalog <code>elevatorFit</code>)
+  </div>
+</section>
+
+<!-- Section 4 -->
+<section id="parallelism">
+  <h2>4. More movers, less time</h2>
+  <p class="section-lead">If we send more people, work is shared—but crowding at the truck door limits the benefit.</p>
+  <p><code>calculate_job_time(tasks, movers, pickup, dropoff)</code> — crew size is for the whole job, not per item.</p>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Sum["total_labor = sum task p"] --> Teams
+    Teams["effective_teams from map 2→1.0 ... 6→3.0"] --> ElevCap
+    ElevCap{"Elevator on leg?"} -->|yes| CapTeams["min teams, 1.5"]
+    ElevCap -->|no| Bottleneck
+    CapTeams --> Bottleneck
+    Bottleneck["bottleneck_factor from map 2→1.0 ... 6→0.55"] --> Para
+    Para{"effective_teams > 1?"} -->|no| Seq["base_time = total_labor"]
+    Para -->|yes| Par["base = labor/teams / bottleneck"]
+    Seq --> Friction["→ stairs × then + elevator"]
+    Par --> Friction
+    </pre>
+  </div>
+  <p><strong>Effective teams:</strong> {2: 1.0, 3: 1.25, 4: 2.0, 5: 2.25, 6: 3.0}, else movers/2.</p>
+  <p><strong>Bottleneck:</strong> {2: 1.0, 3: 0.95, 4: 0.85, 5: 0.70, 6: 0.55}, else 0.60.</p>
+</section>
+
+<!-- Section 5 -->
+<section id="crew">
+  <h2>5. Crew size recommendation</h2>
+  <p class="section-lead">We compare 2 movers vs 3 vs … (up to truck seats) and pick the size that fits the job and budget.</p>
+  <div class="mermaid-wrap mermaid-wrap--lg">
+    <pre class="mermaid">
+flowchart TD
+    Start["cab_seats from vehicles max 2"] --> Loop
+    Loop["For m = 2 to cab_seats"] --> Eval["job_time, labor_cost = time × m × wage"]
+    Eval --> Small{"2-mover time < 180 min?"}
+    Small -->|yes| ScoreSmall["score = 0.2×norm_time + 0.8×norm_cost"]
+    Small -->|no| ScoreLarge["score = 0.4×norm_time + 0.6×norm_cost"]
+    ScoreSmall --> Filter
+    ScoreLarge --> Filter
+    Filter{"Any option time < 360 min?"} -->|yes| Best["Pick lowest score"]
+    Filter -->|no| Fastest["Pick fastest time"]
+    Best --> Force
+    Fastest --> Force
+    Force{"forced_movers set?"} -->|yes| Clamp["clamp 2..6 MAX_MOVERS"]
+    Force -->|no| Done["use auto recommendation"]
+    </pre>
+  </div>
+  <div class="sources">
+    <code>cab_seats</code> derived from vehicle <span class="badge badge-hard">HARDCODED</span> trucks + volume/weight buffers ·
+    <code>forced_movers</code> <span class="badge badge-user">USER</span> ·
+    thresholds 180 / 360 and score weights <span class="badge badge-hard">HARDCODED</span>
+  </div>
+</section>
+
+<!-- Section 6 -->
+<section id="load-unload-split">
+  <h2>6. Load / unload reporting &amp; pricing</h2>
+  <p class="section-lead">The UI shows separate loading and unloading minutes by splitting total job time in proportion.</p>
+  <p>After chosen crew and travel:</p>
+  <ul>
+    <li><code>labor_minutes</code> = job time for recommended crew</li>
+    <li><code>base_load</code> / <code>base_unload</code> = sum of task load_time / unload_time</li>
+    <li><code>load_ratio = base_load / (base_load + base_unload)</code> (fallback ~0.606)</li>
+    <li><code>loadingTime = labor_minutes × load_ratio</code></li>
+    <li><code>unloadingTime = labor_minutes × (1 − load_ratio)</code></li>
+  </ul>
+  <p>Stairs friction and elevator apply at <strong>job</strong> level; UI split is proportional to pre-friction task totals.</p>
+  <p><strong>Pricing:</strong> <code>base_price = total_minutes × recommended_m × WAGE_RATE</code>; GST 5%; min/max hours from <code>Vision_Agent_Hour_Range_Mapping.csv</code>.</p>
+</section>
+
+<!-- Section 7 -->
+<section id="constants">
+  <h2>7. Constants reference</h2>
+  <table class="constants">
+    <thead>
+      <tr><th>Constant</th><th>Value</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>WAGE_RATE</td><td>$40/hr ($40/60 per min)</td><td>Labor cost basis</td></tr>
+      <tr><td>MAX_FLOORS_CAP</td><td>50</td><td>Floor input clamp</td></tr>
+      <tr><td>STAIR_BASE_FRICTION</td><td>0.06</td><td>Stairs base delta (per leg)</td></tr>
+      <tr><td>STAIR_PER_FLOOR</td><td>0.035</td><td>Per-floor stairs delta</td></tr>
+      <tr><td>ELEVATOR_FIXED_PER_TRIP</td><td>1.5 min</td><td>Walk/wait per elevator trip</td></tr>
+      <tr><td>ELEVATOR_RIDE_PER_FLOOR</td><td>0.08 min</td><td>Ride time per floor</td></tr>
+      <tr><td>AVG_ITEMS_PER_ELEVATOR_LOAD</td><td>2.0</td><td>Items per trip (not elevatorFit)</td></tr>
+      <tr><td>ELEVATOR_PARALLELISM_CAP</td><td>1.5</td><td>Max effective teams with elevator</td></tr>
+      <tr><td>DEFAULT_UNLOAD_RATIO</td><td>0.65</td><td>Standard furniture unload</td></tr>
+      <tr><td>Unknown item default</td><td>5 min load</td><td>No catalog match</td></tr>
+      <tr><td>MAX_MOVERS</td><td>6</td><td>forced_movers cap (not cab_seats)</td></tr>
+      <tr><td>Small job threshold</td><td>180 min</td><td>Crew cost-heavy scoring</td></tr>
+      <tr><td>Reasonable job cap</td><td>360 min</td><td>Prefer options under 6 hr</td></tr>
+      <tr><td>UPSIZE_THRESHOLD</td><td>0.70</td><td>Vehicle volume upsize trigger</td></tr>
+      <tr><td>Volume buffer</td><td>1.15×</td><td>Vehicle fit safety margin</td></tr>
+      <tr><td>Weight buffer</td><td>1.10×</td><td>Vehicle fit safety margin</td></tr>
+      <tr><td>GST</td><td>5%</td><td>Tax on base price</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Unload ratio patterns (hardcoded UNLOAD_RATIOS)</h3>
+  <table class="constants">
+    <thead>
+      <tr><th>Pattern / case</th><th>Ratio</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>box, totes, bin, crate, container</td><td>0.90</td><td>Grab-and-go</td></tr>
+      <tr><td>fridge, washer, piano, treadmill, …</td><td>0.55</td><td>Heavy / awkward placement</td></tr>
+      <tr><td>tv, mirror, glass, artwork, …</td><td>0.80</td><td>Fragile placement</td></tr>
+      <tr><td>stackable flag (no pattern)</td><td>0.90</td><td>From catalog stackable</td></tr>
+      <tr><td>disassemblyAdder &gt; 0</td><td>0.50</td><td>Reassembly at dropoff</td></tr>
+      <tr><td>default</td><td>0.65</td><td>Standard furniture</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Parallelism maps (hardcoded)</h3>
+  <table class="constants">
+    <thead>
+      <tr><th>Movers</th><th>effective_teams</th><th>bottleneck_factor</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2</td><td>1.0</td><td>1.0</td></tr>
+      <tr><td>3</td><td>1.25</td><td>0.95</td></tr>
+      <tr><td>4</td><td>2.0</td><td>0.85</td></tr>
+      <tr><td>5</td><td>2.25</td><td>0.70</td></tr>
+      <tr><td>6</td><td>3.0</td><td>0.55</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Section 8 -->
+<section id="catalog-unused">
+  <h2>8. Catalog fields not used by V9 Python</h2>
+  <div class="callout-warn">
+    <h3>Do not port to C# unless product spec changes</h3>
+    <ul>
+      <li><code>heavyAdder</code> — removed from Python; pipeline always sets weight from catalog</li>
+      <li><code>bulkyAdder</code> — never referenced in calculator</li>
+      <li><code>elevatorFit</code> — never referenced; elevator trips use AVG_ITEMS_PER_ELEVATOR_LOAD</li>
+      <li><code>twoPersonRequired</code> — never referenced; no per-item <code>q</code> on tasks; crew is job-level only</li>
+    </ul>
+    <p style="margin-top:10px;margin-bottom:0;font-size:0.82rem;">JSON/DB may still store these for other systems.</p>
+  </div>
+</section>
+
+<footer>
+  <a href="architecture-ver9.html">System architecture</a> ·
+  <a href="../Version%209/Gemini/modules/calculator.py">calculator.py</a> ·
+  <a href="calculator-algorithm-flowchart-dotnet.html">.NET calculator (MoveasyBackend)</a> ·
+  <a href="task-tracker/JUNIOR-PORT-README.md">C# port task tracker</a>
+</footer>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'neutral',
+    securityLevel: 'loose',
+    themeVariables: {
+      fontFamily: 'IBM Plex Sans, sans-serif',
+      fontSize: '15px',
+      primaryTextColor: '#0f172a',
+      lineColor: '#475569',
+      nodeBorder: '#047857',
+      clusterBkg: '#f1f5f9',
+      clusterBorder: '#cbd5e1',
+      titleColor: '#0f172a',
+      edgeLabelBackground: '#ffffff'
+    },
+    flowchart: {
+      htmlLabels: true,
+      curve: 'basis',
+      useMaxWidth: true,
+      padding: 16,
+      nodeSpacing: 42,
+      rankSpacing: 52,
+      diagramPadding: 12
+    }
+  });
+
+  function scaleAccessFrictionDiagram() {
+    var wrap = document.querySelector('#access-friction .mermaid-wrap--friction');
+    var svg = wrap && wrap.querySelector('svg');
+    if (!svg || !wrap) return;
+    var w = parseFloat(svg.getAttribute('width')) || svg.getBoundingClientRect().width;
+    var target = 1040;
+    if (w > 0 && w < target) {
+      var scale = target / w;
+      svg.style.transform = 'scale(' + scale + ')';
+      svg.style.transformOrigin = 'top center';
+      var h = (parseFloat(svg.getAttribute('height')) || svg.getBoundingClientRect().height) * scale;
+      wrap.style.minHeight = Math.ceil(h + 64) + 'px';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    mermaid.run({ querySelector: '.mermaid' }).then(scaleAccessFrictionDiagram);
+  });
+</script>
+</body>
+</html>

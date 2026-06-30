@@ -1,0 +1,539 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_055926_real_job_4",
+  "name": "ex job 4",
+  "createdAt": "2026-06-17T05:59:26Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "1"
+      },
+      {
+        "name": "Coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "8x10",
+        "imageID": "1"
+      },
+      {
+        "name": "Dining table",
+        "quantity": 1,
+        "location": "dining area",
+        "size": "4-seat",
+        "imageID": "1"
+      },
+      {
+        "name": "Dining chair",
+        "quantity": 4,
+        "location": "dining area",
+        "size": "small",
+        "imageID": "1"
+      },
+      {
+        "name": "Mirror",
+        "quantity": 1,
+        "location": "entryway",
+        "size": "wall mirror",
+        "imageID": "2"
+      },
+      {
+        "name": "Mirror",
+        "quantity": 1,
+        "location": "entryway",
+        "size": "wall mirror",
+        "imageID": "2"
+      },
+      {
+        "name": "Bed frame",
+        "quantity": 1,
+        "location": "master bedroom",
+        "size": "queen",
+        "imageID": "3"
+      },
+      {
+        "name": "Mattress",
+        "quantity": 1,
+        "location": "master bedroom",
+        "size": "queen",
+        "imageID": "3"
+      },
+      {
+        "name": "Crib",
+        "quantity": 1,
+        "location": "master bedroom",
+        "size": "baby crib",
+        "imageID": "3"
+      },
+      {
+        "name": "Office desk",
+        "quantity": 1,
+        "location": "office/den",
+        "size": "standard desk",
+        "imageID": "5"
+      },
+      {
+        "name": "Office chair",
+        "quantity": 1,
+        "location": "office/den",
+        "size": "task chair",
+        "imageID": "5"
+      },
+      {
+        "name": "Couch / Sofa",
+        "quantity": 1,
+        "location": "office/den",
+        "size": "loveseat",
+        "imageID": "5"
+      },
+      {
+        "name": "Refrigerator",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "french-door",
+        "imageID": "6"
+      },
+      {
+        "name": "Kitchen island",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "movable",
+        "imageID": "6"
+      },
+      {
+        "name": "Media console",
+        "quantity": 1,
+        "location": "basement living room",
+        "size": "medium",
+        "imageID": "7"
+      },
+      {
+        "name": "Sectional couch",
+        "quantity": 1,
+        "location": "basement living room",
+        "size": "3-piece",
+        "imageID": "7"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "basement living room",
+        "size": "8x10",
+        "imageID": "7"
+      },
+      {
+        "name": "Range/Oven",
+        "quantity": 1,
+        "location": "kitchen",
+        "size": "stove",
+        "imageID": "10"
+      },
+      {
+        "name": "Treadmill",
+        "quantity": 1,
+        "location": "home gym",
+        "size": "folding",
+        "imageID": "12"
+      },
+      {
+        "name": "Stationary bike",
+        "quantity": 1,
+        "location": "home gym",
+        "size": "spin bike",
+        "imageID": "12"
+      },
+      {
+        "name": "Dumbbell set",
+        "quantity": 1,
+        "location": "home gym",
+        "size": "pair",
+        "imageID": "12"
+      },
+      {
+        "name": "Washer",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "washing machine",
+        "imageID": "14"
+      },
+      {
+        "name": "Dryer",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "tumble dryer",
+        "imageID": "14"
+      },
+      {
+        "name": "Metal shelving unit",
+        "quantity": 1,
+        "location": "laundry room",
+        "size": "garage shelves",
+        "imageID": "14"
+      },
+      {
+        "name": "Patio table",
+        "quantity": 1,
+        "location": "patio",
+        "size": "outdoor table",
+        "imageID": "16"
+      },
+      {
+        "name": "Outdoor sofa",
+        "quantity": 1,
+        "location": "patio",
+        "size": "sectional patio",
+        "imageID": "16"
+      },
+      {
+        "name": "Patio chair",
+        "quantity": 2,
+        "location": "patio",
+        "size": "outdoor chair",
+        "imageID": "16"
+      },
+      {
+        "name": "Area rug",
+        "quantity": 1,
+        "location": "patio",
+        "size": "5x7",
+        "imageID": "16"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "8-drawer",
+        "imageID": "20"
+      },
+      {
+        "name": "Dresser",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "4-drawer",
+        "imageID": "20"
+      },
+      {
+        "name": "Bookcase",
+        "quantity": 1,
+        "location": "bedroom",
+        "size": "bookshelf",
+        "imageID": "21"
+      }
+    ],
+    "summary": {
+      "totalItems": 32,
+      "clutterLevel": "moderate",
+      "notes": "Living room, dining area, master bedroom, office/den, kitchen, basement living room, home gym, laundry room, patio, and another bedroom items identified."
+    },
+    "metrics": {
+      "file_analysis_time": 47.44419622421265,
+      "api_calls": 1,
+      "images_processed": 47,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "1"
+    },
+    {
+      "name": "Coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "8x10",
+      "imageID": "1"
+    },
+    {
+      "name": "Dining table",
+      "quantity": 1,
+      "location": "dining area",
+      "size": "4-seat",
+      "imageID": "1"
+    },
+    {
+      "name": "Dining chair",
+      "quantity": 4,
+      "location": "dining area",
+      "size": "small",
+      "imageID": "1"
+    },
+    {
+      "name": "Mirror",
+      "quantity": 1,
+      "location": "entryway",
+      "size": "wall mirror",
+      "imageID": "2"
+    },
+    {
+      "name": "Mirror",
+      "quantity": 1,
+      "location": "entryway",
+      "size": "wall mirror",
+      "imageID": "2"
+    },
+    {
+      "name": "Bed frame",
+      "quantity": 1,
+      "location": "master bedroom",
+      "size": "queen",
+      "imageID": "3"
+    },
+    {
+      "name": "Mattress",
+      "quantity": 1,
+      "location": "master bedroom",
+      "size": "queen",
+      "imageID": "3"
+    },
+    {
+      "name": "Crib",
+      "quantity": 1,
+      "location": "master bedroom",
+      "size": "baby crib",
+      "imageID": "3"
+    },
+    {
+      "name": "Office desk",
+      "quantity": 1,
+      "location": "office/den",
+      "size": "standard desk",
+      "imageID": "5"
+    },
+    {
+      "name": "Office chair",
+      "quantity": 1,
+      "location": "office/den",
+      "size": "task chair",
+      "imageID": "5"
+    },
+    {
+      "name": "Couch / Sofa",
+      "quantity": 1,
+      "location": "office/den",
+      "size": "loveseat",
+      "imageID": "5"
+    },
+    {
+      "name": "Refrigerator",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "french-door",
+      "imageID": "6"
+    },
+    {
+      "name": "Kitchen island",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "movable",
+      "imageID": "6"
+    },
+    {
+      "name": "Media console",
+      "quantity": 1,
+      "location": "basement living room",
+      "size": "medium",
+      "imageID": "7"
+    },
+    {
+      "name": "Sectional couch",
+      "quantity": 1,
+      "location": "basement living room",
+      "size": "3-piece",
+      "imageID": "7"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "basement living room",
+      "size": "8x10",
+      "imageID": "7"
+    },
+    {
+      "name": "Range/Oven",
+      "quantity": 1,
+      "location": "kitchen",
+      "size": "stove",
+      "imageID": "10"
+    },
+    {
+      "name": "Treadmill",
+      "quantity": 1,
+      "location": "home gym",
+      "size": "folding",
+      "imageID": "12"
+    },
+    {
+      "name": "Stationary bike",
+      "quantity": 1,
+      "location": "home gym",
+      "size": "spin bike",
+      "imageID": "12"
+    },
+    {
+      "name": "Dumbbell set",
+      "quantity": 1,
+      "location": "home gym",
+      "size": "pair",
+      "imageID": "12"
+    },
+    {
+      "name": "Washer",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "washing machine",
+      "imageID": "14"
+    },
+    {
+      "name": "Dryer",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "tumble dryer",
+      "imageID": "14"
+    },
+    {
+      "name": "Metal shelving unit",
+      "quantity": 1,
+      "location": "laundry room",
+      "size": "garage shelves",
+      "imageID": "14"
+    },
+    {
+      "name": "Patio table",
+      "quantity": 1,
+      "location": "patio",
+      "size": "outdoor table",
+      "imageID": "16"
+    },
+    {
+      "name": "Outdoor sofa",
+      "quantity": 1,
+      "location": "patio",
+      "size": "sectional patio",
+      "imageID": "16"
+    },
+    {
+      "name": "Patio chair",
+      "quantity": 2,
+      "location": "patio",
+      "size": "outdoor chair",
+      "imageID": "16"
+    },
+    {
+      "name": "Area rug",
+      "quantity": 1,
+      "location": "patio",
+      "size": "5x7",
+      "imageID": "16"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "8-drawer",
+      "imageID": "20"
+    },
+    {
+      "name": "Dresser",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "4-drawer",
+      "imageID": "20"
+    },
+    {
+      "name": "Bookcase",
+      "quantity": 1,
+      "location": "bedroom",
+      "size": "bookshelf",
+      "imageID": "21"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg",
+      "preview_01.jpg",
+      "preview_02.jpg",
+      "preview_03.jpg",
+      "preview_04.jpg",
+      "preview_05.jpg",
+      "preview_06.jpg",
+      "preview_07.jpg",
+      "preview_08.jpg",
+      "preview_09.jpg",
+      "preview_10.jpg",
+      "preview_11.jpg",
+      "preview_12.jpg",
+      "preview_13.jpg",
+      "preview_14.jpg",
+      "preview_15.jpg",
+      "preview_16.jpg",
+      "preview_17.jpg",
+      "preview_18.jpg",
+      "preview_19.jpg",
+      "preview_20.jpg",
+      "preview_21.jpg"
+    ],
+    "original_names": [
+      "image0.jpeg",
+      "image0.png",
+      "image1.jpeg",
+      "image1.png",
+      "image2.jpeg",
+      "image2.png",
+      "image3.jpeg",
+      "image3.png",
+      "image4.jpeg",
+      "image4.png",
+      "image5.jpeg",
+      "image5.png",
+      "image6.jpeg",
+      "image6.png",
+      "image7.jpeg",
+      "image7.png",
+      "image8.jpeg",
+      "image8.png",
+      "image9.png",
+      "image11.png",
+      "image12.png",
+      "image13.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

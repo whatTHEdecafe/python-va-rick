@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0",
+  "id": "20260617_211910_123",
+  "name": "123",
+  "createdAt": "2026-06-17T21:19:10Z",
+  "source": "Captured from live Gemini analysis",
+  "vision_result": {
+    "items": [
+      {
+        "name": "sectional couch",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "original"
+      },
+      {
+        "name": "coffee table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "TV",
+        "quantity": 1,
+        "location": "living room",
+        "size": "large",
+        "imageID": "original"
+      },
+      {
+        "name": "media console",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "armchair",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "floor lamp",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "area rug",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "mirror",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "artwork/framed",
+        "quantity": 1,
+        "location": "living room",
+        "size": "medium",
+        "imageID": "original"
+      },
+      {
+        "name": "end table",
+        "quantity": 1,
+        "location": "living room",
+        "size": "small",
+        "imageID": "original"
+      }
+    ],
+    "summary": {
+      "totalItems": 10,
+      "clutterLevel": "low",
+      "notes": "Living room items identified. No other rooms are visible."
+    },
+    "metrics": {
+      "file_analysis_time": 6.518315553665161,
+      "api_calls": 1,
+      "images_processed": 1,
+      "videos_processed": 0
+    }
+  },
+  "detected_items": [
+    {
+      "name": "sectional couch",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "original"
+    },
+    {
+      "name": "coffee table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "TV",
+      "quantity": 1,
+      "location": "living room",
+      "size": "large",
+      "imageID": "original"
+    },
+    {
+      "name": "media console",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "armchair",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "floor lamp",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "area rug",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "mirror",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "artwork/framed",
+      "quantity": 1,
+      "location": "living room",
+      "size": "medium",
+      "imageID": "original"
+    },
+    {
+      "name": "end table",
+      "quantity": 1,
+      "location": "living room",
+      "size": "small",
+      "imageID": "original"
+    }
+  ],
+  "default_logistics": {
+    "pickup_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "dropoff_access": {
+      "type": "ground",
+      "floors": 0
+    },
+    "travel_time": 30,
+    "pre_move_travel": 30,
+    "forced_movers": null
+  },
+  "media": {
+    "previews": [
+      "preview_00.jpg"
+    ],
+    "original_names": [
+      "ChatGPT Image Apr 30, 2026, 01_46_05 PM.png"
+    ]
+  },
+  "metadata": {
+    "active_version": "Version 9",
+    "selected_db": "moving_items_logistics_v2.json"
+  }
+}

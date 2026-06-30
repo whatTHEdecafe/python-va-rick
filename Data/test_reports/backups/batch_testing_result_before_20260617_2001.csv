@@ -1,0 +1,100 @@
+,File name,Metric,Batch 2026-06-17 14:00,Batch 2026-06-17 14:00,Batch 2026-06-17 14:00
+,File name,Metric,JSON,Spreadsheet,Database
+,ex job 1,Total Time,5 hr 13 min,4 hr 48 min,4 hr 51 min
+,,Total Time - Range,4 hr 30 min - 6 hr,4 hr 15 min - 5 hr 15 min,4 hr 15 min - 5 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,4 hr 13 min,3 hr 48 min,3 hr 51 min
+,,# of Movers,2,2,2
+,,Price,$360.00 - $480.00,$340.00 - $420.00,$340.00 - $420.00
+,,# of Items,22,22,22
+,ex job 2,Total Time,7 hr 20 min,6 hr 39 min,6 hr 40 min
+,,Total Time - Range,6 hr 15 min - 8 hr 15 min,6 hr - 7 hr 30 min,6 hr - 7 hr 30 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,6 hr 20 min,5 hr 39 min,5 hr 40 min
+,,# of Movers,3,3,3
+,,Price,$750.00 - $990.00,$720.00 - $900.00,$720.00 - $900.00
+,,# of Items,29,29,29
+,ex job 3,Total Time,11 hr 23 min,9 hr 52 min,10 hr 54 min
+,,Total Time - Range,10 hr 15 min - 12 hr 45 min,8 hr 45 min - 10 hr 45 min,9 hr 45 min - 12 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,10 hr 23 min,8 hr 52 min,9 hr 54 min
+,,# of Movers,3,3,3
+,,Price,"$1,230.00 - $1,530.00","$1,050.00 - $1,290.00","$1,170.00 - $1,470.00"
+,,# of Items,53,53,53
+,ex job 4,Total Time,8 hr 43 min,8 hr 31 min,8 hr 22 min
+,,Total Time - Range,7 hr 45 min - 9 hr 45 min,7 hr 30 min - 9 hr 30 min,7 hr 15 min - 9 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,7 hr 43 min,7 hr 31 min,7 hr 22 min
+,,# of Movers,3,3,3
+,,Price,"$930.00 - $1,170.00","$900.00 - $1,140.00","$870.00 - $1,110.00"
+,,# of Items,36,36,36
+,ex job 5,Total Time,7 hr 44 min,6 hr 57 min,7 hr 8 min
+,,Total Time - Range,6 hr 45 min - 8 hr 45 min,6 hr - 8 hr,6 hr 15 min - 8 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,6 hr 44 min,5 hr 57 min,6 hr 8 min
+,,# of Movers,3,3,3
+,,Price,"$810.00 - $1,050.00",$720.00 - $960.00,$750.00 - $990.00
+,,# of Items,39,39,39
+,ex job 6,Total Time,17 hr 33 min,12 hr 43 min,18 hr 10 min
+,,Total Time - Range,13 hr 30 min - 16 hr 30 min,11 hr 15 min - 14 hr 15 min,13 hr 30 min - 16 hr 30 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,16 hr 33 min,11 hr 43 min,17 hr 10 min
+,,# of Movers,3,4,3
+,,Price,"$1,620.00 - $1,980.00","$1,800.00 - $2,280.00","$1,620.00 - $1,980.00"
+,,# of Items,118,118,118
+,ex job 7,Total Time,6 hr 41 min,6 hr 55 min,6 hr 32 min
+,,Total Time - Range,6 hr - 7 hr 30 min,6 hr - 8 hr,5 hr 45 min - 7 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,5 hr 41 min,5 hr 55 min,5 hr 32 min
+,,# of Movers,3,2,3
+,,Price,$720.00 - $900.00,$480.00 - $640.00,$690.00 - $870.00
+,,# of Items,29,29,29
+,ex job 8,Total Time,2 hr 33 min,1 hr 58 min,2 hr 31 min
+,,Total Time - Range,2 hr 15 min - 2 hr 45 min,2 hr - 2 hr 15 min,2 hr 15 min - 2 hr 45 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,1 hr 33 min,58 min,1 hr 31 min
+,,# of Movers,2,2,2
+,,Price,$180.00 - $220.00,$160.00 - $180.00,$180.00 - $220.00
+,,# of Items,5,5,5
+,ex job 9,Total Time,4 hr 21 min,3 hr 58 min,4 hr 17 min
+,,Total Time - Range,3 hr 45 min - 4 hr 45 min,3 hr 30 min - 4 hr 30 min,3 hr 45 min - 4 hr 45 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,3 hr 21 min,2 hr 58 min,3 hr 17 min
+,,# of Movers,2,2,2
+,,Price,$300.00 - $380.00,$280.00 - $360.00,$300.00 - $380.00
+,,# of Items,13,13,13
+,ex job 10,Total Time,2 hr 11 min,2 hr 13 min,2 hr 28 min
+,,Total Time - Range,2 hr - 2 hr 30 min,2 hr - 2 hr 30 min,2 hr 15 min - 2 hr 45 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,1 hr 11 min,1 hr 13 min,1 hr 28 min
+,,# of Movers,2,2,2
+,,Price,$160.00 - $200.00,$160.00 - $200.00,$180.00 - $220.00
+,,# of Items,8,8,8
+,ex job 11,Total Time,3 hr 30 min,3 hr 8 min,3 hr 22 min
+,,Total Time - Range,3 hr - 4 hr,2 hr 45 min - 3 hr 45 min,2 hr 45 min - 3 hr 45 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,2 hr 30 min,2 hr 8 min,2 hr 22 min
+,,# of Movers,2,2,2
+,,Price,$240.00 - $320.00,$220.00 - $300.00,$220.00 - $300.00
+,,# of Items,11,11,11
+,ex job 12,Total Time,7 hr 54 min,6 hr 55 min,6 hr 45 min
+,,Total Time - Range,7 hr - 9 hr,6 hr - 8 hr,6 hr - 7 hr 30 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,6 hr 54 min,5 hr 55 min,5 hr 45 min
+,,# of Movers,3,3,3
+,,Price,"$840.00 - $1,080.00",$720.00 - $960.00,$720.00 - $900.00
+,,# of Items,35,35,35
+,ex job 13,Total Time,4 hr 39 min,4 hr 19 min,4 hr 41 min
+,,Total Time - Range,4 hr 15 min - 5 hr 15 min,3 hr 45 min - 4 hr 45 min,4 hr 15 min - 5 hr 15 min
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,3 hr 39 min,3 hr 19 min,3 hr 41 min
+,,# of Movers,2,2,2
+,,Price,$340.00 - $420.00,$300.00 - $380.00,$340.00 - $420.00
+,,# of Items,19,19,19
+,ex testing,Total Time,3 hr 34 min,3 hr 57 min,3 hr 30 min
+,,Total Time - Range,3 hr - 4 hr,3 hr 30 min - 4 hr 30 min,3 hr - 4 hr
+,,Travel Time,30 + 30 = 1 hr,30 + 30 = 1 hr,30 + 30 = 1 hr
+,,Work Time,2 hr 34 min,2 hr 57 min,2 hr 30 min
+,,# of Movers,2,2,2
+,,Price,$240.00 - $320.00,$280.00 - $360.00,$240.00 - $320.00
+,,# of Items,19,19,19
